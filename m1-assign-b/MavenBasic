@@ -1,0 +1,1357 @@
+Script started on 2024-06-30 19:48:42-05:00 [TERM="xterm" TTY="/dev/pty2" COLUMNS="80" LINES="24"]
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ ava[K[K[Kjava-[K -version
+[?2004l[6n[6n[m[?25hjava version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-39, mixed mode, sharing) [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn --[Kversion
+[?2004l[6n[m[?25h[1mApache Maven 3.9.8 (36645f6c9b5079805ea5009217e36f2cffd34256)[22m
+Maven home: C:\Program Files\Java\apache-maven-3.9.8
+Java version: 17.0.1, vendor: Oracle Corporation, runtime: C:\Program Files\Java
+[23;80Ha\jdk-17.0.1
+Default locale: en_US, platform encoding: Cp1252
+OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"        
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn complie[K[K[Kile
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.pom [90m(8.2 kB at [m
+[90m[23;80H 10 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/39/maven-plugins-39.pom
+Progress (1): 1.4/8.1 kBProgress (1): 4.1/8.1 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/39/maven-plugins-39.pom [90m(8.1 kB at 10 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/39/maven-parent-39.pom
+Progress (1): 15/48 kB Progress (1): 48 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/39/maven-parent-39.pom [90m(48 kB at 657 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/29/apache-29.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/29/apache-29.pom [90m(21 kB at 829 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-resources-plugin/3.3.1/maven-resources-plugin-3.3.1.jar [90m(31 kB at 3[m
+[90m[23;80H397 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.pom [90m(10 kB at 2[m
+[90m[23;80H24 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/41/maven-plugins-41.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/41/maven-plugins-41.pom [90m(7.4 kB at 66 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/41/maven-parent-41.pom
+Progress (1): 33/50 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/41/maven-parent-41.pom [90m(50 kB at 200 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/31/apache-31.pom
+Progress (1): 16/24 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/31/apache-31.pom [90m(24 kB at 196 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.jar
+Progress (1): 16/83 kBProgress (1): 31/83 kBProgress (1): 48/83 kBProgress (1): 64/83 kBProgress (1): 80/83 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-compiler-plugin/3.13.0/maven-compiler-plugin-3.13.0.jar [90m(83 kB at 4[m
+[90m[23;80H47 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjunit/junit/4.11/
+[23;80H/junit-4.11.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjunit/junit/4.11/j
+[23;80Hjunit-4.11.pom [90m(2.3 kB at 52 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamc
+[23;80Hcrest-core/1.3/hamcrest-core-1.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamcr
+[23;80Hrest-core/1.3/hamcrest-core-1.3.pom [90m(766 B at 5.9 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamc
+[23;80Hcrest-parent/1.3/hamcrest-parent-1.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamcr
+[23;80Hrest-parent/1.3/hamcrest-parent-1.3.pom [90m(2.0 kB at 110 kB/s)[K[m
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-interpolation/1.26/plexus-interpolation-1.26.pom [90m(2.7 kB at 115 kB/s)  [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/5.1/plexus-5.1.pom
+Progress (1): 16/23 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/5.1/plexus-5.1.pom [90m(23 kB at 57 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/3.5.1/plexus-utils-3.5.1.pom [90m(8.8 kB at 30 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/10/plexus-10.pom
+Progress (1): 16/25 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/10/plexus-10.pom [90m(25 kB at 45 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-filtering/3.3.1/maven-filtering-3.3.1.pom [90m(6.0 kB at 101 kB/s)      [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-components/39/maven-shared-components-39.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-components/39/maven-shared-components-39.pom [90m(3.2 kB at 11 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/inject/java
+[23;80Hax.inject/1/javax.inject-1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/inject/javax
+[23;80Hx.inject/1/javax.inject-1.pom [90m(612 B at 15 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-a
+[23;80Hapi/1.7.36/slf4j-api-1.7.36.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-ap
+[23;80Hpi/1.7.36/slf4j-api-1.7.36.pom [90m(2.7 kB at 76 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-p
+[23;80Hparent/1.7.36/slf4j-parent-1.7.36.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-pa
+[23;80Harent/1.7.36/slf4j-parent-1.7.36.pom [90m(14 kB at 119 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plex
+[23;80Hxus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plexu
+[23;80Hus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom [90m(3.2 kB at 70 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spic
+[23;80Hce/spice-parent/15/spice-parent-15.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spice
+[23;80He/spice-parent/15/spice-parent-15.pom [90m(8.4 kB at 91 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forg
+[23;80Hge/forge-parent/5/forge-parent-5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forge
+[23;80He/forge-parent/5/forge-parent-5.pom [90m(8.4 kB at 93 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/3.5.0/plexus-utils-3.5.0.pom [90m(8.0 kB at 148 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.11.0/commons-io-2.11.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.11.0/commons-io-2.11.0.pom [90m(20 kB at 74 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/52/commons-parent-52.pom
+Progress (1): 16/79 kBProgress (1): 32/79 kBProgress (1): 49/79 kBProgress (1): 65/79 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/52/commons-parent-52.pom [90m(79 kB at 91 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/23/apache-23.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/23/apache-23.pom [90m(18 kB at 57 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.7.2/junit-bom-5.7.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.7.2/junit-bom-5.7.2.pom [90m(5.1 kB at 222 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-lang3/3.12.0/commons-lang3-3.12.0.pom
+Progress (1): 16/31 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-lang3/3.12.0/commons-lang3-3.12.0.pom [90m(31 kB at 120 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.7.1/junit-bom-5.7.1.pom
+Progress (1): 5.1 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.7.1/junit-bom-5.7.1.pom [90m(5.1 kB at 189 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar
+Progress (1): 16/85 kBProgress (1): 33/85 kBProgress (1): 49/85 kBProgress (1): 64/85 kBProgress (1): 80/85 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-interpolation/1.26/plexus-interpolation-1.26.jar [90m(85 kB at 130 kB/s)   [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/inject/java
+[23;80Hax.inject/1/javax.inject-1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-a
+[23;80Hapi/1.7.36/slf4j-api-1.7.36.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plex
+[23;80Hxus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/inject/javax
+[23;80Hx.inject/1/javax.inject-1.jar [90m(2.5 kB at 29 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.11.0/commons-io-2.11.0.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plexu
+[23;80Hus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.jar [90m(8.5 kB at 94 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+Progress (5): 5.5/41 kB | 21/55 kB | 16/269 kB | 5.5/327 kB | 4.1/587 kBProgress (5): 5.5/41 kB | 21/55 kB | 16/269 kB | 36/327 kB | 6.9/587 kB Progress (5): 14/41 kB | 36/55 kB | 16/269 kB | 41/327 kB | 6.9/587 kB Progress (5): 14/41 kB | 53/55 kB | 16/269 kB | 41/327 kB | 6.9/587 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-filtering/3.3.1/maven-filtering-3.3.1.jar [90m(55 kB at 300 kB/s)       [24;1H[m
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-ap
+[23;80Hpi/1.7.36/slf4j-api-1.7.36.jar [90m(41 kB at 224 kB/s)[K[m
+Progress (3): 33/269 kB | 64/327 kB | 65/587 kBProgress (3): 33/269 kB | 81/327 kB | 65/587 kBProgress (3): 49/269 kB | 112/327 kB | 98/587 kBProgress (3): 49/269 kB | 145/327 kB | 130/587 kBProgress (3): 62/269 kB | 145/327 kB | 130/587 kBProgress (3): 62/269 kB | 162/327 kB | 147/587 kBProgress (3): 78/269 kB | 178/327 kB | 147/587 kBProgress (3): 78/269 kB | 178/327 kB | 163/587 kBProgress (3): 78/269 kB | 194/327 kB | 163/587 kBProgress (3): 78/269 kB | 194/327 kB | 180/587 kBProgress (3): 78/269 kB | 211/327 kB | 180/587 kBProgress (3): 95/269 kB | 211/327 kB | 196/587 kBProgress (3): 95/269 kB | 211/327 kB | 212/587 kBProgress (3): 95/269 kB | 227/327 kB | 212/587 kBProgress (3): 95/269 kB | 227/327 kB | 229/587 kBProgress (3): 111/269 kB | 227/327 kB | 245/587 kBProgress (3): 111/269 kB | 227/327 kB | 262/587 kBProgress (3): 111/269 kB | 244/327 kB | 262/587 kBProgress (3): 128/269 kB | 244/327 kB | 278/587 kBProgress (3): 128/269 kB | 244/327 kB | 294/587 kBProgress (3): 128/269 kB | 260/327 kB | 294/587 kBProgress (3): 144/269 kB | 260/327 kB | 294/587 kBProgress (3): 144/269 kB | 260/327 kB | 311/587 kBProgress (3): 160/269 kB | 276/327 kB | 311/587 kBProgress (3): 160/269 kB | 276/327 kB | 327/587 kBProgress (3): 177/269 kB | 276/327 kB | 327/587 kBProgress (3): 177/269 kB | 293/327 kB | 327/587 kBProgress (3): 193/269 kB | 293/327 kB | 327/587 kBProgress (3): 193/269 kB | 293/327 kB | 343/587 kBProgress (3): 209/269 kB | 309/327 kB | 343/587 kBProgress (3): 209/269 kB | 309/327 kB | 360/587 kBProgress (3): 209/269 kB | 327 kB | 376/587 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.11.0/commons-io-2.11.0.jar [90m(327 kB at 178 kB/s)[K[m
+Progress (2): 226/269 kB | 376/587 kBProgress (2): 242/269 kB | 393/587 kBProgress (2): 259/269 kB | 402/587 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/3.5.1/plexus-utils-3.5.1.jar [90m(269 kB at 124 kB/s)[K[m
+Progress (1): 418/587 kBProgress (1): 435/587 kBProgress (1): 451/587 kBProgress (1): 468/587 kBProgress (1): 484/587 kBProgress (1): 500/587 kBProgress (1): 517/587 kBProgress (1): 533/587 kBProgress (1): 549/587 kBProgress (1): 566/587 kBProgress (1): 582/587 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-lang3/3.12.0/commons-lang3-3.12.0.jar [90m(587 kB at 154 kB/s)[K[m
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\main\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.pom [90m(5.9 kB at 95 kB/s) [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.pom [90m(4.7 kB at 7[m
+[90m[23;80H78 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-components/19/maven-shared-components-19.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-components/19/maven-shared-components-19.pom [90m(6.4 kB at 65 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/23/maven-parent-23.pom
+Progress (1): 15/33 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/23/maven-parent-23.pom [90m(33 kB at 197 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/13/apache-13.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/13/apache-13.pom [90m(14 kB at 114 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-java/1.2.0/plexus-java-1.2.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-java/1.2.0/plexus-java-1.2.0.pom [90m(4.3 kB at 81 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-languages/1.2.0/plexus-languages-1.2.0.pom [90m(3.2 kB at 82 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/15/plexus-15.pom
+Progress (1): 16/28 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/15/plexus-15.pom [90m(28 kB at 204 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.10.0/junit-bom-5.10.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.10.0/junit-bom-5.10.0.pom [90m(5.6 kB at 145 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9
+[23;80H9.6/asm-9.6.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9.
+[23;80H.6/asm-9.6.pom [90m(2.4 kB at 8.6 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/ow2/1.5.1
+[23;80H1/ow2-1.5.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/ow2/1.5.1/
+[23;80H/ow2-1.5.1.pom [90m(11 kB at 40 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/thoughtworks/
+[23;80H/qdox/qdox/2.0.3/qdox-2.0.3.pom
+Progress (1): 16/17 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/thoughtworks/q
+[23;80Hqdox/qdox/2.0.3/qdox-2.0.3.pom [90m(17 kB at 72 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/oss/
+[23;80H/oss-parent/9/oss-parent-9.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/oss/o
+[23;80Hoss-parent/9/oss-parent-9.pom [90m(6.6 kB at 90 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.pom [90m(1.4 kB at 5.4 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler/2.15.0/plexus-compiler-2.15.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler/2.15.0/plexus-compiler-2.15.0.pom [90m(7.6 kB at 46 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/17/plexus-17.pom
+Progress (1): 16/28 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/17/plexus-17.pom [90m(28 kB at 107 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.10.2/junit-bom-5.10.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.10.2/junit-bom-5.10.2.pom [90m(5.6 kB at 111 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/4.0.0/plexus-utils-4.0.0.pom [90m(8.7 kB at 108 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/13/plexus-13.pom
+Progress (1): 16/27 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/13/plexus-13.pom [90m(27 kB at 188 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.9.3/junit-bom-5.9.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.9.3/junit-bom-5.9.3.pom [90m(5.6 kB at 78 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.pom [90m(1.3 kB at 3[m
+[90m[23;80H30 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-xml/3.0.0/plexus-xml-3.0.0.pom [90m(3.7 kB at 46 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.pom [90m(1.3 kB at 35 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compilers/2.15.0/plexus-compilers-2.15.0.pom [90m(1.6 kB at 23 kB/s)       [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar
+Progress (1): 16/151 kBProgress (1): 32/151 kBProgress (1): 49/151 kBProgress (1): 65/151 kBProgress (1): 81/151 kBProgress (1): 98/151 kBProgress (1): 114/151 kBProgress (1): 130/151 kBProgress (1): 147/151 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-utils/3.4.2/maven-shared-utils-3.4.2.jar [90m(151 kB at 88 kB/s) [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-java/1.2.0/plexus-java-1.2.0.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9
+[23;80H9.6/asm-9.6.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/thoughtworks/
+[23;80H/qdox/qdox/2.0.3/qdox-2.0.3.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-incremental/1.1/maven-shared-incremental-1.1.jar [90m(14 kB at 13[m
+[90m[23;80H34 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-api/2.15.0/plexus-compiler-api-2.15.0.jar [90m(29 kB at 222 kB/s) [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar
+Progress (2): 65/334 kB | 16/58 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-manager/2.15.0/plexus-compiler-manager-2.15.0.jar [90m(5.2 kB at 3[m
+[90m[23;80H33 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar
+Progress (3): 81/334 kB | 16/58 kB | 16/124 kBProgress (4): 98/334 kB | 16/58 kB | 16/124 kB | 16/93 kBProgress (4): 98/334 kB | 16/58 kB | 16/124 kB | 33/93 kBProgress (4): 114/334 kB | 16/58 kB | 16/124 kB | 33/93 kBProgress (4): 114/334 kB | 32/58 kB | 33/124 kB | 33/93 kBProgress (4): 130/334 kB | 32/58 kB | 33/124 kB | 49/93 kBProgress (5): 130/334 kB | 32/58 kB | 33/124 kB | 66/93 kB | 16/26 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-compiler-javac/2.15.0/plexus-compiler-javac-2.15.0.jar [90m(26 kB at 72 kB/[m
+[90m[23;80H/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar
+Progress (4): 130/334 kB | 32/58 kB | 49/124 kB | 81/93 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-xml/3.0.0/plexus-xml-3.0.0.jar [90m(93 kB at 237 kB/s)[K[m
+Progress (3): 147/334 kB | 49/58 kB | 49/124 kBProgress (3): 147/334 kB | 49/58 kB | 66/124 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-java/1.2.0/plexus-java-1.2.0.jar [90m(58 kB at 115 kB/s)[K[m
+Progress (3): 163/334 kB | 66/124 kB | 16/192 kBProgress (3): 163/334 kB | 82/124 kB | 16/192 kBProgress (3): 163/334 kB | 82/124 kB | 32/192 kBProgress (3): 163/334 kB | 98/124 kB | 32/192 kBProgress (3): 163/334 kB | 98/124 kB | 49/192 kBProgress (3): 180/334 kB | 115/124 kB | 49/192 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9.
+[23;80H.6/asm-9.6.jar [90m(124 kB at 127 kB/s)[K[m
+Progress (2): 196/334 kB | 65/192 kBProgress (2): 212/334 kB | 65/192 kBProgress (2): 229/334 kB | 81/192 kBProgress (2): 229/334 kB | 98/192 kBProgress (2): 229/334 kB | 114/192 kBProgress (2): 229/334 kB | 130/192 kBProgress (2): 245/334 kB | 147/192 kBProgress (2): 245/334 kB | 163/192 kBProgress (2): 262/334 kB | 163/192 kBProgress (2): 278/334 kB | 180/192 kBProgress (2): 294/334 kB | 180/192 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/4.0.0/plexus-utils-4.0.0.jar [90m(192 kB at 86 kB/s)[K[m
+Progress (1): 311/334 kBProgress (1): 327/334 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/thoughtworks/q
+[23;80Hqdox/qdox/2.0.3/qdox-2.0.3.jar [90m(334 kB at 126 kB/s)[K[m
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.
+[[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target\classes  [24;1H
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 7
+[[33m[1mWARNING[m] source value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] target value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.     [24;1H
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  21.784 s[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:49:33-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn tet[Kst
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.pom [90m(5.3 kB at 16[m
+[90m[23;80H6 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire/3.2.5/surefire-3.2.5.pom
+Progress (1): 8.3/22 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire/3.2.5/surefire-3.2.5.pom [90m(22 kB at 293 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar
+Progress (1): 11/45 kB Progress (1): 21/45 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-surefire-plugin/3.2.5/maven-surefire-plugin-3.2.5.jar [90m(45 kB at 314[m
+[90m[23;80H4 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjunit/junit/4.11/
+[23;80H/junit-4.11.jar
+Progress (1): 16/245 kBProgress (1): 33/245 kBProgress (1): 49/245 kBProgress (1): 65/245 kBProgress (1): 81/245 kBProgress (1): 97/245 kBProgress (1): 114/245 kBProgress (1): 130/245 kBProgress (1): 146/245 kBProgress (1): 163/245 kBProgress (1): 179/245 kBProgress (1): 196/245 kBProgress (1): 212/245 kBProgress (1): 228/245 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjunit/junit/4.11/j
+[23;80Hjunit-4.11.jar [90m(245 kB at 159 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamc
+[23;80Hcrest-core/1.3/hamcrest-core-1.3.jar
+Progress (1): 16/45 kBProgress (1): 32/45 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/hamcrest/hamcr
+[23;80Hrest-core/1.3/hamcrest-core-1.3.jar [90m(45 kB at 60 kB/s)[K[m
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\main\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36massign1b[m[1m ---[22m [24;1H
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\test\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36massign1b[m[1m ---[22m     [24;1H
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged dependency[22m.
+[[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target\test-clas
+[23;80Hsses
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 7
+[[33m[1mWARNING[m] source value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] target value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.     [24;1H
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22msurefire:3.2.5:test [m[1m(default-test)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.pom [90m(6.2 kB at 3[m
+[90m[23;80H36 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-api/3.2.5/surefire-api-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-api/3.2.5/surefire-api-3.2.5.pom [90m(3.5 kB at 38 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.pom [90m(3.3 kB at 19 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.pom [90m(4.1 kB at 7[m
+[90m[23;80H72 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.pom        
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.pom [90m(3.3 kB [m
+[90m[23;80H at 100 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-booter/3.2.5/surefire-booter-3.2.5.pom [90m(4.5 kB at 44 kB/s)     [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.pom        
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.pom [90m(1.8 kB [m
+[90m[23;80H at 23 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.pom [90m(2.2 kB at 31 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom
+Progress (1): 15/30 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether/1.0.0.v20140518/aether-1.0.0.v20140518.pom [90m(30 kB at 99 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.pom [90m(1.9 kB at 49 kB/s)  [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.p
+[23;80Hpom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.po
+[23;80Hom [90m(5.8 kB at 100 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-components/34/maven-shared-components-34.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-components/34/maven-shared-components-34.pom [90m(5.1 kB at 124 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/34/maven-parent-34.pom
+Progress (1): 16/43 kBProgress (1): 33/43 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/34/maven-parent-34.pom [90m(43 kB at 235 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-artifact/3.2.5/maven-artifact-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-artifact/3.2.5/maven-artifact-3.2.5.pom [90m(2.3 kB at 44 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven/3.2.5/maven-3.2.5.pom
+Progress (1): 16/22 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven/3.2.5/maven-3.2.5.pom [90m(22 kB at 149 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/25/maven-parent-25.pom
+Progress (1): 16/37 kBProgress (1): 33/37 kBProgress (1): 37 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/25/maven-parent-25.pom [90m(37 kB at 151 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/15/apache-15.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/15/apache-15.pom [90m(15 kB at 74 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-core/3.2.5/maven-core-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-core/3.2.5/maven-core-3.2.5.pom [90m(8.1 kB at 152 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-settings/3.2.5/maven-settings-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-settings/3.2.5/maven-settings-3.2.5.pom [90m(2.2 kB at 60 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-settings-builder/3.2.5/maven-settings-builder-3.2.5.pom [90m(2.6 kB at 124 kB/s[m
+[90m[23;80Hs)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom
+Progress (1): 1.5 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-interpolation/1.21/plexus-interpolation-1.21.pom [90m(1.5 kB at 67 kB/s)   [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-components/1.3.1/plexus-components-1.3.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-components/1.3.1/plexus-components-1.3.1.pom [90m(3.1 kB at 43 kB/s)       [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/3.3.1/plexus-3.3.1.pom
+Progress (1): 16/20 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/3.3.1/plexus-3.3.1.pom [90m(20 kB at 111 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spic
+[23;80Hce/spice-parent/17/spice-parent-17.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spice
+[23;80He/spice-parent/17/spice-parent-17.pom [90m(6.8 kB at 121 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forg
+[23;80Hge/forge-parent/10/forge-parent-10.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forge
+[23;80He/forge-parent/10/forge-parent-10.pom [90m(14 kB at 133 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom    
+Progress (1): 815 BDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.pom [90m(815[m
+[90m[23;80H5 B at 39 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-containers/1.5.5/plexus-containers-1.5.5.pom [90m(4.2 kB at 90 kB/s)       [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/2.0.7/plexus-2.0.7.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/2.0.7/plexus-2.0.7.pom [90m(17 kB at 67 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plex
+[23;80Hxus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plexu
+[23;80Hus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.pom [90m(3.0 kB at 90 kB/s)   [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spic
+[23;80Hce/spice-parent/12/spice-parent-12.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/spice
+[23;80He/spice-parent/12/spice-parent-12.pom [90m(6.8 kB at 85 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forg
+[23;80Hge/forge-parent/4/forge-parent-4.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forge
+[23;80He/forge-parent/4/forge-parent-4.pom [90m(8.4 kB at 131 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plex
+[23;80Hxus/plexus-cipher/1.4/plexus-cipher-1.4.pom
+Progress (1): 2.1 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/plexu
+[23;80Hus/plexus-cipher/1.4/plexus-cipher-1.4.pom [90m(2.1 kB at 94 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-repository-metadata/3.2.5/maven-repository-metadata-3.2.5.pom [90m(2.2 kB at 11[m
+[90m[23;80H11 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-plugin-api/3.2.5/maven-plugin-api-3.2.5.pom [90m(3.0 kB at 80 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/
+[23;80H/org.eclipse.sisu.plexus/0.9.0.M2/org.eclipse.sisu.plexus-0.9.0.M2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/o
+[23;80Horg.eclipse.sisu.plexus/0.9.0.M2/org.eclipse.sisu.plexus-0.9.0.M2.pom [90m(15 kB at 1[m
+[90m[23;80H103 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/
+[23;80H/sisu-plexus/0.9.0.M2/sisu-plexus-0.9.0.M2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/s
+[23;80Hsisu-plexus/0.9.0.M2/sisu-plexus-0.9.0.M2.pom [90m(15 kB at 45 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/annotation/
+[23;80H/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/annotation/j
+[23;80Hjavax.annotation-api/1.2/javax.annotation-api-1.2.pom [90m(13 kB at 79 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mnet/java/jvnet-pa
+[23;80Harent/3/jvnet-parent-3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mnet/java/jvnet-par
+[23;80Hrent/3/jvnet-parent-3.pom [90m(4.8 kB at 80 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/enterprise/
+[23;80H/cdi-api/1.2/cdi-api-1.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mjavax/enterprise/c
+[23;80Hcdi-api/1.2/cdi-api-1.2.pom [90m(6.3 kB at 82 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/jboss/weld/we
+[23;80Held-parent/26/weld-parent-26.pom
+Progress (1): 15/32 kBProgress (1): 32 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/jboss/weld/wel
+[23;80Hld-parent/26/weld-parent-26.pom [90m(32 kB at 127 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/
+[23;80H/org.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/o
+[23;80Horg.eclipse.sisu.inject/0.9.0.M2/org.eclipse.sisu.inject-0.9.0.M2.pom [90m(17 kB at 1[m
+[90m[23;80H129 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/
+[23;80H/sisu-inject/0.9.0.M2/sisu-inject-0.9.0.M2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/sisu/s
+[23;80Hsisu-inject/0.9.0.M2/sisu-inject-0.9.0.M2.pom [90m(15 kB at 108 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom    
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-component-annotations/2.1.0/plexus-component-annotations-2.1.0.pom [90m(750[m
+[90m[23;80H0 B at 39 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-containers/2.1.0/plexus-containers-2.1.0.pom [90m(4.8 kB at 98 kB/s)       [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom [90m(7.9 kB at 168 kB/s)    [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-model-builder/3.2.5/maven-model-builder-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-model-builder/3.2.5/maven-model-builder-3.2.5.pom [90m(3.0 kB at 58 kB/s)      [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-aether-provider/3.2.5/maven-aether-provider-3.2.5.pom [90m(4.2 kB at 89 kB/s)  [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-spi/1.0.0.v20140518/aether-spi-1.0.0.v20140518.pom [90m(2.1 kB at 55 kB/s)  [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-impl/1.0.0.v20140518/aether-impl-1.0.0.v20140518.pom [90m(3.5 kB at 72 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/sisu
+[23;80Hu/sisu-guice/3.2.3/sisu-guice-3.2.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/sisu/
+[23;80H/sisu-guice/3.2.3/sisu-guice-3.2.3.pom [90m(11 kB at 142 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/sisu
+[23;80Hu/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/sisu/
+[23;80H/inject/guice-parent/3.2.3/guice-parent-3.2.3.pom [90m(13 kB at 142 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forg
+[23;80Hge/forge-parent/38/forge-parent-38.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/sonatype/forge
+[23;80He/forge-parent/38/forge-parent-38.pom [90m(19 kB at 152 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[maopalliance/aopal
+[23;80Hlliance/1.0/aopalliance-1.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[maopalliance/aopall
+[23;80Hliance/1.0/aopalliance-1.0.pom [90m(363 B at 10 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/google/guava/
+[23;80H/guava/16.0.1/guava-16.0.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/google/guava/g
+[23;80Hguava/16.0.1/guava-16.0.1.pom [90m(6.1 kB at 136 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/google/guava/
+[23;80H/guava-parent/16.0.1/guava-parent-16.0.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/google/guava/g
+[23;80Hguava-parent/16.0.1/guava-parent-16.0.1.pom [90m(7.3 kB at 108 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-classworlds/2.5.2/plexus-classworlds-2.5.2.pom [90m(7.3 kB at 21 kB/s)     [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.15.1/commons-io-2.15.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.15.1/commons-io-2.15.1.pom [90m(20 kB at 58 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/65/commons-parent-65.pom
+Progress (1): 16/78 kBProgress (1): 33/78 kBProgress (1): 49/78 kBProgress (1): 66/78 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/65/commons-parent-65.pom [90m(78 kB at 112 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-b
+[23;80Hbom/5.10.1/junit-bom-5.10.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/junit-bo
+[23;80Hom/5.10.1/junit-bom-5.10.1.pom [90m(5.6 kB at 48 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar
+Progress (1): 16/308 kBProgress (1): 33/308 kBProgress (1): 49/308 kBProgress (1): 64/308 kBProgress (1): 80/308 kBProgress (1): 96/308 kBProgress (1): 113/308 kBProgress (1): 129/308 kBProgress (1): 146/308 kBProgress (1): 162/308 kBProgress (1): 178/308 kBProgress (1): 195/308 kBProgress (1): 211/308 kBProgress (1): 228/308 kBProgress (1): 244/308 kBProgress (1): 260/308 kBProgress (1): 277/308 kBProgress (1): 293/308 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/maven-surefire-common/3.2.5/maven-surefire-common-3.2.5.jar [90m(308 kB at 1[m
+[90m[23;80H107 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-api/3.2.5/surefire-api-3.2.5.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar        
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar        
+Progress (1): 16/26 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-extensions-spi/3.2.5/surefire-extensions-spi-3.2.5.jar [90m(8.2 kB [m
+[90m[23;80H at 82 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-extensions-api/3.2.5/surefire-extensions-api-3.2.5.jar [90m(26 kB a[m
+[90m[23;80Hat 233 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aethe
+[23;80Her/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-logger-api/3.2.5/surefire-logger-api-3.2.5.jar [90m(14 kB at 121 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.j
+[23;80Hjar
+Progress (3): 8.3/171 kB | 5.5/146 kB | 6.9/118 kBProgress (4): 8.3/171 kB | 5.5/146 kB | 12/118 kB | 6.9/136 kBProgress (4): 33/171 kB | 5.5/146 kB | 33/118 kB | 14/136 kB  Progress (4): 66/171 kB | 12/146 kB | 62/118 kB | 14/136 kB Progress (4): 66/171 kB | 47/146 kB | 64/118 kB | 48/136 kBProgress (4): 78/171 kB | 66/146 kB | 64/118 kB | 48/136 kBProgress (4): 95/171 kB | 66/146 kB | 64/118 kB | 48/136 kBProgress (4): 111/171 kB | 82/146 kB | 96/118 kB | 81/136 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-booter/3.2.5/surefire-booter-3.2.5.jar [90m(118 kB at 298 kB/s)    [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.15.1/commons-io-2.15.1.jar
+Progress (4): 144/171 kB | 82/146 kB | 113/136 kB | 16/61 kBProgress (4): 171 kB | 115/146 kB | 113/136 kB | 16/61 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-api/3.2.5/surefire-api-3.2.5.jar [90m(171 kB at 368 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar
+Progress (4): 115/146 kB | 113/136 kB | 16/61 kB | 15/501 kBProgress (4): 131/146 kB | 113/136 kB | 16/61 kB | 15/501 kBProgress (5): 131/146 kB | 113/136 kB | 33/61 kB | 48/501 kB | 0/2.4 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-util/1.0.0.v20140518/aether-util-1.0.0.v20140518.jar [90m(146 kB at 250 kB/s[m
+[90m[23;80Hs)[m
+Progress (4): 113/136 kB | 33/61 kB | 48/501 kB | 0/2.4 MBProgress (4): 113/136 kB | 33/61 kB | 64/501 kB | 0/2.4 MBProgress (4): 113/136 kB | 33/61 kB | 78/501 kB | 0.1/2.4 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/eclipse/aether
+[23;80Hr/aether-api/1.0.0.v20140518/aether-api-1.0.0.v20140518.jar [90m(136 kB at 194 kB/s) [24;1H[m
+Progress (3): 33/61 kB | 78/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 78/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 95/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 95/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 111/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 111/501 kB | 0.1/2.4 MBProgress (3): 33/61 kB | 128/501 kB | 0.1/2.4 MBProgress (3): 49/61 kB | 128/501 kB | 0.1/2.4 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-common-artifact-filters/3.1.1/maven-common-artifact-filters-3.1.1.ja
+[23;80Har [90m(61 kB at 53 kB/s)[K[m
+Progress (2): 144/501 kB | 0.2/2.4 MBProgress (2): 160/501 kB | 0.2/2.4 MBProgress (2): 177/501 kB | 0.2/2.4 MBProgress (2): 193/501 kB | 0.2/2.4 MBProgress (2): 209/501 kB | 0.2/2.4 MBProgress (2): 226/501 kB | 0.2/2.4 MBProgress (2): 226/501 kB | 0.2/2.4 MBProgress (2): 242/501 kB | 0.2/2.4 MBProgress (2): 242/501 kB | 0.2/2.4 MBProgress (2): 259/501 kB | 0.2/2.4 MBProgress (2): 259/501 kB | 0.2/2.4 MBProgress (2): 275/501 kB | 0.2/2.4 MBProgress (2): 291/501 kB | 0.2/2.4 MBProgress (2): 291/501 kB | 0.2/2.4 MBProgress (2): 308/501 kB | 0.2/2.4 MBProgress (2): 308/501 kB | 0.3/2.4 MBProgress (2): 324/501 kB | 0.3/2.4 MBProgress (2): 341/501 kB | 0.3/2.4 MBProgress (2): 357/501 kB | 0.3/2.4 MBProgress (2): 357/501 kB | 0.3/2.4 MBProgress (2): 373/501 kB | 0.3/2.4 MBProgress (2): 390/501 kB | 0.3/2.4 MBProgress (2): 406/501 kB | 0.3/2.4 MBProgress (2): 422/501 kB | 0.3/2.4 MBProgress (2): 422/501 kB | 0.3/2.4 MBProgress (2): 439/501 kB | 0.3/2.4 MBProgress (2): 455/501 kB | 0.4/2.4 MBProgress (2): 455/501 kB | 0.4/2.4 MBProgress (2): 472/501 kB | 0.4/2.4 MBProgress (2): 472/501 kB | 0.4/2.4 MBProgress (2): 488/501 kB | 0.4/2.4 MBProgress (2): 488/501 kB | 0.4/2.4 MBProgress (2): 501 kB | 0.4/2.4 MB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.15.1/commons-io-2.15.1.jar [90m(501 kB at 106 kB/s)[K[m
+Progress (1): 0.4/2.4 MBProgress (1): 0.4/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.5/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.6/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.7/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.8/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 0.9/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.0/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.1/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.2/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.3/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.4/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.5/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.6/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.7/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.8/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 1.9/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.0/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.1/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.2/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.3/2.4 MBProgress (1): 2.4/2.4 MBProgress (1): 2.4/2.4 MBProgress (1): 2.4/2.4 MBProgress (1): 2.4/2.4 MBProgress (1): 2.4/2.4 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-shared-utils/3.2.5/surefire-shared-utils-3.2.5.jar [90m(2.4 MB at 1[m
+[90m[23;80H105 kB/s)[m
+[[34m[1mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provi
+[23;80Hider
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-junit4/3.2.5/surefire-junit4-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-junit4/3.2.5/surefire-junit4-3.2.5.pom [90m(3.0 kB at 76 kB/s)     [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-providers/3.2.5/surefire-providers-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-providers/3.2.5/surefire-providers-3.2.5.pom [90m(2.6 kB at 82 kB/s[m
+[90m[23;80Hs)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-junit4/3.2.5/common-junit4-3.2.5.pom
+Progress (1): 3.1 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-junit4/3.2.5/common-junit4-3.2.5.pom [90m(3.1 kB at 87 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-junit3/3.2.5/common-junit3-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-junit3/3.2.5/common-junit3-3.2.5.pom [90m(2.8 kB at 75 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-java5/3.2.5/common-java5-3.2.5.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-java5/3.2.5/common-java5-3.2.5.pom [90m(2.8 kB at 128 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/surefire-junit4/3.2.5/surefire-junit4-3.2.5.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/surefire-junit4/3.2.5/surefire-junit4-3.2.5.jar [90m(18 kB at 203 kB/s)     [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-junit4/3.2.5/common-junit4-3.2.5.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-junit3/3.2.5/common-junit3-3.2.5.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/surefire/common-java5/3.2.5/common-java5-3.2.5.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-junit3/3.2.5/common-junit3-3.2.5.jar [90m(12 kB at 90 kB/s)[K[m
+Progress (1): 16/18 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-java5/3.2.5/common-java5-3.2.5.jar [90m(18 kB at 102 kB/s)[K[m
+Progress (1): 16/26 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hsurefire/common-junit4/3.2.5/common-junit4-3.2.5.jar [90m(26 kB at 66 kB/s)[K[m
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m]  T E S T S[K
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.044 s -
+[23;80H-- in edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] Results:[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [32m[1mTests run: 2, Failures: 0, Errors: 0, Skipped: 0[m[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  38.902 s[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:50:42-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn exec:java
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.pom [90m(5.3 kB at 15 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/35/maven-plugins-35.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/35/maven-plugins-35.pom [90m(9.9 kB at 23 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/35/maven-parent-35.pom
+Progress (1): 20/45 kB Progress (1): 45 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/35/maven-parent-35.pom [90m(45 kB at 380 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/25/apache-25.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/25/apache-25.pom [90m(21 kB at 348 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar
+Progress (1): 16/36 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-clean-plugin/3.2.0/maven-clean-plugin-3.2.0.jar [90m(36 kB at 257 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-jar-plugin/3.4.1/maven-jar-plugin-3.4.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-jar-plugin/3.4.1/maven-jar-plugin-3.4.1.pom [90m(7.8 kB at 170 kB/s)   [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/42/maven-plugins-42.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/42/maven-plugins-42.pom [90m(7.7 kB at 164 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/42/maven-parent-42.pom
+Progress (1): 15/50 kBProgress (1): 31/50 kBProgress (1): 50 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/42/maven-parent-42.pom [90m(50 kB at 149 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/32/apache-32.pom
+Progress (1): 16/24 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/32/apache-32.pom [90m(24 kB at 69 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-jar-plugin/3.4.1/maven-jar-plugin-3.4.1.jar
+Progress (1): 15/34 kBProgress (1): 31/34 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-jar-plugin/3.4.1/maven-jar-plugin-3.4.1.jar [90m(34 kB at 134 kB/s)    [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.pom [90m(8.5 kB at 29 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar
+Progress (1): 15/32 kB[22XDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-install-plugin/3.1.2/maven-install-plugin-3.1.2.jar [90m(32 kB at 102 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.pom [90m(9.6 kB at 97 kB/[m
+[90m[23;80H/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar
+Progress (1): 16/40 kBProgress (1): 33/40 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-deploy-plugin/3.1.2/maven-deploy-plugin-3.1.2.jar [90m(40 kB at 172 kB/[m
+[90m[23;80H/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom
+Progress (1): 20 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.pom [90m(20 kB at 134 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/36/maven-plugins-36.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/36/maven-plugins-36.pom [90m(9.9 kB at 152 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/36/maven-parent-36.pom
+Progress (1): 16/45 kBProgress (1): 33/45 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/36/maven-parent-36.pom [90m(45 kB at 90 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/26/apache-26.pom
+Progress (1): 15/21 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/26/apache-26.pom [90m(21 kB at 170 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar
+Progress (1): 16/119 kBProgress (1): 32/119 kBProgress (1): 49/119 kBProgress (1): 65/119 kBProgress (1): 81/119 kBProgress (1): 98/119 kBProgress (1): 114/119 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-site-plugin/3.12.1/maven-site-plugin-3.12.1.jar [90m(119 kB at 89 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.pom [90m(9.1 kB at 56 kB/[m
+[90m[23;80H/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-plugins/34/maven-plugins-34.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-plugins/34/maven-plugins-34.pom [90m(11 kB at 59 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar
+Progress (1): 16/41 kBProgress (1): 32/41 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-antrun-plugin/3.1.0/maven-antrun-plugin-3.1.0.jar [90m(41 kB at 65 kB/s[m
+[90m[23;80Hs)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.pom [90m(15 kB at 100[m
+[90m[23;80H0 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar
+Progress (1): 16/240 kBProgress (1): 33/240 kBProgress (1): 49/240 kBProgress (1): 66/240 kBProgress (1): 81/240 kBProgress (1): 97/240 kBProgress (1): 114/240 kBProgress (1): 130/240 kBProgress (1): 147/240 kBProgress (1): 163/240 kBProgress (1): 179/240 kBProgress (1): 196/240 kBProgress (1): 212/240 kBProgress (1): 228/240 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-assembly-plugin/3.7.1/maven-assembly-plugin-3.7.1.jar [90m(240 kB at 86[m
+[90m[23;80H6 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-dependency-plugin/3.7.0/maven-dependency-plugin-3.7.0.pom
+Progress (1): 15/19 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-dependency-plugin/3.7.0/maven-dependency-plugin-3.7.0.pom [90m(19 kB at[m
+[90m[23;80Ht 137 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-dependency-plugin/3.7.0/maven-dependency-plugin-3.7.0.jar
+Progress (1): 16/207 kBProgress (1): 33/207 kBProgress (1): 49/207 kBProgress (1): 65/207 kBProgress (1): 81/207 kBProgress (1): 98/207 kBProgress (1): 114/207 kBProgress (1): 130/207 kBProgress (1): 147/207 kBProgress (1): 163/207 kBProgress (1): 180/207 kBProgress (1): 196/207 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-dependency-plugin/3.7.0/maven-dependency-plugin-3.7.0.jar [90m(207 kB a[m
+[90m[23;80Hat 128 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.pom [90m(9.8 kB at 67 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/release/maven-release/3.0.1/maven-release-3.0.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hrelease/maven-release/3.0.1/maven-release-3.0.1.pom [90m(11 kB at 31 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar
+Progress (1): 16/61 kBProgress (1): 33/61 kBProgress (1): 49/61 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-release-plugin/3.0.1/maven-release-plugin-3.0.1.jar [90m(61 kB at 120 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/plugins/maven-metadata.xml
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo
+[23;80Ho/maven-metadata.xml
+Progress (1): 9.7/21 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/p
+[23;80Hplugins/maven-metadata.xml [90m(14 kB at 114 kB/s)[K[m
+Progress (1): 21 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/
+[23;80H/maven-metadata.xml [90m(21 kB at 125 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo
+[23;80Ho/exec-maven-plugin/maven-metadata.xml
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/
+[23;80H/exec-maven-plugin/maven-metadata.xml [90m(896 B at 16 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo
+[23;80Ho/exec-maven-plugin/3.3.0/exec-maven-plugin-3.3.0.pom
+Progress (1): 6.9/14 kBProgress (1): 14 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/
+[23;80H/exec-maven-plugin/3.3.0/exec-maven-plugin-3.3.0.pom [90m(14 kB at 226 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo
+[23;80Ho/mojo-parent/82/mojo-parent-82.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/
+[23;80H/mojo-parent/82/mojo-parent-82.pom [90m(36 kB at 297 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo
+[23;80Ho/exec-maven-plugin/3.3.0/exec-maven-plugin-3.3.0.jar
+Progress (1): 33/85 kBProgress (1): 49/85 kBProgress (1): 66/85 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/
+[23;80H/exec-maven-plugin/3.3.0/exec-maven-plugin-3.3.0.jar [90m(85 kB at 317 kB/s)[K[m
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mexec:3.3.0:java [m[1m(default-cli)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.pom [90m(2.8 kB at 94 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver/1.4.1/maven-resolver-1.4.1.pom [90m(18 kB at 171 kB/s)       [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-parent/33/maven-parent-33.pom
+Progress (1): 16/44 kBProgress (1): 32/44 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-parent/33/maven-parent-33.pom [90m(44 kB at 154 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/21/apache-21.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/21/apache-21.pom [90m(17 kB at 52 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom
+Progress (1): 2.6 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.pom [90m(2.6 kB at 91 kB/s[m
+[90m[23;80Hs)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/4.0.1/plexus-utils-4.0.1.pom [90m(7.8 kB at 148 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-exec/1.4.0/commons-exec-1.4.0.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-exec/1.4.0/commons-exec-1.4.0.pom [90m(9.5 kB at 194 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9
+[23;80H9.7/asm-9.7.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9.
+[23;80H.7/asm-9.7.pom [90m(2.4 kB at 48 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-c
+[23;80Hcommons/9.7/asm-commons-9.7.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-co
+[23;80Hommons/9.7/asm-commons-9.7.pom [90m(2.8 kB at 100 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-t
+[23;80Htree/9.7/asm-tree-9.7.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-tr
+[23;80Hree/9.7/asm-tree-9.7.pom [90m(2.6 kB at 59 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar
+Progress (1): 16/168 kBProgress (1): 33/168 kBProgress (1): 49/168 kBProgress (1): 61/168 kBProgress (1): 78/168 kBProgress (1): 94/168 kBProgress (1): 111/168 kBProgress (1): 127/168 kBProgress (1): 143/168 kBProgress (1): 160/168 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar [90m(168 kB at 149 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-exec/1.4.0/commons-exec-1.4.0.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9
+[23;80H9.7/asm-9.7.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-c
+[23;80Hcommons/9.7/asm-commons-9.7.jar
+Progress (1): 16/73 kBProgress (4): 16/73 kB | 5.5/193 kB | 6.9/66 kB | 6.9/125 kBProgress (4): 16/73 kB | 9.7/193 kB | 9.7/66 kB | 11/125 kB Progress (4): 16/73 kB | 36/193 kB | 49/66 kB | 18/125 kB  Progress (4): 33/73 kB | 36/193 kB | 66 kB | 29/125 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-exec/1.4.0/commons-exec-1.4.0.jar [90m(66 kB at 461 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-t
+[23;80Htree/9.7/asm-tree-9.7.jar
+Progress (3): 33/73 kB | 65/193 kB | 41/125 kBProgress (3): 33/73 kB | 98/193 kB | 41/125 kBProgress (4): 33/73 kB | 98/193 kB | 94/125 kB | 16/52 kBProgress (4): 33/73 kB | 114/193 kB | 94/125 kB | 16/52 kBProgress (4): 49/73 kB | 130/193 kB | 94/125 kB | 16/52 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-tr
+[23;80Hree/9.7/asm-tree-9.7.jar [90m(52 kB at 130 kB/s)[K[m
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm/9.
+[23;80H.7/asm-9.7.jar [90m(125 kB at 312 kB/s)[K[m
+Progress (2): 49/73 kB | 147/193 kBProgress (2): 49/73 kB | 163/193 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/ow2/asm/asm-co
+[23;80Hommons/9.7/asm-commons-9.7.jar [90m(73 kB at 134 kB/s)[K[m
+Progress (2): 180/193 kB | 15/149 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar [90m(193 kB at 314 kB/s)[K[m
+Progress (1): 31/149 kBProgress (1): 48/149 kBProgress (1): 64/149 kBProgress (1): 79/149 kBProgress (1): 96/149 kBProgress (1): 112/149 kBProgress (1): 129/149 kBProgress (1): 149 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar [90m(149 kB at 91 kB/s[m
+[90m[23;80Hs)[m
+War Eagle!
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  17.547 s[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:51:32-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn clean
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom
+Progress (1): 5.8 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.pom [90m(5.8 kB at 18 kB/s) [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.6/commons-io-2.6.pom
+Progress (1): 11/14 kB Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.6/commons-io-2.6.pom [90m(14 kB at 385 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/42/commons-parent-42.pom
+Progress (1): 68 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/42/commons-parent-42.pom [90m(68 kB at 360 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/18/apache-18.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/18/apache-18.pom [90m(16 kB at 423 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar
+Progress (1): 49/153 kBProgress (1): 66/153 kBProgress (1): 82/153 kBProgress (1): 98/153 kBProgress (1): 115/153 kBProgress (1): 131/153 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-utils/3.3.4/maven-shared-utils-3.3.4.jar [90m(153 kB at 303 kB/s)[24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.6/commons-io-2.6.jar
+Progress (1): 16/215 kBProgress (1): 33/215 kBProgress (1): 49/215 kBProgress (1): 66/215 kBProgress (1): 82/215 kBProgress (1): 98/215 kBProgress (1): 115/215 kBProgress (1): 131/215 kBProgress (1): 147/215 kBProgress (1): 164/215 kBProgress (1): 180/215 kBProgress (1): 197/215 kB[24XDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.6/commons-io-2.6.jar [90m(215 kB at 120 kB/s)[K[m
+[[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m1-assign-b\target
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[24;1H[22m
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  3.515 s[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:51:43-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn package
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\main\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.
+[[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target\classes
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 7
+[[33m[1mWARNING[m] source value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] target value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.     [24;1H
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36massign1b[m[1m ---[22m [24;1H
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\test\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36massign1b[m[1m ---[22m     [24;1H
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged dependency[22m.
+[[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target\test-clas
+[23;80Hsses
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 7
+[[33m[1mWARNING[m] source value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] target value 7 is obsolete and will be removed in a future release    [24;1H
+[[33m[1mWARNING[m] To suppress warnings about obsolete options, use -Xlint:-options.     [24;1H
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22msurefire:3.2.5:test [m[1m(default-test)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provi
+[23;80Hider
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m]  T E S T S[K
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -
+[23;80H-- in edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] Results:[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [32m[1mTests run: 2, Failures: 0, Errors: 0, Skipped: 0[m[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mjar:3.4.1:jar [m[1m(default-jar)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/file-management/3.1.0/file-management-3.1.0.pom
+Progress (1): 1.4/4.5 kBProgress (1): 2.8/4.5 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/file-management/3.1.0/file-management-3.1.0.pom [90m(4.5 kB at 5.3 kB/s)      [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-components/36/maven-shared-components-36.pom
+Progress (1): 1.4/4.9 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-components/36/maven-shared-components-36.pom [90m(4.9 kB at 8.5 k[m
+[90m[23;80HkB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.16.1/commons-io-2.16.1.pom
+Progress (1): 1.4/20 kBProgress (1): 4.1/20 kBProgress (1): 5.5/20 kBProgress (1): 6.9/20 kBProgress (1): 8.3/20 kBProgress (1): 12/20 kB Progress (1): 15/20 kBProgress (1): 18/20 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.16.1/commons-io-2.16.1.pom [90m(20 kB at 81 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/69/commons-parent-69.pom
+Progress (1): 6.9/77 kBProgress (1): 14/77 kB Progress (1): 15/77 kBProgress (1): 16/77 kBProgress (1): 32/77 kBProgress (1): 49/77 kBProgress (1): 65/77 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/69/commons-parent-69.pom [90m(77 kB at 171 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-archiver/3.6.2/maven-archiver-3.6.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-archiver/3.6.2/maven-archiver-3.6.2.pom [90m(4.4 kB at 83 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/maven-shared-components/41/maven-shared-components-41.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/maven-shared-components/41/maven-shared-components-41.pom [90m(3.2 kB at 45 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.pom [90m(6.0 kB at 52 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-io/3.4.2/plexus-io-3.4.2.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-io/3.4.2/plexus-io-3.4.2.pom [90m(3.9 kB at 63 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus/16/plexus-16.pom
+Progress (1): 16/28 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus/16/plexus-16.pom [90m(28 kB at 86 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-compress/1.26.1/commons-compress-1.26.1.pom
+Progress (1): 15/22 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-compress/1.26.1/commons-compress-1.26.1.pom [90m(22 kB at 84 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/66/commons-parent-66.pom
+Progress (1): 16/77 kBProgress (1): 32/77 kBProgress (1): 49/77 kBProgress (1): 64/77 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/66/commons-parent-66.pom [90m(77 kB at 93 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-codec/com
+[23;80Hmmons-codec/1.16.1/commons-codec-1.16.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-codec/comm
+[23;80Hmons-codec/1.16.1/commons-codec-1.16.1.pom [90m(16 kB at 86 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-lang3/3.14.0/commons-lang3-3.14.0.pom
+Progress (1): 16/31 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-lang3/3.14.0/commons-lang3-3.14.0.pom [90m(31 kB at 59 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-parent/64/commons-parent-64.pom
+Progress (1): 16/78 kBProgress (1): 32/78 kBProgress (1): 49/78 kBProgress (1): 65/78 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-parent/64/commons-parent-64.pom [90m(78 kB at 85 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache
+[23;80He/30/apache-30.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/apache/
+[23;80H/30/apache-30.pom [90m(23 kB at 134 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/iq80/snappy/s
+[23;80Hsnappy/0.4/snappy-0.4.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/iq80/snappy/sn
+[23;80Hnappy/0.4/snappy-0.4.pom [90m(15 kB at 102 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/tukaani/xz/1.
+[23;80H.9/xz-1.9.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/tukaani/xz/1.9
+[23;80H9/xz-1.9.pom [90m(2.0 kB at 60 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/github/luben/
+[23;80H/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/github/luben/z
+[23;80Hzstd-jni/1.5.5-11/zstd-jni-1.5.5-11.pom [90m(2.0 kB at 69 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-interpolation/1.27/plexus-interpolation-1.27.pom
+Progress (1): 3.0 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-interpolation/1.27/plexus-interpolation-1.27.pom [90m(3.0 kB at 104 kB/s)  [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/shared/file-management/3.1.0/file-management-3.1.0.jar
+Progress (1): 16/36 kBProgress (1): 33/36 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hshared/file-management/3.1.0/file-management-3.1.0.jar [90m(36 kB at 62 kB/s)        [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/common
+[23;80Hns-io/2.16.1/commons-io-2.16.1.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/maven-archiver/3.6.2/maven-archiver-3.6.2.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plex
+[23;80Hxus/plexus-io/3.4.2/plexus-io-3.4.2.jar
+Progress (4): 11/27 kB | 4.1/79 kB | 2.8/86 kB | 5.5/225 kBProgress (4): 12/27 kB | 11/79 kB | 2.8/86 kB | 5.5/225 kB Progress (4): 12/27 kB | 16/79 kB | 2.8/86 kB | 6.9/225 kBProgress (4): 12/27 kB | 27/79 kB | 2.8/86 kB | 9.7/225 kBProgress (5): 12/27 kB | 64/79 kB | 2.8/86 kB | 11/225 kB | 16/509 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-io/3.4.2/plexus-io-3.4.2.jar [90m(79 kB at 439 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-compress/1.26.1/commons-compress-1.26.1.jar
+Progress (4): 19/27 kB | 49/86 kB | 79/225 kB | 16/509 kBProgress (4): 19/27 kB | 49/86 kB | 112/225 kB | 16/509 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-interpolation/1.27/plexus-interpolation-1.27.jar [90m(86 kB at 380 kB/s)   [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/common
+[23;80Hns/commons-lang3/3.14.0/commons-lang3-3.14.0.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/m
+[23;80Hmaven-archiver/3.6.2/maven-archiver-3.6.2.jar [90m(27 kB at 117 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-codec/com
+[23;80Hmmons-codec/1.16.1/commons-codec-1.16.1.jar
+Progress (3): 112/225 kB | 16/509 kB | 9.7/658 kBProgress (4): 128/225 kB | 16/509 kB | 9.7/658 kB | 15/365 kBProgress (5): 144/225 kB | 16/509 kB | 15/658 kB | 15/365 kB | 0/1.1 MB Progress (5): 144/225 kB | 31/509 kB | 64/658 kB | 15/365 kB | 0/1.1 MBProgress (5): 144/225 kB | 31/509 kB | 64/658 kB | 15/365 kB | 0.1/1.1 MBProgress (5): 177/225 kB | 31/509 kB | 64/658 kB | 64/365 kB | 0.1/1.1 MBProgress (5): 177/225 kB | 31/509 kB | 81/658 kB | 64/365 kB | 0.1/1.1 MBProgress (5): 177/225 kB | 48/509 kB | 97/658 kB | 64/365 kB | 0.1/1.1 MBProgress (5): 177/225 kB | 48/509 kB | 113/658 kB | 81/365 kB | 0.1/1.1 MBProgress (5): 194/225 kB | 48/509 kB | 113/658 kB | 81/365 kB | 0.1/1.1 MBProgress (5): 194/225 kB | 48/509 kB | 146/658 kB | 97/365 kB | 0.1/1.1 MBProgress (5): 194/225 kB | 48/509 kB | 146/658 kB | 97/365 kB | 0.1/1.1 MBProgress (5): 194/225 kB | 48/509 kB | 146/658 kB | 113/365 kB | 0.1/1.1 MBProgress (5): 210/225 kB | 64/509 kB | 146/658 kB | 113/365 kB | 0.1/1.1 MBProgress (5): 210/225 kB | 64/509 kB | 162/658 kB | 130/365 kB | 0.1/1.1 MBProgress (5): 210/225 kB | 64/509 kB | 179/658 kB | 146/365 kB | 0.1/1.1 MBProgress (5): 210/225 kB | 81/509 kB | 179/658 kB | 146/365 kB | 0.1/1.1 MBProgress (5): 210/225 kB | 96/509 kB | 195/658 kB | 162/365 kB | 0.1/1.1 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/plexu
+[23;80Hus/plexus-archiver/4.9.2/plexus-archiver-4.9.2.jar [90m(225 kB at 216 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/iq80/snappy/s
+[23;80Hsnappy/0.4/snappy-0.4.jar
+Progress (4): 113/509 kB | 211/658 kB | 179/365 kB | 0.2/1.1 MBProgress (5): 113/509 kB | 211/658 kB | 179/365 kB | 0.2/1.1 MB | 16/58 kBProgress (5): 113/509 kB | 228/658 kB | 179/365 kB | 0.2/1.1 MB | 16/58 kBProgress (5): 113/509 kB | 228/658 kB | 179/365 kB | 0.2/1.1 MB | 16/58 kBProgress (5): 113/509 kB | 244/658 kB | 195/365 kB | 0.2/1.1 MB | 32/58 kBProgress (5): 113/509 kB | 244/658 kB | 195/365 kB | 0.2/1.1 MB | 32/58 kBProgress (5): 129/509 kB | 260/658 kB | 195/365 kB | 0.2/1.1 MB | 32/58 kBProgress (5): 129/509 kB | 260/658 kB | 195/365 kB | 0.2/1.1 MB | 49/58 kBProgress (5): 129/509 kB | 277/658 kB | 212/365 kB | 0.2/1.1 MB | 49/58 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/iq80/snappy/sn
+[23;80Hnappy/0.4/snappy-0.4.jar [90m(58 kB at 34 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/tukaani/xz/1.
+[23;80H.9/xz-1.9.jar
+Progress (4): 145/509 kB | 293/658 kB | 212/365 kB | 0.2/1.1 MBProgress (4): 145/509 kB | 293/658 kB | 228/365 kB | 0.2/1.1 MBProgress (4): 162/509 kB | 293/658 kB | 228/365 kB | 0.2/1.1 MBProgress (4): 178/509 kB | 293/658 kB | 228/365 kB | 0.2/1.1 MBProgress (5): 178/509 kB | 293/658 kB | 228/365 kB | 0.2/1.1 MB | 15/116 kBProgress (5): 194/509 kB | 293/658 kB | 228/365 kB | 0.2/1.1 MB | 15/116 kBProgress (5): 194/509 kB | 310/658 kB | 244/365 kB | 0.2/1.1 MB | 15/116 kBProgress (5): 194/509 kB | 310/658 kB | 244/365 kB | 0.2/1.1 MB | 31/116 kBProgress (5): 211/509 kB | 310/658 kB | 244/365 kB | 0.2/1.1 MB | 31/116 kBProgress (5): 211/509 kB | 310/658 kB | 261/365 kB | 0.2/1.1 MB | 48/116 kBProgress (5): 211/509 kB | 310/658 kB | 261/365 kB | 0.2/1.1 MB | 48/116 kBProgress (5): 211/509 kB | 310/658 kB | 261/365 kB | 0.2/1.1 MB | 64/116 kBProgress (5): 227/509 kB | 310/658 kB | 261/365 kB | 0.2/1.1 MB | 64/116 kBProgress (5): 227/509 kB | 310/658 kB | 277/365 kB | 0.3/1.1 MB | 64/116 kBProgress (5): 227/509 kB | 326/658 kB | 277/365 kB | 0.3/1.1 MB | 77/116 kBProgress (5): 227/509 kB | 326/658 kB | 277/365 kB | 0.3/1.1 MB | 94/116 kBProgress (5): 227/509 kB | 342/658 kB | 294/365 kB | 0.3/1.1 MB | 94/116 kBProgress (5): 244/509 kB | 342/658 kB | 294/365 kB | 0.3/1.1 MB | 94/116 kBProgress (5): 244/509 kB | 342/658 kB | 294/365 kB | 0.3/1.1 MB | 94/116 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/tukaani/xz/1.9
+[23;80H9/xz-1.9.jar [90m(116 kB at 44 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/github/luben/
+[23;80H/zstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar
+Progress (4): 244/509 kB | 359/658 kB | 294/365 kB | 0.3/1.1 MBProgress (5): 260/509 kB | 359/658 kB | 294/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 260/509 kB | 359/658 kB | 294/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 276/509 kB | 359/658 kB | 294/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 276/509 kB | 359/658 kB | 310/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 293/509 kB | 375/658 kB | 310/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 293/509 kB | 375/658 kB | 310/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 309/509 kB | 375/658 kB | 310/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 309/509 kB | 375/658 kB | 326/365 kB | 0.3/1.1 MB | 0/6.8 MBProgress (5): 309/509 kB | 392/658 kB | 326/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 326/509 kB | 392/658 kB | 326/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 326/509 kB | 392/658 kB | 343/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 326/509 kB | 408/658 kB | 343/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 342/509 kB | 408/658 kB | 343/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 342/509 kB | 408/658 kB | 359/365 kB | 0.3/1.1 MB | 0.1/6.8 MBProgress (5): 342/509 kB | 424/658 kB | 359/365 kB | 0.3/1.1 MB | 0.1/6.8 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-codec/comm
+[23;80Hmons-codec/1.16.1/commons-codec-1.16.1.jar [90m(365 kB at 98 kB/s)[K[m
+Progress (4): 358/509 kB | 424/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 375/509 kB | 424/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 375/509 kB | 441/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 375/509 kB | 441/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 375/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 391/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 391/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 407/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 407/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 407/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 424/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 424/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 440/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 440/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 457/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 473/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 489/509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (4): 509 kB | 457/658 kB | 0.4/1.1 MB | 0.1/6.8 MB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcommons-io/commons
+[23;80Hs-io/2.16.1/commons-io-2.16.1.jar [90m(509 kB at 102 kB/s)[K[m
+Progress (3): 473/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (3): 490/658 kB | 0.4/1.1 MB | 0.1/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.4/1.1 MB | 0.2/6.8 MBProgress (3): 506/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 523/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 523/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 523/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 523/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 539/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 539/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 555/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 555/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 572/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 572/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 588/658 kB | 0.5/1.1 MB | 0.3/6.8 MBProgress (3): 605/658 kB | 0.6/1.1 MB | 0.3/6.8 MBProgress (3): 605/658 kB | 0.6/1.1 MB | 0.3/6.8 MBProgress (3): 605/658 kB | 0.6/1.1 MB | 0.3/6.8 MBProgress (3): 605/658 kB | 0.6/1.1 MB | 0.3/6.8 MBProgress (3): 621/658 kB | 0.6/1.1 MB | 0.3/6.8 MBProgress (3): 621/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 621/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 637/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 637/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 637/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 654/658 kB | 0.6/1.1 MB | 0.4/6.8 MBProgress (3): 654/658 kB | 0.6/1.1 MB | 0.4/6.8 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-lang3/3.14.0/commons-lang3-3.14.0.jar [90m(658 kB at 92 kB/s)[K[m
+Progress (2): 0.7/1.1 MB | 0.4/6.8 MBProgress (2): 0.7/1.1 MB | 0.4/6.8 MBProgress (2): 0.7/1.1 MB | 0.4/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.7/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.5/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.8/1.1 MB | 0.6/6.8 MBProgress (2): 0.9/1.1 MB | 0.6/6.8 MBProgress (2): 0.9/1.1 MB | 0.6/6.8 MBProgress (2): 0.9/1.1 MB | 0.6/6.8 MBProgress (2): 0.9/1.1 MB | 0.7/6.8 MBProgress (2): 0.9/1.1 MB | 0.7/6.8 MBProgress (2): 0.9/1.1 MB | 0.7/6.8 MBProgress (2): 0.9/1.1 MB | 0.7/6.8 MBProgress (2): 0.9/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.0/1.1 MB | 0.7/6.8 MBProgress (2): 1.1/1.1 MB | 0.7/6.8 MBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/commons
+[23;80Hs/commons-compress/1.26.1/commons-compress-1.26.1.jar [90m(1.1 MB at 103 kB/s)       [24;1H[m
+Progress (1): 0.8/6.8 MBProgress (1): 0.8/6.8 MBProgress (1): 0.8/6.8 MBProgress (1): 0.8/6.8 MBProgress (1): 0.8/6.8 MBProgress (1): 0.8/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 0.9/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.0/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.1/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.2/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.3/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.4/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.5/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.6/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.7/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.8/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 1.9/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.0/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.1/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.2/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.3/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.4/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.5/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.6/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.7/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.8/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 2.9/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.0/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.1/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.2/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.3/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.4/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.5/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.6/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.7/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.8/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 3.9/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.0/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.1/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.2/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.3/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.4/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.5/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.6/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.7/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.8/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 4.9/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.0/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.1/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.2/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.3/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.4/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.5/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.6/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.7/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.8/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 5.9/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.0/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.1/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.2/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.3/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.4/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.5/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.6/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.7/6.8 MBProgress (1): 6.8/6.8 MBProgress (1): 6.8 MB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mcom/github/luben/z
+[23;80Hzstd-jni/1.5.5-11/zstd-jni-1.5.5-11.jar [90m(6.8 MB at 106 kB/s)[K[m
+[[34m[1mINFO[m] Building jar: C:\cygwin64\home\Laura\COMP5970\m1-assign-b\target\assign1b
+[23;80Hb-1.0-SNAPSHOT.jar
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[24;1H[22m
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  01:13 min[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:53:31-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ tar -tf target/assign1b-1.0-SNAPC[KSHOT.jar
+[?2004ltar: This does not look like a tar archive
+tar: Skipping to next header
+tar: Exiting with failure status due to previous errors
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ tar -tf target/assign1b-1.0-SNAPSHOT.jar[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004ltar: This does not look like a tar archive
+tar: Skipping to next header
+tar: Exiting with failure status due to previous errors
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ tar -tf[K[K[K[K[K[K[Kcd target
+[?2004l[?2004h]0;~/COMP5970/m1-assign-b/target
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/target[0m
+$ tar -tf target/assign1b.[K-1.0-SNAPSHOT.jar
+[?2004ltar: target/assign1b-1.0-SNAPSHOT.jar: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+[?2004h]0;~/COMP5970/m1-assign-b/target
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/target[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ cd ..[C[Ctar -tf target/assign1b-1.0-SNAPSHOT.jar
+[?2004ltar: This does not look like a tar archive
+tar: Skipping to next header
+tar: Exiting with failure status due to previous errors
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ mvn install
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--------------------< [36m[22medu.auburn.cpsc4970:assign1b[m[1m >--------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\main\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36massign1b[m[1m ---[22m [24;1H
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m1-as
+[23;80Hssign-b\src\test\resources
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36massign1b[m[1m ---[22m     [24;1H
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22msurefire:3.2.5:test [m[1m(default-test)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provi
+[23;80Hider
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m]  T E S T S[K
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -
+[23;80H-- in edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] Results:[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [32m[1mTests run: 2, Failures: 0, Errors: 0, Skipped: 0[m[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mjar:3.4.1:jar [m[1m(default-jar)[22m @ [36massign1b[m[1m ---[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22minstall:3.1.2:install [m[1m(default-install)[22m @ [36massign1b[m[1m ---[22m[K
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.pom
+Progress (1): 1.4/2.9 kBProgress (1): 2.9 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.pom [90m(2.9 kB at 1.3[m
+[90m[23;80H3 kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver/1.9.18/maven-resolver-1.9.18.pom
+Progress (1): 1.4/22 kBProgress (1): 2.8/22 kBProgress (1): 4.1/22 kBProgress (1): 6.9/22 kBProgress (1): 9.7/22 kBProgress (1): 17/22 kB Progress (1): 18/22 kBProgress (1): 19/22 kBProgress (1): 21/22 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver/1.9.18/maven-resolver-1.9.18.pom [90m(22 kB at 2.6 kB/s)     [24;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.pom [90m(2.7 kB at 20 kB[m
+[90m[23;80HB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar
+Progress (1): 1.4/196 kBProgress (1): 5.5/196 kBProgress (1): 6.9/196 kBProgress (1): 8.3/196 kBProgress (1): 9.7/196 kBProgress (1): 14/196 kB Progress (1): 15/196 kBProgress (1): 31/196 kBProgress (1): 48/196 kBProgress (1): 64/196 kBProgress (1): 80/196 kBProgress (1): 96/196 kBProgress (1): 113/196 kBProgress (1): 129/196 kBProgress (1): 145/196 kBProgress (1): 162/196 kBProgress (1): 178/196 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-util/1.9.18/maven-resolver-util-1.9.18.jar [90m(196 kB at 33 [m
+[90m[23;80H kB/s)[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
+[23;80H/resolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar
+Progress (1): 16/157 kBProgress (1): 33/157 kBProgress (1): 49/157 kBProgress (1): 66/157 kBProgress (1): 78/157 kBProgress (1): 95/157 kBProgress (1): 111/157 kBProgress (1): 127/157 kBProgress (1): 144/157 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/r
+[23;80Hresolver/maven-resolver-api/1.9.18/maven-resolver-api-1.9.18.jar [90m(157 kB at 113 k[m
+[90m[23;80HkB/s)[m
+[[34m[1mINFO[m] Installing C:\cygwin64\home\Laura\COMP5970\m1-assign-b\pom.xml to C:\User
+[23;80Hrs\Laura\.m2\repository\edu\auburn\cpsc4970\assign1b\1.0-SNAPSHOT\assign1b-1.0-SN
+[23;80HNAPSHOT.pom
+[[34m[1mINFO[m] Installing C:\cygwin64\home\Laura\COMP5970\m1-assign-b\target\assign1b-1.
+[23;80H.0-SNAPSHOT.jar to C:\Users\Laura\.m2\repository\edu\auburn\cpsc4970\assign1b\1.0
+[23;80H0-SNAPSHOT\assign1b-1.0-SNAPSHOT.jar
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[24;1H[22m
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  20.641 s[K
+[[34m[1mINFO[m] Finished at: 2024-06-30T19:59:30-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ tar -tf target/assign1b-1.0-SNAPSHOT.jar
+[?2004ltar: This does not look like a tar archive
+tar: Skipping to next header
+tar: Exiting with failure status due to previous errors
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ jar[K[K[Ktar -tf target/assign1b-1.0-SNAPSHOT.jar[1P[1@j
+[?2004lbash: jar: command not found
+[?2004h]0;~/COMP5970/m1-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+$ exit
+[?2004lexit
+
+Script done on 2024-06-30 20:06:55-05:00 [COMMAND_EXIT_CODE="127"]

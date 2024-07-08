@@ -1,0 +1,30 @@
+Script started on 2024-06-30 15:29:05-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="55" LINES="17"]
+[?2004h]0;~/COMP5970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+$ java -version
+[?2004l[6n[6n[m[?25hjava version "17.0.1" 2021-10-19 LTS
+Java(TM) SE Runtime Environment (build 17.0.1+12-LTS-39
+[16;55H9)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.1+12-LTS-
+[16;55H-39, mixed mode, sharing)
+[?2004h]0;~/COMP5970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+$ git --version
+[?2004l[6n[m[?25hgit version 2.45.2.windows.1
+[?2004h]0;~/COMP5970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+$ mvn -version
+[?2004l[6n[m[?25h[1mApache Maven 3.9.8 (36645f6c9b5079805ea5009217e36f2cffd[22m
+[1m[16;55Hd34256)[22m[K
+Maven home: C:\Program Files\Java\apache-maven-3.9.8   
+Java version: 17.0.1, vendor: Oracle Corporation, runti
+[16;55Hime: C:\Program Files\Java\jdk-17.0.1
+Default locale: en_US, platform encoding: Cp1252       
+OS name: "windows 10", version: "10.0", arch: "amd64", 
+[16;55H family: "windows"
+[?2004h]0;~/COMP5970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+$ exit
+[?2004lexit
+
+Script done on 2024-06-30 15:30:10-05:00 [COMMAND_EXIT_CODE="0"]
