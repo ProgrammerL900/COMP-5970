@@ -1,0 +1,433 @@
+Script started on 2024-07-10 16:19:32-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ lscd COMP5970/m2-assign-b[C[Cls[K[Klscd COMP5970/m2-assign-b[C[C[3Pgit push origin main[C[C[C[C[C[Ccheckout pipeline-update-4[C[C[C[C[C[C[10Ppush origin main[C[Ccd COMP5970/m2-assign-b[C[Cls[K[Kmvn ce[Ke[Klean
+[?2004l[6n[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[24;1H[22m
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  0.303 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:19:46-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ mvn compile
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-s
+[23;80Hsimple/1.7.36/slf4j-simple-1.7.36.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-si
+[23;80Himple/1.7.36/slf4j-simple-1.7.36.pom [90m(1.0 kB at 1.2 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/json/json/202
+[23;80H220320/json-20220320.pom
+Progress (1): 8.0 kB    Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/json/json/2022
+[23;80H20320/json-20220320.pom [90m(8.0 kB at 190 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-s
+[23;80Hsimple/1.7.36/slf4j-simple-1.7.36.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/slf4j/slf4j-si
+[23;80Himple/1.7.36/slf4j-simple-1.7.36.jar [90m(15 kB at 326 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/json/json/202
+[23;80H220320/json-20220320.jar
+Progress (1): 49/71 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/json/json/2022
+[23;80H20320/json-20220320.jar [90m(71 kB at 959 kB/s)[K[m
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mAuthProvider[m[1m ---[22m     [24;1H
+[[34m[1mINFO[m] Copying 3 resources from src\main\resources to target\classes
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged dependency[22m.
+[[34m[1mINFO[m] Compiling 7 source files with javac [debug target 1.8] to target\classes [24;1H
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[34m[1mINFO[m] /C:/cygwin64/home/Laura/COMP5970/m2-assign-b/src/main/java/edu/auburn/cps
+[23;80Hsc4970/auth/Utils.java: C:\cygwin64\home\Laura\COMP5970\m2-assign-b\src\main\java
+[23;80Ha\edu\auburn\cpsc4970\auth\Utils.java uses unchecked or unsafe operations.       
+[[34m[1mINFO[m] /C:/cygwin64/home/Laura/COMP5970/m2-assign-b/src/main/java/edu/auburn/cps
+[23;80Hsc4970/auth/Utils.java: Recompile with -Xlint:unchecked for details.
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  2.716 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:19:56-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ find target -print
+[?2004ltarget
+target/classes
+target/classes/edu
+target/classes/edu/auburn
+target/classes/edu/auburn/cpsc4970
+target/classes/edu/auburn/cpsc4970/auth
+target/classes/edu/auburn/cpsc4970/auth/AULoginException.class
+target/classes/edu/auburn/cpsc4970/auth/AuthProviderFactory.class
+target/classes/edu/auburn/cpsc4970/auth/AuthProviderInterface.class
+target/classes/edu/auburn/cpsc4970/auth/LoginApp.class
+target/classes/edu/auburn/cpsc4970/auth/UsernamePasswordAuthenticator.class
+target/classes/edu/auburn/cpsc4970/auth/UserSession.class
+target/classes/edu/auburn/cpsc4970/auth/Utils.class
+target/classes/simplelogger.properties
+target/classes/users.json
+target/classes/users.properties
+target/generated-sources
+target/generated-sources/annotations
+target/maven-status
+target/maven-status/maven-compiler-plugin
+target/maven-status/maven-compiler-plugin/compile
+target/maven-status/maven-compiler-plugin/compile/default-compile
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ dir /s target
+[?2004ldir: cannot access '/s': No such file or directory
+target:
+classes  generated-sources  maven-status
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ls
+[?2004lB.txt  README.md  pom.xml  src	target
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ mvn clean
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m [24;1H
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m [24;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m2-assign-b\target
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
+[[34m[1mINFO[m] Total time:  0.315 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:21:27-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[24;1H[22m
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ls
+[?2004lB.txt  README.md  pom.xml  src
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ branch[K[K[K[K[K[Kgit branch
+[?2004l[6n[m[?25h* [32mmain[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git branch checkout [K[K[K[K[K[K[K[K[Kpipeline
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ g[Kgit push --set [K-upstream origin pipeline
+[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-b/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=pipeline
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-b.git    [24;77H[?25h
+ * [new branch]      pipeline -> pipeline
+branch 'pipeline' set up to track 'origin/pipeline'.
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git branch check[K[K[K[K[K[K[K[K[K[K[K[K[K checkot[Kut pipeline
+[?2004l[6n[m[?25hSwitched to branch 'pipeline'
+Your branch is up to date with 'origin/pipeline'.
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ bra[K[K[Kgit branch
+[?2004l[6n[m[?25h  main
+* [32mpipeline[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ touch .gitlab-ci.yml
+[?2004l[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ls
+[?2004lB.txt  README.md  pom.xml  src
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ nano .gitlab-ci.yml
+[?2004l[?1049h[22;0;0t[1;24r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[22;33H(B[0;7m[ Reading File ](B[m[22;39H(B[0;7m 0 lines ](B[m[H(B[0;7m  GNU nano 2.9.7                    .gitlab-ci.yml                              [1;79H(B[m[23d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[3d[39;49m(B[m[?12l[?25h[?25l[1;71H(B[0;7mModified(B[m[3ds[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25l:[?12l[?25h[?25l[4d[?12l[?25h[?25l[4;9H[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25l[?12l[?25h[?25l  -[?12l[?25h[?25l-[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lg[?12l[?25h[?25li[22d[K[6;5H[?12l[?25h[?25ln[?12l[?25h[?25l-[?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l:[?12l[?25h[?25l[7d[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25lv[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l[?12l[?25h[?25l3[?12l[?25h[?25l.[?12l[?25h[?25l8[?12l[?25h[?25l-[?12l[?25h[?25lo[?12l[?25h[?25lp[?12l[?25h[?25le[?12l[?25h[?25ln[?12l[?25h[?25lj[?12l[?25h[?25ld[?12l[?25h[?25lk[?12l[?25h[?25l-[?12l[?25h[?25l1[?12l[?25h[?25l1[?12l[?25h[?25l[8d[?12l[?25h[?25l[A[?12l[?25h[?25l [?12l[?25h[?25li[?12l[?25h[?25l[?12l[?25h[?25l  image: maven3.8-openjdk-11  [?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[A[?12l[?25h[?25l[8;9H[?12l[?25h[?25l[?12l[?25h[?25l[8;9H[?12l[?25h[?25l[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25la[?12l[?25h[?25lg[?12l[?25h[?25le[?12l[?25h[?25l:[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l[9d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lo[?12l[?25h[?25ln[?12l[?25h[?25ll[?12l[?25h[?25ly[?12l[?25h[?25l:[?12l[?25h[?25l[10d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lm[?12l[?25h[?25la[?12l[?25h[?25li[?12l[?25h[?25ln[?12l[?25h[?25l[11d[?12l[?25h[?25ls[?12l[?25h[?25l[K[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25ls[?12l[?25h[?25lc[?12l[?25h[?25lr[?12l[?25h[?25li[?12l[?25h[?25lp[?12l[?25h[?25lt[?12l[?25h[?25l:[?12l[?25h[?25l[12d[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l-[?12l[?25h[?25lm[?12l[?25h[?25lv[?12l[?25h[?25ln[?12l[?25h[?25l [?12l[?25h[?25lt[?12l[?25h[?25le[?12l[?25h[?25ls[?12l[?25h[?25lt[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[12d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l    -mvn test[5G[?12l[?25h[?25l-[?12l[?25h[?25l mvn test[7G[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l    - main[5G[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[9d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l   only:   [?12l[?25h[?25l[1P  [?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A[?12l[?25h[?25l[A  [?12l[?25h[?25l[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[7d[?12l[?25h[?25l[9d[?12l[?25h[?25l[11d[?12l[?25h[?25l[13d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[23;14H(B[0;7mM-C(B[m Case Sens(B[0;7mM-B(B[m Backwards(B[0;7mM-J(B[m FullJstif(B[0;7m^W(B[m Beg of Par(B[0;7m^Y(B[m First Line[24;2H(B[0;7mC(B[m Cancel    (B[0;7mM-R(B[m Regexp   (B[0;7m^R[24;41HT(B[m Go To Line(B[0;7m^O(B[m End of Par(B[0;7m^V(B[m Last Line[K[22d(B[0;7mSearch:                                                                         [22;1H(B[m[22;9H[?12l[?25h[?25l[K[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\[24;41HU(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[12d[?12l[?25h[?25l[23;14H(B[0;7mM-C(B[m Case Sens(B[0;7mM-B(B[m Backwards(B[0;7mM-J(B[m FullJstif(B[0;7m^W(B[m Beg of Par(B[0;7m^Y(B[m First Line[24;2H(B[0;7mC(B[m Cancel    (B[0;7mM-R(B[m Regexp   (B[0;7m^R[24;41HT(B[m Go To Line(B[0;7m^O(B[m End of Par(B[0;7m^V(B[m Last Line[K[22d(B[0;7mSearch [Backwards]:                                                             [22;1H(B[m[22;21H[?12l[?25h[?25l[22;21H[?12l[?25h[?25l[22;21H[?12l[?25h[?25l[22;21H[?12l[?25h[?25l(B[0;7m-(B[m[22;22H[?12l[?25h[?25l(B[0;7m (B[m[22;21H[?12l[?25h[?25l(B[0;7m:(B[m[22;22H[?12l[?25h[?25l(B[0;7mw(B[m[22;23H[?12l[?25h[?25l(B[0;7mq(B[m[22;24H[?12l[?25h[?25l[31G[1K (B[0;7m[ Search Wrapped ](B[m[K[22;31H(B[0;7m[ ":wq" not found ](B[m[23;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K[24;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\[24;41HU(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[22d[12d[?12l[?25h[?25l[11;14H- mvn test[12d[K[11;10H[?12l[?25h[?25l    [K[12;5H- mvn test[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l: - mvn test[5G[?12l[?25h[?25lW - mvn test[6G[?12l[?25h[?25lQ - mvn test[7G[?12l[?25h[?25l[1P[?12l[?25h[?25l[1P[?12l[?25h[?25l[13d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l-[?12l[?25h[?25l[K[?12l[?25h[24;1H[?1049l[23;0;0t[?1l>[?1049h[22;0;0t[1;31r[?12l[?25h[39;49m(B[m[4l[?7h[H[2J(B[0;7m  GNU nano 2.9.7                    .gitlab-ci.yml                    Modified  [3;1H(B[mstages:[4;3H- test[6dlogin-test:[7;3Himage: maven3.8-openjdk-11[8;3Hstage: test[9;3Honly:[10;5H- main[11;3Hscript:[12;4H: - mvn test[22;31H(B[0;7m[ ":wq" not found ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[13d[?1h=[?1h=[?1h=[H[2J(B[0;7m  GNU nano 2.9.7                    .gitlab-ci.yml                    Modified  [3;1H(B[mstages:[4;3H- test[6dlogin-test:[7;3Himage: maven3.8-openjdk-11[8;3Hstage: test[9;3Honly:[10;5H- main[11;3Hscript:[12;4H: - mvn test[22;31H(B[0;7m[ ":wq" not found ][23d^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[24d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[30d[1;79H[13d[7L[29d[K[?25l[13d[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l[14d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l![?12l[?25h[?25lW[?12l[?25h[?25lQ[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25lQ[?12l[?25h[?25l[K[?12l[?25h[?25lG[?12l[?25h[?25l[K[?12l[?25h[?25l[17d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l-[?12l[?25h[?25l\[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l-[?12l[?25h[?25l[K[?12l[?25h[?25l:[?12l[?25h[?25l![?12l[?25h[?25lW[?12l[?25h[?25lQ[?12l[?25h[?25l[18d[?12l[?25h[?25l[A:!WQ[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25lf[?12l[?25h[?25lf[?12l[?25h[?25lf[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[29;29H(B[0;7m[ Recording a macro... ](B[m[17d[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25lW[?12l[?25h[?25lQ[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l-[?12l[?25h[?25l[K[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l[30;14H(B[0;7mM-C(B[m Case Sens(B[0;7mM-B(B[m Backwards(B[0;7mM-J(B[m FullJstif(B[0;7m^W(B[m Beg of Par(B[0;7m^Y(B[m First Line[31;2H(B[0;7mC(B[m Cancel    (B[0;7mM-R(B[m Regexp   (B[0;7m^R[31;41HT(B[m Go To Line(B[0;7m^O(B[m End of Par(B[0;7m^V(B[m Last Line[K[29d(B[0;7mSearch [:wq]:                                                                   [29;1H(B[m[29;15H[?12l[?25h[?25l[29;15H[?12l[?25h[?25l[29;15H[?12l[?25h[?25l[?12l[?25h[?25l(B[0;7m:(B[m[29;16H[?12l[?25h[?25l(B[0;7mw(B[m[29;17H[?12l[?25h[?25l(B[0;7mq(B[m[29;18H[?12l[?25h[?25l(B[0;7m!(B[m[29;19H[?12l[?25h[?25l(B[0;7m (B[m[29;18H[?12l[?25h[?25l[29;17H[?12l[?25h[?25l[29;16H[?12l[?25h[?25l(B[0;7m!wq(B[m[29;17H[?12l[?25h[?25l[29;31H[1K (B[0;7m[ Search Wrapped ](B[m[K[29;31H(B[0;7m[ ":!wq" not found ](B[m[30;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K[31;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\[31;41HU(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[17d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l-[?12l[?25h[?25l-[?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l:[?12l[?25h[?25l[K[?12l[?25h[?25l-[?12l[?25h[?25l-[?12l[?25h[?25l-[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25l[K[?12l[?25h[?25l[29d[K[30;2H(B[0;7mL(B[m Refresh      (B[0;7m^W(B[m Where Is     (B[0;7m^P(B[m Prev Line    (B[0;7m^Y(B[m Prev Page    (B[0;7mM-\(B[m First Line[31;4HClose        (B[0;7mM-W(B[m WhereIs Next(B[0;7m^N(B[m Next Line    (B[0;7m^V(B[m Next Page    (B[0;7mM-/(B[m Last Line[K[29d[1;3H(B[0;7m              [1;32HMain nano help text[1;71H        (B[m[3d[39;49m(B[m The nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[10d[K[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a '^' and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with 'M-' and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[20d^G    (F1)[17GDisplay this help text[21d^X    (F2)[17GClose the current buffer / Exit from nano[22d^O    (F3)[17GWrite the current buffer (or the marked region) to disk[23d^R    (F5)[17GInsert another file into current buffer (or into new buffer)[25d^W    (F6)[17GSearch forward for a string or a regular expression[26d^\    (M-R)     Replace a string or a regular expression[27d^K    (F9)[17GCut current line (or marked region) and store it in cutbuffer[28d^U    (F10)     Uncut from the cutbuffer into the current line[3d[30;2H(B[0;7mG(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K[31;4HExit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[H[2J(B[0;7m                               Main nano help text                              [3;2H(B[mThe nano editor is designed to emulate the functionality and ease-of-use[4d of the UW Pico text editor.  There are four main sections of the editor.[5d The top line shows the program version, the current filename being[6d edited, and whether or not the file has been modified.  Next is the main[7d editor window showing the file being edited.  The status line is the[8d third line from the bottom and shows important messages.  The bottom two[9d lines show the most commonly used shortcuts in the editor.[11d Shortcuts are written as follows: Control-key sequences are notated with[12d a '^' and can be entered either by using the Ctrl key or pressing the Esc[13d key twice.  Meta-key sequences are notated with 'M-' and can be entered[14d using either the Alt, Cmd, or Esc key, depending on your keyboard setup.[15d Also, pressing Esc twice and then typing a three-digit decimal number[16d from 000 to 255 will enter the character with the corresponding value.[17d The following keystrokes are available in the main editor window.[18d Alternative keys are shown in parentheses:[20d^G    (F1)[17GDisplay this help text[21d^X    (F2)[17GClose the current buffer / Exit from nano[22d^O    (F3)[17GWrite the current buffer (or the marked region) to disk[23d^R    (F5)[17GInsert another file into current buffer (or into new buffer)[25d^W    (F6)[17GSearch forward for a string or a regular expression[26d^\    (M-R)     Replace a string or a regular expression[27d^K    (F9)[17GCut current line (or marked region) and store it in cutbuffer[28d^U    (F10)     Uncut from the cutbuffer into the current line[30d(B[0;7m^G(B[m Get Help  (B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[31d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[1;3H(B[0;7mGNU nano 2.9.7[1;32H     .gitlab-ci.yml[1;71HModified(B[m[3d[39;49m(B[mstages:[K[4d  - test[K[5d[K[6dlogin-test:[K[7d  image: maven3.8-openjdk-11[K[8d  stage: test[K[9d  only:[K[10;5H- main[11d  script:[K[12d   : - mvn test[K[13d[K[14d[K[15d[K[16d[K[17d[K[18d[K[20d[K[21d[K[22d[K[23d[K[25d[K[26d[K[27d[K[28d[K[29d[17d[?12l[?25h[?25l[30;14H(B[0;7mM-C(B[m Case Sens(B[0;7mM-B(B[m Backwards(B[0;7mM-J(B[m FullJstif(B[0;7m^W(B[m Beg of Par(B[0;7m^Y(B[m First Line[31;2H(B[0;7mC(B[m Cancel    (B[0;7mM-R(B[m Regexp   (B[0;7m^R[31;41HT(B[m Go To Line(B[0;7m^O(B[m End of Par(B[0;7m^V(B[m Last Line[K[29d(B[0;7mSearch [:!wq]:                                                                  [29;1H(B[m[29;16H[?12l[?25h[?25l(B[0;7mw(B[m[29;17H[?12l[?25h[?25l(B[0;7mq(B[m[29;18H[?12l[?25h[?25l(B[0;7m!(B[m[29;19H[?12l[?25h[?25l[29;31H[1K (B[0;7m[ Search Wrapped ](B[m[K[29;31H(B[0;7m[ "wq!" not found ](B[m[30;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[K[31;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\[31;41HU(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[17d[?12l[?25h[?25l[30;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[31;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: .gitlab-ci.yml                                              [29;1H(B[m[29;35H[?12l[?25h[?25l[K[1;79H[1;71H(B[0;7m        (B[m[29;32H(B[0;7m[ Wrote 15 lines ](B[m[30;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[17d[?12l[?25h[?25l[30;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[31;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: .gitlab-ci.yml                                              [29;1H(B[m[29;35H[?12l[?25h[?25l[1;3H(B[0;7m                   DIR: /home/Laura/COMP5970/m2-assign-b/[29d(B[m[K[1;79H[30;14H(B[0;7m^W(B[m Where Is  (B[0;7m^_(B[m Go To Dir (B[0;7m^B(B[m Back      (B[0;7m^P(B[m Prev Line (B[0;7m^Y(B[m Prev Page[31;2H(B[0;7mX(B[m Exit      (B[0;7mM-W(B[m WhereIs N(B[0;7m^L(B[m Refresh   (B[0;7m^F(B[m Forward   (B[0;7m^N(B[m Next Line (B[0;7m^V(B[m Next Page[29d[1;79H[3d(B[0;7m..          (parent dir)(B[m  .git[3;46H(dir)  src[3;72H(dir)[4d.gitignore[4;20H15  B  .gitlab-ci.yml    124  B  B.txt[73G0  B[5dpom.xml[5;21H2 KB  README.md[5;46H11 KB[6d[K[7d[K[8d[K[9d[K[10d[K[11d[K[12d[K[5;51H[29d[1;79H[3d..          (parent dir)[4d(B[0;7m.gitignore         15  B[5;51H(B[m[29d[1;79H[4d.gitignore         15  B  (B[0;7m.gitlab-ci.yml    124  B[5d(B[m[29d[1;79H[4;27H.gitlab-ci.yml    124  B  (B[0;7mB.txt               0  B[5;51H(B[m[29d[1;79H[4;27H(B[0;7m.gitlab-ci.yml    124  B(B[m  B.txt[15X[73G0  B[5;51H[1;3H(B[0;7mGNU nano 2.9.7                    .gitlab-ci.yml         [79G(B[m[3dstages:[K[4d  - test[K[5d[K[6dlogin-test:[7;3Himage: maven3.8-openjdk-11[8;3Hstage: test[9;3Honly:[10;5H- main[11;3Hscript:[12;4H: - mvn test[30;14H       (B[0;7mM-D(B[m DOS Format      (B[0;7mM-A(B[m Append          (B[0;7mM-B(B[m Backup File[K[31;2H(B[0;7mC(B[m Cancel           (B[0;7mM-M(B[m Mac Format      (B[0;7mM-P(B[m Prepend         (B[0;7m^T(B[m To Files[K[29d(B[0;7mFile Name to Write: .gitlab-ci.yml                                              [29;1H(B[m[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[29;35H[?12l[?25h[?25l[K[1;79H[29;32H(B[0;7m[ Wrote 15 lines ](B[m[30;14H(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut Text  (B[0;7m^J(B[m Justify   (B[0;7m^C(B[m Cur Pos[31;2H(B[0;7mX(B[m Exit      (B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Uncut Text(B[0;7m^T(B[m To Spell  (B[0;7m^_(B[m Go To Line[29d[17d[?12l[?25h[?25l[29d[J[31;80H[?12l[?25h[31;1H[?1049l[23;0;0t[?1l>[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ nano .gitlab-ci.yml[C[C[Knano .gitlab-ci.yml[C[C[Kclear
+[?2004l[H[2J[3J[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git add .gitlab.[K-ci.[K.yml
+[?2004l[6n[m[?25hwarning: in the working copy of '.gitlab-ci.yml', LF will be replaced by CRLF the next time Git touches it
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git add .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git commit -m "commit"
+[?2004l[6n[m[?25h[pipeline 20cccc3] commit
+ 1 file changed, 15 insertions(+)
+ create mode 100644 .gitlab-ci.yml
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 355 bytes | 355.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline, visit:[K
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-b/-/merge_requests/new?merge_request%5Bsource_branch%5D=pipeline[K
+remote: 
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-b.git
+   c481db0..20cccc3  pipeline -> pipeline
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git merge[K[K[K[K[K[K[K[K[Kgit merge[K[K[K[K[Kbanch[K[K[K[Kran[K[K[K[Kcheckout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git merge pie[Kpeline
+[?2004l[6n[m[?25hUpdating c481db0..20cccc3
+Fast-forward
+ .gitlab-ci.yml | 15 [32m+++++++++++++++[m
+ 1 file changed, 15 insertions(+)
+ create mode 100644 .gitlab-ci.yml
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git checkout pipeline
+[?2004l[6n[m[?25hSwitched to branch 'pipeline'
+Your branch is up to date with 'origin/pipeline'.
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ls
+[?2004lB.txt  README.md  pom.xml  src
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ [K$ branch bug-fix[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch bug-fix-test-errors
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git branch
+[?2004l[6n[m[?25h  bug-fix-test-errors
+  main
+* [32mpipeline[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git chekc[K[Kckout big-gi[K[Kfix-test-errors
+[?2004l[6n[m[?25herror: pathspec 'big-fix-test-errors' did not match any fil
+[30;59Hle(s) known to git
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ git checkout big-fix-test-errors[C[1Pg-fix-test-errorsug-fix-test-errors
+[?2004l[6n[m[?25hSwitched to branch 'bug-fix-test-errors'
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ [K$ mvn compl[Kile
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m     [31;1H
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m     [31;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Copying 3 resources from src\main\resources to target\classes
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.
+[[34m[1mINFO[m] Compiling 7 source files with javac [debug target 1.8] to target\classes     [31;1H
+[[33m[1mWARNING[m] bootstrap class path not set in conjunction with -source 8
+[[34m[1mINFO[m] /C:/cygwin64/home/Laura/COMP5970/m2-assign-b/src/main/java/edu/auburn/cpsc497
+[30;84H70/auth/Utils.java: C:\cygwin64\home\Laura\COMP5970\m2-assign-b\src\main\java\edu\aub
+[30;84Hburn\cpsc4970\auth\Utils.java uses unchecked or unsafe operations.
+[[34m[1mINFO[m] /C:/cygwin64/home/Laura/COMP5970/m2-assign-b/src/main/java/edu/auburn/cpsc497
+[30;84H70/auth/Utils.java: Recompile with -Xlint:unchecked for details.
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[34m[1mINFO[m] Total time:  1.295 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:37:08-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ mvn
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [31m[1mBUILD FAILURE[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[34m[1mINFO[m] Total time:  0.077 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:37:35-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[31m[1mERROR[m] No goals have been specified for this build. You must specify a valid lifecy
+[30;84Hycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugi
+[30;84Hin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: pre-clean,
+[30;84H, clean, post-clean, validate, initialize, generate-sources, process-sources, generat
+[30;84Hte-resources, process-resources, compile, process-classes, generate-test-sources, pro
+[30;84Hocess-test-sources, generate-test-resources, process-test-resources, test-compile, pr
+[30;84Hrocess-test-classes, test, prepare-package, package, pre-integration-test, integratio
+[30;84Hon-test, post-integration-test, verify, install, deploy, pre-site, site, post-site, s
+[30;84Hsite-deploy. -> [1m[Help 1][22m[K
+[[31m[1mERROR[m][K
+[[31m[1mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[22m switch. [31;1H
+[[31m[1mERROR[m] Re-run Maven using the [1m-X[22m switch to enable full debug logging.[K
+[[31m[1mERROR[m][K
+[[31m[1mERROR[m] For more information about the errors and possible solutions, please read th
+[30;84Hhe following articles:
+[[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/NoGoalSpecifiedExc
+[30;84Hception
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ mvn [K[K[K[Kmvn [K:exec[K[K[K[K[K exec:java
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.pom
+Progress (1): 21/22 kB Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.pom [90m(22 kB at 47 kB/s)     [31;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.jar
+Progress (1): 1.4/521 kBProgress (1): 32/521 kB Progress (1): 48/521 kBProgress (1): 111/521 kBProgress (1): 177/521 kBProgress (1): 275/521 kBProgress (1): 455/521 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-javadoc-plugin/3.4.0/maven-javadoc-plugin-3.4.0.jar [90m(521 kB at 3.7 MB/s)   [31;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-assembly-plugin/3.1.1/maven-assembly-plugin-3.1.1.pom
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-assembly-plugin/3.1.1/maven-assembly-plugin-3.1.1.pom [90m(15 kB at 372 kB/s)  [31;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-plugins/33/maven-plugins-33.pom
+Progress (1): 11 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-plugins/33/maven-plugins-33.pom [90m(11 kB at 297 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-assembly-plugin/3.1.1/maven-assembly-plugin-3.1.1.jar
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-assembly-plugin/3.1.1/maven-assembly-plugin-3.1.1.jar [90m(236 kB at 4.8 MB/s) [31;1H[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/mav
+[30;84Hven-metadata.xml
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plug
+[30;84Hgins/maven-metadata.xml
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/mave
+[30;84Hen-metadata.xml [90m(21 kB at 607 kB/s)[K[m
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/plugi
+[30;84Hins/maven-metadata.xml [90m(14 kB at 140 kB/s)[K[m
+[90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/exe
+[30;84Hec-maven-plugin/maven-metadata.xml
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codehaus/mojo/exec
+[30;84Hc-maven-plugin/maven-metadata.xml [90m(896 B at 28 kB/s)[K[m
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m     [31;1H
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m     [31;1H
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mexec:3.3.0:java [m[1m(default-cli)[22m @ [36mAuthProvider[m[1m ---[22m[K
+2024-07-10 16:41:23 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] INFO edu.auburn
+[30;84Hn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "Jordan" with password "1957
+[30;84H7"
+2024-07-10 16:41:23 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] INFO edu.auburn
+[30;84Hn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "Jordan" with password "19s5
+[30;84H57"
+2024-07-10 16:41:23 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] ERROR edu.aubur
+[30;84Hrn.cpsc4970.auth.AULoginException - Login Error: Password "19s57" for "Jordan" is inv
+[30;84Hvalid
+edu.auburn.cpsc4970.auth.AULoginException: Password "19s57" for "Jordan" is invalid [31;1H
+        at edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator.login(UsernamePass
+[30;84HswordAuthenticator.java:50)
+        at edu.auburn.cpsc4970.auth.LoginApp.main(LoginApp.java:18)
+        at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:385)        
+        at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:374)        
+        at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:29
+[30;84H96)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[[34m[1mINFO[m] Total time:  2.060 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:41:23-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m     [31;1H
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ [K$ mvn exec:java
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m[K
+[[34m[1mINFO[m] [1mBuilding AuthProvider 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mexec:3.3.0:java [m[1m(default-cli)[22m @ [36mAuthProvider[m[1m ---[22m[K
+2024-07-10 16:42:22 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] INFO edu.auburn.cpsc4970.auth.UsernamePas
+[30;110HsswordAuthenticator - Checking "Jordan" with password "1957"
+2024-07-10 16:42:22 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] INFO edu.auburn.cpsc4970.auth.UsernamePas
+[30;110HsswordAuthenticator - Checking "Jordan" with password "19s57"
+2024-07-10 16:42:22 -0500 [edu.auburn.cpsc4970.auth.LoginApp.main()] ERROR edu.auburn.cpsc4970.auth.AULoginExc
+[30;110Hception - Login Error: Password "19s57" for "Jordan" is invalid
+edu.auburn.cpsc4970.auth.AULoginException: Password "19s57" for "Jordan" is invalid
+        at edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator.login(UsernamePasswordAuthenticator.java:50)[31;1H
+        at edu.auburn.cpsc4970.auth.LoginApp.main(LoginApp.java:18)
+        at org.codehaus.mojo.exec.ExecJavaMojo.doMain(ExecJavaMojo.java:385)
+        at org.codehaus.mojo.exec.ExecJavaMojo.doExec(ExecJavaMojo.java:374)
+        at org.codehaus.mojo.exec.ExecJavaMojo.lambda$execute$0(ExecJavaMojo.java:296)
+        at java.base/java.lang.Thread.run(Thread.java:833)
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[[34m[1mINFO[m] Total time:  0.711 s
+[[34m[1mINFO[m] Finished at: 2024-07-10T16:42:22-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ .gitlab-ci.yl[Kml
+[?2004lbash: .gitlab-ci.yml: command not found
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ .gitlab-ci.yml/.gitlab-ci.yml[C[C[C
+[?2004lbash: /.gitlab-ci.yml: No such file or directory
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ /.gitlab-ci.yml[1P.gitlab-ci.yml[C[C[C/gitlab-ci.yml[C[C[C[C.gitlab-ci.yml[C[C[C[C[C
+[?2004l./.gitlab-ci.yml: line 1: $'stages:\r': command not found
+./.gitlab-ci.yml: line 2: -: command not found
+./.gitlab-ci.yml: line 3: $'\r': command not found
+./.gitlab-ci.yml: line 4: $'login-test:\r': command not found
+./.gitlab-ci.yml: line 5: image:: command not found
+./.gitlab-ci.yml: line 6: stage:: command not found
+./.gitlab-ci.yml: line 7: $'only:\r': command not found
+./.gitlab-ci.yml: line 8: -: command not found
+./.gitlab-ci.yml: line 9: $'script:\r': command not found
+./.gitlab-ci.yml: line 10: -: command not found
+./.gitlab-ci.yml: line 11: $'\r': command not found
+./.gitlab-ci.yml: line 12: $'\r': command not found
+./.gitlab-ci.yml: line 13: $'\r': command not found
+./.gitlab-ci.yml: line 14: $'\r': command not found
+./.gitlab-ci.yml: line 15: $'\r': command not found
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ./.gitlab-ci.yml[C[1P/.gitlab-ci.yml[C[C
+[?2004lbash: /.gitlab-ci.yml: No such file or directory
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ /.gitlab-ci.yml[1Pgitlab-ci.yml[C[C[C./gitlab-ci.yml[C[C[C
+[?2004lbash: ./gitlab-ci.yml: No such file or directory
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ./test[K[K[K[KUsernae[KmePasswordAuthenticatorTest
+[?2004lbash: ./UsernamePasswordAuthenticatorTest: No such file or directory
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ ./UsernamePasswordAuthenticatorTest[C[C[Kb[Kgit branch
+[?2004l[6n[m[?25h* [32mbug-fix-test-errors[m
+  main
+  pipeline[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-b[0m
+$ exit
+[?2004lexit
+
+Script done on 2024-07-10 17:38:13-05:00 [COMMAND_EXIT_CODE="0"]

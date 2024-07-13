@@ -1,0 +1,361 @@
+Script started on 2024-07-09 16:53:45-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="210" LINES="61"]
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch
+[?2004l[6n[6n[m[?25h[?1h[?1l>* [32mmain[m
+[K[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add[K[K[K[K[K[K[Kgit branch  new[K[K[K[K[K new-pipeline
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch
+[?2004l[6n[m[?25h[?1h[?1l>* [32mmain[m
+  new-pipeline
+[K[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch [K[K[K[K[K[K[Kcheckout new-pipeline
+[?2004l[6n[m[?25hSwitched to branch 'new-pipeline'
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch
+[?2004l[6n[m[?25h[?1h[?1l>  main
+* [32mnew-pipeline[m
+[K[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ [K$ git push -u origin new p[K[K-piepl[K[K[Kpeline
+[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for new-pipeline, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=new-pipeline
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git    [24;77H[?25h
+ * [new branch]      new-pipeline -> new-pipeline
+branch 'new-pipeline' set up to track 'origin/new-pipeline'.
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push --set-upstream origin new-pieple[K[K[K[Kpe[Keline
+[?2004l[6n[m[?25hbranch 'new-pipeline' set up to track 'origin/new-pipeline'.
+Everything up-to-date
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ touch .gitignore[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ktouch .gitit[Kgnore
+[?2004l[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ls
+[?2004lApt1.txt  README.md
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ touch .gitlab-ci.yml
+[?2004l[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ s
+[?2004lbash: s: command not found
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ls
+[?2004lApt1.txt  README.md
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ls
+[?2004lApt1.txt  README.md
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ echo .gitlab-cl.ylm[K[Kmi
+[?2004l.gitlab-cl.ymi
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ echo .gitlab-cl.ymi[Kl
+[?2004l.gitlab-cl.yml
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git la[K[Kadd .gitlab-ci.yml
+[?2004l[6n[m[?25hwarning: in the working copy of '.gitlab-ci.yml', LF will be replaced by CRLF th
+[23;80Hhe next time Git touches it
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "gitlab commit"
+[?2004l[6n[m[?25h[new-pipeline adf3aea] gitlab commit
+ 1 file changed, 10 insertions(+)
+ create mode 100644 .gitlab-ci.yml
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main
+[?2004l[6n[m[?25hEverything up-to-date
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch error-pipeline
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ gi bra[K[K[K[K[Kt [K[Kit branch
+[?2004l[6n[m[?25h  error-pipeline
+  main
+* [32mnew-pipeline[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout error-pipeline
+[?2004l[6n[m[?25hSwitched to branch 'error-pipeline'
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout error-pipeline[C[C[C[C[C[Cbranch[K
+[?2004l[6n[m[?25h* [32merror-pipeline[m
+  main
+  new-pipeline[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add .gitlab-ci.yml
+[?2004l[6n[m[?25hwarning: in the working copy of '.gitlab-ci.yml', LF will be replaced by CRLF th
+[23;80Hhe next time Git touches it
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "update"
+[?2004l[6n[m[?25h[error-pipeline 2a5c373] update
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main
+[?2004l[6n[m[?25hEverything up-to-date
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ [K$ git [K[K[K[Kgit add .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "update1)[K"
+[?2004l[6n[m[?25hOn branch error-pipeline
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31m.gitignore[K[m
+        [31mApt1.txt[K[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin mi[Kain
+[?2004l[6n[m[?25hEverything up-to-date
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push [K[K[K[K[K[K[K[K[Kcd [K[K[Kgit checkout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ b[Kgit branch
+[?2004l[6n[m[?25h  error-pipeline
+* [32mmain[K[m
+  new-pipeline[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git merge error-pipeline[K[K[K[K[K[K[K[K[K[K[K[K[K[Knew-pipeline
+[?2004l[6n[m[?25hUpdating 191e6ec..adf3aea
+Fast-forward
+ .gitlab-ci.yml | 10 [32m++++++++++[m
+ 1 file changed, 10 insertions(+)
+ create mode 100644 .gitlab-ci.yml
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git merge new-pipeline[K[K[K[K[K[K[K[K[K[K[K[Kerror-pipelij[Kne
+[?2004l[6n[m[?25hUpdating adf3aea..2a5c373
+Fast-forward
+ .gitlab-ci.yml | 2 [32m+[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main
+[?2004l[6n[m[?25hEnumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 667 bytes | 667.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git
+   191e6ec..2a5c373  main -> main
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main[C[C[C[C[C[Cmerge error-pipeline[C[C[C[C[C[C[4Ppush origin main[C[C[C[C[C[Cmerge error-pipeline[C[C[C[C[C[C[C[C[C[C[C[C[2Pnew-pipelineerror-pipeline[C[C[C[C[C[C[4Ppush origin main[C[C[Kgit add [K[K[K[K[K[K[K[Kgit push origin main[C[C[C[C[C[Cmerge error-pipeline[C[C[C[C[C[C[C[C[C[C[C[C[2Pnew-pipeline[C[C[C[C[C[C[12Pbranchcheckout main[C[C[C[C[C[C[3@push origin[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update1"[C[C[C[C[C[C[1Padd .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add .gitlab-ci.yml[C[C[C[C[C[C[2Ppush origin main[C[C[C[C[C[Cmerge error-pipeline[C[C[C[C[C[C[C[C[C[C[C[C[2Pnew-pipeline[C[C[C[C[C[C[12Pbranchcheckout main[C[C[C[C[C[C[3@push origin[C[C[C[C[C[C[C[C[C[C[Ccommit -m "update1"[K[K"
+[?2004l[6n[m[?25h[main 86f400e] update
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "update"[C[C[C[C[C[Cadd .gitlab-ci.yml[C[C[C[C[C[C[2Ppush origin main[C[C[C[C[C[Cmerge error-pipeline[C[C[C[C[C[C[4Ppush origin main
+[?2004l[6n[m[?25hEnumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 315 bytes | 315.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git
+   2a5c373..86f400e  main -> main
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch
+[?2004l[6n[m[?25h  error-pipeline
+* [32mmain[K[m
+  new-pipeline[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git pup[K[Kbr[K[K[Kbreanch[K[K[K[K[Kanch pipeline-update-1
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch
+[?2004l[6n[m[?25h  error-pipeline
+* [32mmain[K[m
+  new-pipeline
+  pipeline-update-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout pu[Kipeine-update-1
+[?2004l[6n[m[?25herror: pathspec 'pipeine-update-1' did not match any file(s) known to git
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout pipeine-update-1[Cline-update-1
+[?2004l[6n[m[?25hSwitched to branch 'pipeline-update-1'
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout pipeline-update-1[1Pine-update-1[C[C[C[C[C[Cbranch[K
+[?2004l[6n[m[?25h  error-pipeline
+  main
+  new-pipeline
+* [32mpipeline-update-1[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push --set [K-upstream origin piep[K[Ke[Kpeline-update-1
+[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline-update-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a/-/merge_requests/ne
+[39;99Hew?merge_request%5Bsource_branch%5D=pipeline-update-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git
+ * [new branch]      pipeline-update-1 -> pipeline-update-1
+branch 'pipeline-update-1' set up to track 'origin/pipeline-update-1'.
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ls
+[?2004lApt1.txt  README.md
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ".gitlab-ci.yml"
+[?2004lbash: .gitlab-ci.yml: command not found
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ ".gitlab-ci.yml"
+[?2004lbash: .gitlab-ci.yml: command not found
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git [K[K[K[K".gitlab-ci.yml"[C[Cls[Kgit push --set-upstream origin pipeline-update-1[C[C[C[C[C[Cbranch[Kcheckout pipeline-update-1[1Pine-update-1[C[C[C[C[C[Cbranch[K pipeline-update-1[C[C[C[C[C[C[C[C[C[C[C[C[Kpush origin main[C[C[C[C[C[Ccommit -m "update"[C[C[C[C[C[Cadd .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add .gitlab-ci.yml[C[C[6P".gitlab-ci.yml"[C[Cls[Kgit push --set-upstream origin pipeline-update-1[C[C[C[C[C[Cbranch[Kcheckout pipeline-update-1[1Pine-update-1[C[C[C[C[C[Cbranch[K pipeline-update-1[C[C[C[C[C[C[C[C[C[C[C[C[Kpush origin main[C[C[C[C[C[Ccommit -m "update"[C[C[C[C[C[Cadd .gitlab-ci.yml[C[C[C[C[C[Ccommit -m "update"[1P"[1P"[1P"[1P"[1P"[1P"t"e"s"t"
+[?2004l[6n[m[?25h[pipeline-update-1 df68873] test
+ 1 file changed, 12 insertions(+)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "test"[C[C[C[C[C[Cadd .gitlab-ci.yml[C[C[6P".gitlab-ci.yml"[C[Cls[Kgit push --set-upstream origin pipeline-update-1[C[C[C[C[C[Cbranch[Kcheckout pipeline-update-1[1Pine-update-1[C[C[C[C[C[Cbranch[K pipeline-update-1[C[C[C[C[C[C[C[C[C[C[C[C[Kpush origin main
+[?2004l[6n[m[?25hEverything up-to-date
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git branch [K[K[K[K[K[K[Kchek[Kckout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git merge [K[K[K[K[K[Kbranch
+[?2004l[6n[m[?25h  error-pipeline
+* [32mmain[K[m
+  new-pipeline
+  pipeline-update-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git merge pipeline-update-1
+[?2004l[6n[m[?25hUpdating 86f400e..df68873
+Fast-forward
+ .gitlab-ci.yml | 12 [32m++++++++++++[m
+ 1 file changed, 12 insertions(+)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git checkout pipeline-update-1
+[?2004l[6n[m[?25hSwitched to branch 'pipeline-update-1'
+Your branch is ahead of 'origin/pipeline-update-1' by 1 commit.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push pipeline-update-1
+[?2004l[6n[m[?25hfatal: 'pipeline-update-1' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git status
+[?2004l[6n[m[?25hOn branch pipeline-update-1
+Your branch is ahead of 'origin/pipeline-update-1' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31m.gitignore[K[m
+        [31mApt1.txt[K[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add .git[K[K[K[K[K[K[K[K[K[K[K[Kgit branch
+[?2004l[6n[m[?25h  error-pipeline
+  main
+  new-pipeline
+* [32mpipeline-update-1[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git add .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git commit -m "commit"
+[?2004l[6n[m[?25h[pipeline-update-1 4c7cb79] commit
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main
+[?2004l[6n[m[?25hTo https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git
+ [31m! [rejected]        [mmain -> main (fetch first)[K
+[31merror: failed to push some refs to 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-as[m
+[31m[39;99Hssign-a.git'[m
+[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git push origin main
+[?2004l[6n[m[?25hTo https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-assign-a.git
+ [31m! [rejected]        [mmain -> main (fetch first)[K
+[31merror: failed to push some refs to 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m2-as[m
+[31m[39;99Hssign-a.git'[m
+[33mhint: Updates were rejected because the remote contains work that you do not[m
+[33mhint: have locally. This is usually caused by another repository pushing to[m
+[33mhint: the same ref. If you want to integrate the remote changes, use[m
+[33mhint: 'git pull' before pushing again.[m
+[33mhint: See the 'Note about fast-forwards' in 'git push --help' for details.[m
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ git pull[K[K[K[K[K[K[K[Kgit status
+[?2004l[6n[m[?25hOn branch pipeline-update-1
+Your branch is ahead of 'origin/pipeline-update-1' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31m.gitignore[K[m
+        [31mApt1.txt[K[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/COMP5970/m2-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m2-assign-a[0m
+$ exit
+[?2004lexit
+
+Script done on 2024-07-09 18:14:29-05:00 [COMMAND_EXIT_CODE="0"]
