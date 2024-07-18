@@ -1,0 +1,352 @@
+Script started on 2024-07-15 16:30:47-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ branch [K[K[K[K[K[K[Kgit branch
+[?2004l[6n[6n[m[?25h[?1h[?1l>* [32mmain[m
+  pipeline-1
+[K[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git branch maintain-1
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git checkout maintain-1
+[?2004l[6n[m[?25hSwitched to branch 'maintain-1'
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git checkout maintain-1[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l[6n[m[?25h  main
+* [32mmaintain-1[K[m
+  pipeline-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git add HelloSonarQube.java
+[?2004l[6n[m[?25hfatal: pathspec 'HelloSonarQube.java' did not match any files
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git add HelloSonarQube.java[C[C[Kcd src/main/java/edu/auburn/cpsc4970/m3/[K
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ cd[K[Kls
+[?2004lHelloSonarQube.java
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ lscd src/main/java/edu/auburn/cpsc4970/m3[C[C[12Pgit add HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git --setup[K[K[K[K[K[K[K[K push --set-upstream origin maintain-1
+[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for maintain-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=maintain-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+ * [new branch]      maintain-1 -> maintain-1
+branch 'maintain-1' set up to track 'origin/maintain-1'.
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push --set-upstream origin maintain-1[K[K[K[K[K[K[K[K[K[K[C[C[C[C[C[C[4Padd HelloSonarQube.java[C[Cls[Kgit add HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git add HelloSonarQube.java[1P[C[1P HelloSonarQube.java[C[C[C[C[C[C[1P HelloSonarQube.java[C[C[C[C[C[C[1PHelloSonarQube.java[C[C[C[C[C[C[1PelloSonarQube.java[C[C[C[C[C[C[1PlloSonarQube.java[C[C[C[C[C[C[C[1PoSonarQube.java[C[C[C[C[C[C[1PoSonarQube.java[C[C[C[C[C[C[1PSonarQube.java[C[C[C[C[C[C[1PonarQube.java[C[C[C[C[C[C[1PnarQube.java[C[C[C[C[C[C[1ParQube.java[C[C[C[C[C[C[1PrQube.java[C[C[C[C[C[C[1PQube.java[C[C[C[C[C[C[1Pube.java[C[C[C[C[C[C[1Pbe.java[1Pe.java[1P.java[1Pjava[1Pava[1Pva[1Pa[Kcommit -m "mainain[K[K[Ktain"
+[?2004l[6n[m[?25h[maintain-1 d24c784] maintain
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 791 bytes | 791.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for maintain-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=maintain-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+   69b908b..d24c784  maintain-1 -> maintain-1
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git merge maina[Ktain-1
+[?2004l[6n[m[?25hUpdating 69b908b..d24c784
+Fast-forward
+ src/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java | 12 [32m+++++++[31m-----[m
+ 1 file changed, 7 insertions(+), 5 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ ls
+[?2004lA.txt  README.md  pom.xml  src	target
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git branch bug-1
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ git checkout bug-1
+[?2004l[6n[m[?25hSwitched to branch 'bug-1'
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ b[Kgit branch
+[?2004l[6n[m[?25h* [32mbug-1[m
+  main
+  maintain-1
+  pipeline-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m3-assign-a
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a[0m
+$ cd[K[Kgit branchcheckout bug-1[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[Cls[Kcd ..[C[Cgit merge maintain-1[C[C[C[C[C[C[3Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "maintain"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[Cpush --set-upstream origin [C[C[C[C[C[C[4Padd HelloSonarQube.java[C[Cls[Kcd src/main/java/edu/auburn/cpsc4970/m3
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ ls
+[?2004lHelloSonarQube.java
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ lscd src/main/java/edu/auburn/cpsc4970/m3[C[Cgit branch[Kcheckout bug-1[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[Cls[Kcd ..[C[Cgit merge maintain-1[C[C[C[C[C[C[3Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "maintain"[C[C[C[C[C[Cadd HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git add HelloSonarQube.java[C[Cls[Kcd src/main/java/edu/auburn/cpsc4970/m3[C[Cls[Kgit add HelloSonarQube.java[C[C[Kgit add HelloSonarQube.java[C[Cls[Kcd src/main/java/edu/auburn/cpsc4970/m3[C[Cgit branch[Kcheckout bug-1[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[Cls[Kcd ..[C[Cgit merge maintain-1[C[C[C[C[C[C[3Pcheckout main[C[C[C[C[C[Cmerge maintain-1[C[C[C[C[C[C[3Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "maintain"[K[K[K[K[K[K[K[K[Kbug"
+[?2004l[6n[m[?25h[bug-1 6745197] bug
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push
+[?2004l[6n[m[?25hfatal: The current branch bug-1 has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin bug-1
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push --set-upstream origin bgu[K[Kug-1
+[?2004l[6n[m[?25hEnumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 709 bytes | 709.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for bug-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=bug-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+ * [new branch]      bug-1 -> bug-1
+branch 'bug-1' set up to track 'origin/bug-1'.
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git[K[K[Kgit e[Kcheckoo[Kut main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git merge bug-1
+[?2004l[6n[m[?25hUpdating d24c784..6745197
+Fast-forward
+ src/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java | 6 [32m+++++[31m-[m
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git merge bug-1[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush --set-upstream origin bug-1[C[C[C[C[C[C[C[C[C[C[Kcommit -m "bug"[C[C[C[C[C[Cadd HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout bug-1
+[?2004l[6n[m[?25hM[7Csrc/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java
+Switched to branch 'bug-1'
+Your branch is up to date with 'origin/bug-1'.
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git add HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[12Pmerge bug-1[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush --set-upstream origin bug-1[C[C[C[C[C[C[C[C[C[C[Kcommit -m "bug"
+[?2004l[6n[m[?25h[bug-1 ad8f49c] bug
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git commit -m "bug"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[12Pmerge bug-1[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush --set-upstream origin bug-1[C[C[C[C[C[C[C[C[C[C[K
+[?2004l[6n[m[?25hEnumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 618 bytes | 618.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for bug-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=bug-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+   6745197..ad8f49c  bug-1 -> bug-1
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git pushcommit -m "bug"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[12Pmerge bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[K[K[K[K[Kmain
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout main[C[C[C[C[C[Cpush[Kcommit -m "bug"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[12Pmerge bug-1[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush --set-upstream origin bug-1[C[C[C[C[C[C[C[C[C[C[K[K[K[K[Kmerge or[K[Kbug-1
+[?2004l[6n[m[?25hUpdating 6745197..ad8f49c
+Fast-forward
+ src/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java | 8 [32m++[31m------[m
+ 1 file changed, 2 insertions(+), 6 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout bug-1
+[?2004l[6n[m[?25hM[7Csrc/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java
+Switched to branch 'bug-1'
+Your branch is up to date with 'origin/bug-1'.
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git add HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git commit =[K-m "gi[K[Kfix"
+[?2004l[6n[m[?25h[bug-1 c1b4de1] fix
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 750 bytes | 750.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for bug-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=bug-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+   ad8f49c..c1b4de1  bug-1 -> bug-1
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git gm[K[Kmerge bug-1
+[?2004l[6n[m[?25hUpdating ad8f49c..c1b4de1
+Fast-forward
+ .../java/edu/auburn/cpsc4970/m3/HelloSonarQube.java     | 17 [32m++++++++++++[31m-----[m
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout bug [K-1
+[?2004l[6n[m[?25hM[7Csrc/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java
+Switched to branch 'bug-1'
+Your branch is up to date with 'origin/bug-1'.
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu[0m
+$ cd [K ed[K[Kauburn/cpsc4970
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+$ ls
+[?2004lm3
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+$ /[Kcd m3
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ ls
+[?2004lHelloSonarQube.java
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ lscd m3[C[C[3Pls[Kgit [K[Kt branch
+[?2004l[6n[m[?25h* [32mbug-1[m
+  main
+  maintain-1
+  pipeline-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git add HelloSonarQube.java
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git commit -m "commit"
+[?2004l[6n[m[?25h[bug-1 fd9a97a] commit
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 618 bytes | 618.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for bug-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a/
+[23;80H/-/merge_requests/new?merge_request%5Bsource_branch%5D=bug-1
+remote:[1C[?25l
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-a.git    [24;77H[?25h
+   c1b4de1..fd9a97a  bug-1 -> bug-1
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git b[Kcheckout mian
+[?2004l[6n[m[?25herror: pathspec 'mian' did not match any file(s) known to git
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git checkout mian[K[K[K[Kmain
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 5 commits.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ git merge bug-1
+[?2004l[6n[m[?25hUpdating c1b4de1..fd9a97a
+Fast-forward
+ src/main/java/edu/auburn/cpsc4970/m3/HelloSonarQube.java | 5 [32m++[31m---[m
+ 1 file changed, 2 insertions(+), 3 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970/m3[0m
+$ cd ..
+[?2004l[?2004h]0;~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+$ cd ..[K[K[K[K[Kscript [K[K[K[K[K[K[Kexit
+[?2004lexit
+
+Script done on 2024-07-15 18:00:22-05:00 [COMMAND_EXIT_CODE="0"]

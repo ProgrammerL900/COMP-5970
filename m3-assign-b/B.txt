@@ -1,0 +1,374 @@
+Script started on 2024-07-15 18:14:35-05:00 [TERM="xterm" TTY="/dev/pty2" COLUMNS="106" LINES="24"]
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ script B.txt[C[Cls[Kcd m3-assign-b[C[Cgit clone https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git[C[Ccd m3-assign-b[K[C[Cls[Kscript B.txt[C[Cls[Kscript B.txt[C[C[Kscript B.txt[C[Cls[Kcd m3-assign-b[C[Cgit clone https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git[C[Cls[Kcd COMP5970[C[Cls[Kgit clone https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git[C[Ccd m3-assign-b[K[C[Cls[Kscript B.txt[C[C[Kmvn package
+[?2004l[6n[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m[K
+[[34m[1mINFO[m] [1mBuilding M3-B-lgw0020 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Copying 4 resources from src\main\resources to target\classes
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m3-assign-b\src\test\resources [24;1H
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22msurefire:3.2.5:test [m[1m(default-test)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m]  T E S T S[K
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mDBUtilsTest[22m
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.database.DBUtils - Looking up name for user: aub
+[23;106Hbie
+Found: Aubie Tiger
+[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.971 s -- in edu.auburn.cpsc4970.[1mD[22m
+[1m[23;106HDBUtilsTest[22m[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mUsernamePasswordAuthenticatorTest[22m[K
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "n
+[23;106Hnull" with password "Password"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: "Username 
+[23;106H can not be null"
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "null"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: "Password 
+[23;106H can not be null"
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "P
+[23;106HPetrie" with password "1857"
+Created new user session for %s, %s
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "1957"
+Created new user session for %s, %s
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "H
+[23;106HHare" with password "2010"
+Created new user session for %s, %s
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "G
+[23;106HGoblin" with password "djqp3"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: User "Gobl
+[23;106Hlin" does not exist.
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "V
+[23;106HVoldemort" with password "kalkde"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: User "Vold
+[23;106Hdemort" does not exist.
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "P
+[23;106HPetrie" with password "pppddd"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"pppddd" for "Petrie" is invalid
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "jdkse"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"jdkse" for "Jordan" is invalid
+2024-07-15 18:14:56 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "H
+[23;106HHare" with password "Wrong"
+2024-07-15 18:14:56 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"Wrong" for "Hare" is invalid
+[[34m[1mINFO[m] [32m[1mTests run: 6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.015 s -- in edu.auburn.cpsc4970.[1mU[22m
+[1m[23;106HUsernamePasswordAuthenticatorTest[22m[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mUtilsTest[22m[K
+[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in edu.auburn.cpsc4970.[1mU[22m
+[1m[23;106HUtilsTest[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] Results:[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [32m[1mTests run: 8, Failures: 0, Errors: 0, Skipped: 0[m[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mjar:3.4.1:jar [m[1m(default-jar)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22massembly:3.1.1:single [m[1m(make-assembly)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Building jar: C:\cygwin64\home\Laura\COMP5970\m3-assign-b\target\AuthProvider-1.0-SNAPSHOT-jar-with
+[23;106Hh-dependencies.jar
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[[34m[1mINFO[m] Total time:  5.690 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-15T18:14:59-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ mvn test
+[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m------------------< [36m[22medu.auburn.cpsc4970:AuthProvider[m[1m >------------------[22m[K
+[[34m[1mINFO[m] [1mBuilding M3-B-lgw0020 1.0-SNAPSHOT[22m[K
+[[34m[1mINFO[m]   from pom.xml[K
+[[34m[1mINFO[m] [1m--------------------------------[ jar ]---------------------------------[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Copying 4 resources from src\main\resources to target\classes
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m3-assign-b\src\test\resources [24;1H
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Nothing to compile - all classes are up to date.
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m--- [32m[22msurefire:3.2.5:test [m[1m(default-test)[22m @ [36mAuthProvider[m[1m ---[22m[K
+[[34m[1mINFO[m] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m]  T E S T S[K
+[[34m[1mINFO[m] -------------------------------------------------------[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mDBUtilsTest[22m
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.database.DBUtils - Looking up name for user: aub
+[23;106Hbie
+Found: Aubie Tiger
+[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.981 s -- in edu.auburn.cpsc4970.[1mD[22m
+[1m[23;106HDBUtilsTest[22m[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mUsernamePasswordAuthenticatorTest[22m[K
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "n
+[23;106Hnull" with password "Password"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: "Username 
+[23;106H can not be null"
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "null"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: "Password 
+[23;106H can not be null"
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "P
+[23;106HPetrie" with password "1857"
+Created new user session for %s, %s
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "1957"
+Created new user session for %s, %s
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "H
+[23;106HHare" with password "2010"
+Created new user session for %s, %s
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "G
+[23;106HGoblin" with password "djqp3"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: User "Gobl
+[23;106Hlin" does not exist.
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "V
+[23;106HVoldemort" with password "kalkde"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: User "Vold
+[23;106Hdemort" does not exist.
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "P
+[23;106HPetrie" with password "pppddd"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"pppddd" for "Petrie" is invalid
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "J
+[23;106HJordan" with password "jdkse"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"jdkse" for "Jordan" is invalid
+2024-07-15 18:15:10 -0500 [main] INFO edu.auburn.cpsc4970.auth.UsernamePasswordAuthenticator - Checking "H
+[23;106HHare" with password "Wrong"
+2024-07-15 18:15:10 -0500 [main] ERROR edu.auburn.cpsc4970.auth.AULoginException - Login Error: Password "
+[23;106H"Wrong" for "Hare" is invalid
+[[34m[1mINFO[m] [32m[1mTests run: 6[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.018 s -- in edu.auburn.cpsc4970.[1mU[22m
+[1m[23;106HUsernamePasswordAuthenticatorTest[22m[K
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.[1mUtilsTest[22m[K
+[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 s -- in edu.auburn.cpsc4970.[1mU[22m
+[1m[23;106HUtilsTest[22m[K
+[[34m[1mINFO[m] 
+[[34m[1mINFO[m] Results:[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [32m[1mTests run: 8, Failures: 0, Errors: 0, Skipped: 0[m[K
+[[34m[1mINFO[m][K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[[34m[1mINFO[m] Total time:  2.759 s[K
+[[34m[1mINFO[m] Finished at: 2024-07-15T18:15:11-05:00[K
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch 
+[?2004l[6n[m[?25h* [32mmain[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch pu[Kipeline-1
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git push --upstream-[K[K[K[K[K[K[K-upstream origin ma[K[Kpipeline-1
+[?2004l[6n[m[?25herror: unknown option `up-upstream'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --[no-]verbose    be more verbose
+    -q, --[no-]quiet      be more quiet
+    --[no-]repo <repository>
+                          repository
+    --[no-]all            push all branches
+    --[no-]branches       alias of --all
+    --[no-]mirror         mirror all refs
+    -d, --[no-]delete     delete refs
+    --[no-]tags           push tags (can't be used with --all or --branches or --mirror)
+    -n, --[no-]dry-run    dry run
+    --[no-]porcelain      machine-readable output
+    -f, --[no-]force      force updates
+    --[no-]force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --[no-]force-if-includes
+                          require remote updates to be integrated locally
+    --[no-]recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --[no-]thin           use thin pack
+    --[no-]receive-pack <receive-pack>
+                          receive pack program
+    --[no-]exec <receive-pack>
+                          receive pack program
+    -u, --[no-]set-upstream
+                          set upstream for git pull/status
+    --[no-]progress       force progress reporting
+    --[no-]prune          prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --verify              opposite of --no-verify
+    --[no-]follow-tags    push missing but relevant tags
+    --[no-]signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --[no-]atomic         request atomic transaction on remote side
+    -o, --[no-]push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git push --up-upstream origin pipeline-1[C[C[C[C[C[C[C[C[19Pbranch[C[C[C[C[C[C[C[C[C[C[C[K[C[C[3Pmvn testpackage[C[Cscript B.txt[C[Cls[Kcd m3-assign-b[C[Cgit clone https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git[C[Cls[Kcd COMP59703970[C[C[7Pexit[C[Cscript A.txt[C[Cls[Kcd COMP5970/m3-assign-a[C[Cexit[K[C[Ccd ..[C[Cgit merge bug-1[C[C[C[C[C[Ccheckout mainian[C[C[C[C[C[Cpush[Kcommit -m "commit"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[Cbranch[K[C[Cls[Kcd m3[C[C[3Plscd auburn/cpsc4970[C[C[C[C[C..[K[C[Cgit checkout bug-1[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush[Kcommit -m "fix"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush[Kcommit -m "bug"[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[9Pcheckout bug-1[C[C[C[C[C[Cadd HelloSonarQube.java[C[C[C[C[C[C[12Pmerge bug-1[C[C[C[C[C[Ccheckout main[C[C[C[C[C[Cpush --set-upstream origin bug-1[C[C[C[C[C[C[C[C[C[C[K --set-upstream origin bug-1[K[K[K[K[Kpipleline-1
+[?2004l[6n[m[?25herror: src refspec pipleline-1 does not match any
+[31merror: failed to push some refs to 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.[m
+[31m[23;106H.git'[m
+[31m[m[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git push --set-upstream origin pipleline-1[C[1Peline-1[C
+[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b/-/merge_requests/new?merge
+[23;106He_request%5Bsource_branch%5D=pipeline-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git
+ * [new branch]      pipeline-1 -> pipeline-1
+branch 'pipeline-1' set up to track 'origin/pipeline-1'.
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch
+[?2004l[6n[m[?25h* [32mmain[m
+  pipeline-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git checkout piple[K[Keline-1
+[?2004l[6n[m[?25hM[7Cpom.xml
+Switched to branch 'pipeline-1'
+Your branch is up to date with 'origin/pipeline-1'.
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ ls
+[?2004lB.txt  README.md  pom.xml  src	target
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch
+[?2004l[6n[m[?25h  main
+* [32mpipeline-1[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git add pom.xml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git add .gitlab-ci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git commit -m "initial commit"
+[?2004l[6n[m[?25h[pipeline-1 98e9c0d] initial commit
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 800 bytes | 800.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b/-/merge_requests/new?merge
+[23;106He_request%5Bsource_branch%5D=pipeline-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git
+   80cb44c..98e9c0d  pipeline-1 -> pipeline-1
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git checkout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is up to date with 'origin/main'.
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git merge popl[K[K[Kipl[Keline-1
+[?2004l[6n[m[?25hUpdating 80cb44c..98e9c0d
+Fast-forward
+ .gitlab-ci.yml | 14 [32m++++++++++++++[m
+ pom.xml        |  4 [32m+[31m---[K[m
+ 2 files changed, 15 insertions(+), 3 deletions(-)
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git checkout pipleline[K[K[K[K[K[Keline-1
+[?2004l[6n[m[?25hM[7C.gitlab-ci.yml
+Switched to branch 'pipeline-1'
+Your branch is up to date with 'origin/pipeline-1'.
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git add.gi[K[K[K .gitlab-xi[K[Kci.yml
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git commit -m "initial"
+[?2004l[6n[m[?25h[pipeline-1 d400193] initial
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git push
+[?2004l[6n[m[?25hEnumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 294 bytes | 294.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for pipeline-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b/-/merge_requests/new?merge
+[23;106He_request%5Bsource_branch%5D=pipeline-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m3-assign-b.git
+   98e9c0d..d400193  pipeline-1 -> pipeline-1
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git checkout main
+[?2004l[6n[m[?25hSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git merge pipl[Keline-1
+[?2004l[6n[m[?25hUpdating 98e9c0d..d400193
+Fast-forward
+ .gitlab-ci.yml | 2 [32m+[31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch bug-db-credentials
+[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git checkout[K[K[K[K[K[K[K[Kbranch bug-db-credentials[C[C[1P bug-db-credentials[C[C[C[C[C[C[C[C[C[C[C[1P bug-db-credentials[C[C[C[C[C[C[C[C[C[C[1P bug-db-credentials[C[C[C[C[C[C[C[C[C[1P bug-db-credentials[C[C[C[C[C[C[C[C[1P bug-db-credentials[C[C[C[C[C[C[C[1P bug-db-credentials[C[C[C[C[C[Cc bug-db-credentials[C[C[C[C[C[C[Ch bug-db-credentials[C[C[C[C[C[C[C[Ce bug-db-credentials[C[C[C[C[C[C[C[C[Cc bug-db-credentials[C[C[C[C[C[C[C[C[C[Ck bug-db-credentials[C[C[C[C[C[C[C[C[C[C[Co bug-db-credentials[C[C[C[C[C[C[C[C[C[C[C[Cu bug-db-credentials[C[C[C[C[C[C[C[C[C[C[C[C[Ct bug-db-credentials[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[6n[m[?25hSwitched to branch 'bug-db-credentials'
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ git branch
+[?2004l[6n[m[?25h* [32mbug-db-credentials[m
+  main
+  pipeline-1[?1h[?1l>
+[?2004h]0;~/COMP5970/m3-assign-b
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m3-assign-b[0m
+$ ei[K[Kexit
+[?2004lexit
+
+Script done on 2024-07-15 19:05:26-05:00 [COMMAND_EXIT_CODE="0"]
