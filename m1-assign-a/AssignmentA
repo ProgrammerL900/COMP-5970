@@ -1,0 +1,1582 @@
+Script started on 2024-06-30 16:39:23-05:00 [TERM="xterm" TTY="/dev/pty2" COLUMNS="80" LINES="24"]
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ gut s[K[K[K[Kit status
+[?2004l
+[6n[6n[m[?25hOn branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+[?25l
+nothing added to commit but untracked files present (use "git add" to track)    [24;77H[?25h
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg
+[?2004l
+[6n[m[?25h* [34m[1mb7d2545[m - [32m[1m(58 seconds ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (HEAD -> maste[?1h[m
+[33m[1m[23;80Her)[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git g2[K[Klg2
+[?2004l
+[6n[m[?25h* [34m[1mb7d2545[m - [36m[1mSun, 30 Jun 2024 22:38:48 +0100[m [32m[1m(65 seconds ago) [33m(HEAD -> master)[?1h[m
+[37m[12CInital commit message [2m- Laura Wilson[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push origin
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ push loca mian[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit checkout
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt  'ssh key'
+ AssignmentA.txt   m1-assign-a	 'ssh key.pub'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push origin
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h* [32mmaster[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch fr[Keature-1
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch feature-1[K
+[?2004l
+[6n[m[?25h  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch feature-1[K[K[K[K[K[K[K[K[Kbug-1
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch bug-1[K
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout gud[K[K[Kd[Kbug-1
+[?2004l
+[6n[m[?25hSwitched to branch 'bug-1'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout bug-1
+[C[C[C[C[C[C[8Pbranch
+[?2004l
+[6n[m[?25h* [32mbug-1[m
+  feature-1
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch movie.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi movie.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"movie.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll
+"movie.txt" 0L, 0B[1;1H[?25h[?25l[24;53H"[1;1H[?25h[?25l[24;54Hi[1;1H[?25h[?25l[24;55Hs[1;1H[24;56Hcl[1;1H[24;53H     [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25li[24;63H1,2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25l"[24;65H2[1;2H[?25h[?25l[1;1H[K[24;65H1[1;1H[?25h[?25lQ[24;65H2[1;2H[?25h[?25lu[24;65H3[1;3H[?25h[?25lo[24;65H4[1;4H[?25h[?25lt[24;65H5[1;5H[?25h[?25le[24;65H6[1;6H[?25h[?25l[24;65H7[1;7H[?25h[?25lf[24;65H8[1;8H[?25h[?25lr[24;65H9[1;9H[?25h[?25lo[24;65H10[1;10H[?25h[?25lm[24;66H1[1;11H[?25h[?25l[24;66H2[1;12H[?25h[?25lo[24;66H3[1;13H[?25h[?25l[1;12H[K[24;66H2[1;12H[?25h[?25lm[24;66H3[1;13H[?25h[?25lo[24;66H4[1;14H[?25h[?25l[1;13H[K[24;66H3[1;13H[?25h[?25l[1;12H[K[24;66H2[1;12H[?25h[?25lA[24;66H3[1;13H[?25h[?25lv[24;66H4[1;14H[?25h[?25le[24;66H5[1;15H[?25h[?25ln[24;66H6[1;16H[?25h[?25lg[24;66H7[1;17H[?25h[?25le[24;66H8[1;18H[?25h[?25lr[24;66H9[1;19H[?25h[?25ls[24;65H20[1;20H[?25h[?25l[24;66H1[1;21H[?25h[?25l"[24;66H2[1;22H[?25h[?25lA[24;66H3[1;23H[?25h[?25lv[24;66H4[1;24H[?25h[?25le[24;66H5[1;25H[?25h[?25ln[24;66H6[1;26H[?25h[?25lg[24;66H7[1;27H[?25h[?25le[24;66H8[1;28H[?25h[?25lr[24;66H9[1;29H[?25h[?25ls[24;65H30[1;30H[?25h[?25l[24;66H1[1;31H[?25h[?25lA[24;66H2[1;32H[?25h[?25ls[24;66H3[1;33H[?25h[?25ls[24;66H4[1;34H[?25h[?25le[24;66H5[1;35H[?25h[?25lm[24;66H6[1;36H[?25h[?25lb[24;66H7[1;37H[?25h[?25ll[24;66H8[1;38H[?25h[?25le[24;66H9[1;39H[?25h[?25l"[24;65H40[1;40H[?25h[?25l[1;39H[K[24;65H39[1;39H[?25h[?25l![24;65H40[1;40H[?25h[?25l"[24;66H1[1;41H[?25h[?25l[1;39H[K[24;65H39[1;39H[?25h[?25li[24;65H40[1;40H[?25h[?25l[1;39H[K[24;65H39[1;39H[?25h[24;1H[K[1;38H[?25l[24;53H^[[1;38H[24;53H  [1;39H[24;63H1,38[10CAll[1;38H[?25h[?25l[24;53H^W[1;38H[?25h[?25l[24;55H^Q[1;38H[24;1H[1m[37m[41mE37: No write since last change (add ! to override)[m[24;53H[K[1;38H[24;63H1,38[10CAll[1;38H[?25h[?25l[24;53Hw[1;38H[24;53H [1;38H[?25h[?25l[24;53Hw[1;38H[24;53H [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53H^[[1;38H[24;53H  [1;38H[24;53H^[[1;38H[24;53H  [1;38H[?25h[?25l[24;53HW[1;38H[24;53H [1;38H[?25h[?25l[24;53Hgq[1;38H[?25h[?25l[24;55H~@k[1;38H[24;53H     [1;1H[24;65H1 [1;1H[?25h[?25l[24;53Hw[1;1H[24;53H [1;7H[24;65H7[1;7H[?25h[?25l[24;53Hq[1;7H[?25h[?25l[24;54H~@k[1;7H[24;53H    [1;7H[?25h[?25l[24;53H^W[1;7H[?25h[?25l[24;55HQ[1;7H[24;53H   [1;7H[?25h[?25l[24;53H^W[1;7H[?25h[?25l[24;55Hq[1;7H[24;53H[K[1;7H[24;63H1,7[11CAll[1;7H[?25h[?25l[24;53H^W[1;7H[?25h[?25l[24;55H^[[1;7H[24;55H  [1;7H[24;55H^[[1;7H[24;53H    [1;7H[?25h[?25l[24;53Hq[1;7H[?25h[?25l[24;54H~@k[1;7H[24;53H    [1;7H[?25h[?25l[24;53H^[[1;7H[24;53H  [1;7H[24;53H^[[1;7H[24;53H  [1;7H[?25h[?25l[24;53H^[[1;7H[24;53H  [1;7H[24;53H^[[1;7H[24;53H  [1;7H[?25h[?25l[24;53H:[1;7H[24;1H[K[24;1H:[?25hWQ!
+[?25l[1m[37m[41mE492: Not an editor command: WQ![1;7H[m[24;63H1,7[11CAll[1;7H[?25h[?25l[24;53H:[1;7H[24;1H[K[24;1H:[?25hwq!
+[?25l[?2004l[>4;m"movie.txt" 1L, 39B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi[K[Kgit che[K[K[K[K[K[K[Kls
+[?2004l
+ AssignmentA	   Hands-on.txt   movie.txt  'ssh key.pub'
+ AssignmentA.txt   m1-assign-a	 'ssh key'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout b[Kfeature-1
+[?2004l
+[6n[m[?25hSwitched to branch 'feature-1'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+* [32mfeature-1[K[m
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch movie1[K-1.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi movie-1.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"movie-1.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                               [3;1H~                                                                               [4;1H~                                                                               [5;1H~                                                                               [6;1H~                                                                               [7;1H~                                                                               [8;1H~                                                                               [9;1H~                                                                               [10;1H~                                                                               [11;1H~                                                                               [12;1H~                                                                               [13;1H~                                                                               [14;1H~                                                                               [15;1H~                                                                               [16;1H~                                                                               [17;1H~                                                                               [18;1H~                                                                               [19;1H~                                                                               [20;1H~                                                                               [21;1H~                                                                               [22;1H~                                                                               [23;1H~                                                                               [m[24;63H0,0-1[9CAll
+"movie-1.txt" 0L, 0B[1;1H[?25h[?25l[24;53Hi[1;1H[24;53H [1;1H[24;1H[1m-- INSERT --[m[24;13H[K[24;63H0,1[11CAll[1;1H[?25h[?25l"[24;63H1,2[1;2H[?25h[?25lF[24;65H3[1;3H[?25h[?25la[24;65H4[1;4H[?25h[?25li[24;65H5[1;5H[?25h[?25lr[24;65H6[1;6H[?25h[?25ly[24;65H7[1;7H[?25h[?25l[24;65H8[1;8H[?25h[?25lt[24;65H9[1;9H[?25h[?25la[24;65H10[1;10H[?25h[?25ll[24;66H1[1;11H[?25h[?25le[24;66H2[1;12H[?25h[?25l[1;11H[K[24;66H1[1;11H[?25h[?25l[1;10H[K[24;66H0[1;10H[?25h[?25li[24;66H1[1;11H[?25h[?25ll[24;66H2[1;12H[?25h[?25l"[24;66H3[1;13H[?25h[?25li[24;66H4[1;14H[?25h[?25l[1;13H[K[24;66H3[1;13H[?25h[24;1H[K[1;12H[?25l[24;53H^[[1;12H[24;53H  [1;13H[24;63H1,12[10CAll[1;12H[?25h[?25l[24;53H;[1;12H[24;53H [1;12H[?25h[?25l[24;53H^[[1;12H[24;53H  [1;12H[24;53H^[[1;12H[24;53H  [1;12H[?25h[?25l[24;53H:[1;12H[24;53H[K[24;1H:[?25hW[?25l[24;2H[K[24;2H[?25hwq!
+[?25l[?2004l[>4;m"movie-1.txt" 1L, 13B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ add [K[K[K[Kgit add movie.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'movie.txt', LF will be replaced by CRLF the nex
+[23;80Hxt time Git touches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git a[K[K[K[K[Kbranc[K[K[K[K[Kgir[Kt branch master
+[?2004l
+[6n[m[?25hfatal: a branch named 'master' already exists
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout master
+[?2004l
+[6n[m[?25hA[7Cmovie.txt
+Switched to branch 'master'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add movie.txt
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add movie-1.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'movie-1.txt', LF will be replaced by CRLF the n
+[23;80Hnext time Git touches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add movie-1.txt
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "Initial Version"
+[?2004l
+[6n[m[?25h[master e851bcc] Initial Version
+ 2 files changed, 2 insertions(+)
+ create mode 100644 movie-1.txt
+ create mode 100644 movie.txt
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git status
+[?2004l
+[6n[m[?25hOn branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+[?25l
+nothing added to commit but untracked files present (use "git add" to track)    [24;77H[?25h
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [32m[1m(22 seconds ago)[m [37mInitial Version [2m- Laura Wilson[33m[22m[1m (HEAD -> master)[m
+* [34m[1mb7d2545[m - [32m[1m(20 minutes ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (feature-1, bu[?1h[m
+[33m[1m[23;80Hug-1)[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg1[K2
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [36m[1mSun, 30 Jun 2024 22:57:58 +0100[m [32m[1m(28 seconds ago) [33m(HEAD -> master)[m
+[31m|[37m[11CInitial Version [2m- Laura Wilson[m[K
+* [34m[1mb7d2545[m - [36m[1mSun, 30 Jun 2024 22:38:48 +0100[m [32m[1m(20 minutes ago) [33m(feature-1, bug-1)[m [24;80H[?1h
+[37m[12CInital commit message [2m- Laura Wilson[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git merge feature-1
+[?2004l
+[6n[m[?25hAlready up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git merge bug-1
+[?2004l
+[6n[m[?25hAlready up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push origin main
+[?2004l
+[6n[m[?25herror: src refspec main does not match any
+[31merror: failed to push some refs to 'origin'[m
+[31m[m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push mian[K[K[Kain
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream main master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream main master
+[?2004l
+[6n[m[?25hfatal: 'main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push origin n[Kmain
+[?2004l
+[6n[m[?25herror: src refspec main does not match any
+[31merror: failed to push some refs to 'origin'[m
+[31m[m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push origin main[C[C[C[C[1P main[1P main[1P main[1P main[1P main[1P mainm maina mains maint maine mainr main
+[?2004l
+[6n[m[?25herror: src refspec main does not match any
+[31merror: failed to push some refs to 'master'[m
+[31m[m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push git [K[K[K[Khttps://gitlab.com lgw0020@gitlab.com/sec-sw-const-sum-24-b/[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K ^V[K[K [7mhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[27m[7m.[27m[7mgit[27m[A[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lg
+[23;80Hgw0020/m1-assign-a.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ gt[Kit removie [K[K[K[K[Kote -v
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git remote -v
+[C[C[C[C[C[Cpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lg
+[23;80Hgw0020/m1-assign-a.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git remote -v
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push -set-upstram[K[Keam ^[[200~
+[?2004l
+[6n[m[?25herror: did you mean `--set-upstream` (with two dashes)?
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push -set-upstream ^[[200~
+[C[C[C[C[C[C[17Premote -v
+[C[C[C[C[C[Cpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cshttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cthttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[C-https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cuhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cphttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cshttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-a[Csign-a.git[A[C[C[C[C[C[C[Cthttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Crhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cahttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[Cmhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[C
+
+
+[?2004l
+[6n[m[?25herror: did you mean `--set-upstream` (with two dashes)?
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push -set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A[C[C[C[C[C[C[C[C^[[200~[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[A
+
+
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lg
+[23;80Hgw0020/m1-assign-a.git master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [32m[1m(15 minutes ago)[m [37mInitial Version [2m- Laura Wilson[33m[22m[1m (HEAD -> master)[m
+* [34m[1mb7d2545[m - [32m[1m(34 minutes ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (feature-1, bu[?1h[m
+[33m[1m[23;80Hug-1)[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ 
+[K
+$ 
+[K
+$ git push
+[?2004l
+[6n[m[?25hfatal: No configured push destination.[?25l
+Either specify the URL from the command-line or configure a remote repository using      [29;84H[?25h
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push [K[K[K[K[K[K[K[K[Kpu[K[Kgit push main*main
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream *main master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-s[Kupstream *main master
+[?2004l
+[6n[m[?25hfatal: '*main' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream *main master[1Pmaster[1Pmaster[1Pmaster[1Pmaster[1Paster[1Pmaster
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream master master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream master master
+[?2004l
+[6n[m[?25hfatal: 'master' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream master master[K[K[K[K[K[K^[[200~
+[?2004l
+[6n[m[?25hfatal: invalid refspec '?[200~'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream master ^[[200~[K[K[K[K[K[K[K ^[[200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git~[C[K
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[200~https://gitlab.com/sec-sw-const-sum-24-b/students/lg[2Pw0020/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw[1P0020/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C00~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0[C[1P20/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw00[1P20/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw002[1P0/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020[1P/m1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l
+[6n[m[?25hfatal: invalid refspec 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assi
+[28;89Hign-a.git'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream master https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/[1Pm1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m[1P1-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1[1P-assign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-[1Passign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-a[1Pssign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-as[C[1Pign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-ass[1Pign-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assi[1Pgn-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assig[1Pn-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign[1P-a.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-[1Pa.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[1P.git[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.[1Pgit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.g[1Pit[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi[1Pt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[Cc https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[Cl https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[Co https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[Cn https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[Ce https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git
+[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[6n[m[?25hfatal: destination path 'm1-assign-a' already exists and is not an empty directory.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git remt[Kote -v
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ 
+[K
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt   movie-1.txt  'ssh key'
+ AssignmentA.txt   m1-assign-a	  movie.txt    'ssh key.pub'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git che[K[K[Kbranch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "[K
+[?2004l
+[6n[m[?25herror: switch `m' requires a value
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "version"
+[?2004l
+[6n[m[?25hOn branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [32m[1m(28 minutes ago)[m [37mInitial Version [2m- Laura Wilson[33m[22m[1m (HEAD -> master)[?1h[m
+* [34m[1mb7d2545[m - [32m[1m(47 minutes ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (feature-1, bug-1)[m     [19;85H[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lgw[K1[K2
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [36m[1mSun, 30 Jun 2024 22:57:58 +0100[m [32m[1m(28 minutes ago) [33m(HEAD -> master)[m
+[31m|[37m[11CInitial Version [2m- Laura Wilson[m[K
+* [34m[1mb7d2545[m - [36m[1mSun, 30 Jun 2024 22:38:48 +0100[m [32m[1m(47 minutes ago) [33m(feature-1, bug-1)[m[K[?1h
+[37m[12CInital commit message [2m- Laura Wilson[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git merge featre[K[Kure-1
+[?2004l
+[6n[m[?25hAlready up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git merge bug-1
+[?2004l
+[6n[m[?25hAlready up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlba.com[K[K[K[K[K[Kab.com/sex[Kc-sw-const-sum-24-b/su[Ktudents/lgw0020/m1-assign-a
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-
+[18;89H-assign-a master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[C-https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C-https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[Cshttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cphttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cshttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cahttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l
+[6n[m[?25hfatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-
+[18;89H-assign-a master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a master
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assi
+[18;89Hign-a.git/
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (7/7), 552 bytes | 552.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for master, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_r
+[18;89Hrequests/new?merge_request%5Bsource_branch%5D=master
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * [new branch]      master -> master
+branch 'master' set up to track 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw002
+[18;89H20/m1-assign-a/master'.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ lg[K[Kgit lg1[K
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [32m[1m(31 minutes ago)[m [37mInitial Version [2m- Laura Wilson[33m[22m[1m (HEAD -> master)[?1h[m
+* [34m[1mb7d2545[m - [32m[1m(50 minutes ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (feature-1, bug-1)[m     [19;85H[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg2
+[?2004l
+[6n[m[?25h* [34m[1me851bcc[m - [36m[1mSun, 30 Jun 2024 22:57:58 +0100[m [32m[1m(31 minutes ago) [33m(HEAD -> master)[m
+[31m|[37m[11CInitial Version [2m- Laura Wilson[m[K
+* [34m[1mb7d2545[m - [36m[1mSun, 30 Jun 2024 22:38:48 +0100[m [32m[1m(50 minutes ago) [33m(feature-1, bug-1)[m[K[?1h
+[37m[12CInital commit message [2m- Laura Wilson[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push -u [K[K[K[K[K[K[K[K[K[K[K[Kgit lg2[Kpush --set-upstream https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a master[K master[C[K[K[K[K[K[K[K
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assi[1Pgn-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assig[1Pn-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign[1P-a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-[1Pa[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[1P https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[Cp https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[Cu https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[Cs https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[Ch https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C- https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[Cu https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C featu 
+re-1
+[K
+[A[K
+$ git push -u https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a feature-1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for feature-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests
+[28;96Hs/new?merge_request%5Bsource_branch%5D=feature-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * [new branch]      feature-1 -> feature-1
+branch 'feature-1' set up to track 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1
+[28;96H1-assign-a/feature-1'.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push -u https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a feature-1[K[K[K[K[K[K[K[K[Kbug-1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for bug-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests
+[28;96Hs/new?merge_request%5Bsource_branch%5D=bug-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * [new branch]      bug-1 -> bug-1
+branch 'bug-1' set up to track 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-ass
+[28;96Hsign-a/bug-1'.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ branch[K[K[K[K[K[Kgit branch checkout feau[Kture-1
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt   movie-1.txt  'ssh key'
+ AssignmentA.txt   m1-assign-a	  movie.txt    'ssh key.pub'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch quote1.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi quote1.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"quote1.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll
+"quote1.txt" 0L, 0B[1;1H[?25h[?25l[29;69Hi[1;1H[29;69H [1;1H[29;1H[1m-- INSERT --[m[29;14H[K[29;79H0,1[11CAll[1;1H[?25h[?25l"[29;79H1,2[1;2H[?25h[?25lT[29;81H3[1;3H[?25h[?25lo[29;81H4[1;4H[?25h[?25l[29;81H5[1;5H[?25h[?25li[29;81H6[1;6H[?25h[?25ln[29;81H7[1;7H[?25h[?25lf[29;81H8[1;8H[?25h[?25li[29;81H9[1;9H[?25h[?25ln[29;81H10[1;10H[?25h[?25li[29;82H1[1;11H[?25h[?25lt[29;82H2[1;12H[?25h[?25le[29;82H3[1;13H[?25h[?25l[1;12H[K[29;82H2[1;12H[?25h[?25l[1;11H[K[29;82H1[1;11H[?25h[?25lt[29;82H2[1;12H[?25h[?25ly[29;82H3[1;13H[?25h[?25l[29;82H4[1;14H[?25h[?25la[29;82H5[1;15H[?25h[?25ln[29;82H6[1;16H[?25h[?25ld[29;82H7[1;17H[?25h[?25l[29;82H8[1;18H[?25h[?25ly[29;82H9[1;19H[?25h[?25l[1;18H[K[29;82H8[1;18H[?25h[?25lb[29;82H9[1;19H[?25h[?25le[29;81H20[1;20H[?25h[?25ly[29;82H1[1;21H[?25h[?25lo[29;82H2[1;22H[?25h[?25ln[29;82H3[1;23H[?25h[?25ld[29;82H4[1;24H[?25h[?25l![29;82H5[1;25H[?25h[?25l"[29;82H6[1;26H[?25h[?25li[29;82H7[1;27H[?25h[?25l[1;26H[K[29;82H6[1;26H[?25h[?25l~[29;82H7[1;27H[?25h[?25l[29;1H[K[29;79H1,26[10CAll[1;26H[?25h[?25l[29;69H~@k[1;26H[29;69H   [1;26H[29;69Hdl[1;26H[29;69H  [1;25H[1;26H[K[29;82H5[1;25H[?25h[?25l[29;69H^[[1;25H[29;69H  [1;25H[29;69H^[[1;25H[29;69H  [1;25H[?25h[?25l[29;69H:[1;25H[29;69H[K[29;1H:[?25hwq!
+[?25l[?2004l[>4;m"quote1.txt" 1L, 26B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi[K[Ktouch quo[K[K[K[K[K[K[K[K[Kgit branch out[K[K[Kcheckout bug-1
+[?2004l
+[6n[m[?25hfatal: a branch named 'checkout' already exists
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git bracn[K[Knch bug-1
+[?2004l
+[6n[m[?25hfatal: a branch named 'bug-1' already exists
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+  checkout
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout bug-1
+[?2004l
+[6n[m[?25hSwitched to branch 'bug-1'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt   quote1.txt  'ssh key.pub'
+ AssignmentA.txt   m1-assign-a	 'ssh key'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ rm[K[Krm quote1.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA   AssignmentA.txt	 Hands-on.txt   m1-assign-a  'ssh key'	'ssh key.pub'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h* [32mbug-1[m
+  checkout
+  feature-1
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch[K[K[K[K[Kgit branch
+[C[Cls[Krm quote1.txt
+[C[Cls[Kgit branch
+[C[C[Kg[Ktouch quote1.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt   quote1.txt  'ssh key.pub'
+ AssignmentA.txt   m1-assign-a	 'ssh key'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h* [32mbug-1[m
+  checkout
+  feature-1
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi t[Kquote1.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"quote1.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll
+"quote1.txt" 0L, 0B[1;1H[?25h[?25l[29;69Hi[1;1H[29;69H [1;1H[29;1H[1m-- INSERT --[m[29;14H[K[29;79H0,1[11CAll[1;1H[?25h[?25l"[29;79H1,2[1;2H[?25h[?25lT[29;81H3[1;3H[?25h[?25lo[29;81H4[1;4H[?25h[?25l[29;81H5[1;5H[?25h[?25li[29;81H6[1;6H[?25h[?25ln[29;81H7[1;7H[?25h[?25lf[29;81H8[1;8H[?25h[?25li[29;81H9[1;9H[?25h[?25ln[29;81H10[1;10H[?25h[?25li[29;82H1[1;11H[?25h[?25lt[29;82H2[1;12H[?25h[?25ly[29;82H3[1;13H[?25h[?25l[29;82H4[1;14H[?25h[?25la[29;82H5[1;15H[?25h[?25ln[29;82H6[1;16H[?25h[?25ld[29;82H7[1;17H[?25h[?25l[29;82H8[1;18H[?25h[?25lb[29;82H9[1;19H[?25h[?25le[29;81H20[1;20H[?25h[?25ly[29;82H1[1;21H[?25h[?25lo[29;82H2[1;22H[?25h[?25ln[29;82H3[1;23H[?25h[?25ld[29;82H4[1;24H[?25h[?25l![29;82H5[1;25H[?25h[?25l"[29;82H6[1;26H[?25h[?25li[29;82H7[1;27H[?25h[?25l[1;26H[K[29;82H6[1;26H[?25h[29;1H[K[1;25H[?25l[29;69H^[[1;25H[29;69H  [1;26H[29;79H1,25[10CAll[1;25H[?25h[?25l[29;69H:[1;25H[29;69H[K[29;1H:[?25hwq!
+[?25l[?2004l[>4;m"quote1.txt" 1L, 26B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout feature-1
+[?2004l
+[6n[m[?25hSwitched to branch 'feature-1'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+  checkout
+* [32mfeature-1[K[m
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch tquo[K[K[K[Kquote2.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi quote2.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"quote2.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                               [3;1H~                                                                                               [4;1H~                                                                                               [5;1H~                                                                                               [6;1H~                                                                                               [7;1H~                                                                                               [8;1H~                                                                                               [9;1H~                                                                                               [10;1H~                                                                                               [11;1H~                                                                                               [12;1H~                                                                                               [13;1H~                                                                                               [14;1H~                                                                                               [15;1H~                                                                                               [16;1H~                                                                                               [17;1H~                                                                                               [18;1H~                                                                                               [19;1H~                                                                                               [20;1H~                                                                                               [21;1H~                                                                                               [22;1H~                                                                                               [23;1H~                                                                                               [24;1H~                                                                                               [25;1H~                                                                                               [26;1H~                                                                                               [27;1H~                                                                                               [28;1H~                                                                                               [m[29;79H0,0-1[9CAll
+"quote2.txt" 0L, 0B[1;1H[?25h[?25l[29;69Hi[1;1H[29;69H [1;1H[29;1H[1m-- INSERT --[m[29;14H[K[29;79H0,1[11CAll[1;1H[?25h[?25l"[29;79H1,2[1;2H[?25h[?25lS[29;81H3[1;3H[?25h[?25lh[29;81H4[1;4H[?25h[?25lr[29;81H5[1;5H[?25h[?25le[29;81H6[1;6H[?25h[?25la[29;81H7[1;7H[?25h[?25lk[29;81H8[1;8H[?25h[?25l[1;7H[K[29;81H7[1;7H[?25h[?25l[1;6H[K[29;81H6[1;6H[?25h[?25lk[29;81H7[1;7H[?25h[?25l"[29;81H8[1;8H[?25h[29;1H[K[1;7H[?25l[29;69H^[[1;7H[29;69H  [1;8H[29;79H1,7[11CAll[1;7H[?25h[?25l[29;69H:[1;7H[29;69H[K[29;1H:[?25hwq!
+[?25l[?2004l[>4;m"quote2.txt" 1L, 8B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push[K[K[K[K[K[K[K[Kadd quote[K[K[K[K[K[K[K[K[Kgit add quote1.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'quote1.txt', LF will be replaced by CRLF the next time Git touc
+[28;96Hches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add quote2.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'quote2.txt', LF will be replaced by CRLF the next time Git touc
+[28;96Hches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit[K[K[K[Kmmit[K[K[K[K[K[K[K[Kt status
+[?2004l
+[6n[m[?25hOn branch feature-1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        [32mnew file:   quote1.txt[K[m
+        [32mnew file:   quote2.txt[K[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "quotes"
+[?2004l
+[6n[m[?25h[feature-1 4d67382] quotes
+ 2 files changed, 2 insertions(+)
+ create mode 100644 quote1.txt
+ create mode 100644 quote2.txt
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout master
+[?2004l
+[6n[m[?25hSwitched to branch 'master'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git brach[K[Knch
+[?2004l
+[6n[m[?25h  bug-1
+  checkout
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a bug-1
+[?2004l
+[6n[m[?25hfatal: unable to access 'https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/': 
+[28;96H Could not resolve host: gitlab.comsec-sw-cons-sum-24-b
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a bug-1[K[K[K[K[K[K/-/tree/main[C[C[C[K[K[K[Kbug-1
+[?2004l
+[6n[m[?25hfatal: unable to access 'https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/t
+[28;96Htree/bug-1/': Could not resolve host: gitlab.comsec-sw-cons-sum-24-b
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1?red_ 
+type=heads
+[?2004l
+[6n[m[?25hfatal: unable to access 'https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/t
+[28;96Htree/bug-1?red_type=heads/': Could not resolve host: gitlab.comsec-sw-cons-sum-24-b
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.comsec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1?red_type=heads
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/sec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1?red_type=heads[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+[?2004l
+[6n[m[?25hfatal: unable to access 'https://gitlab.com/sec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/
+[28;96H/tree/bug-1?red_type=heads/': The requested URL returned error: 403
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1?red_type=heads[K[K[K[K[K[K[K[K[K[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K-[K1 bug 
+-1
+[?2004l
+[6n[m[?25hfatal: unable to access 'https://gitlab.com/sec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/
+[28;96H/tree/bug-1/': The requested URL returned error: 403
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1 bug-1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C?red_type=heads[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csec-sw-cons-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1?red_t[1Pype=heads[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7P bug-1
+[C[C[C[C[C[Cbranch[Kcheckout master
+[C[C[C[C[C[C[Commit -m "quotes"
+[C[C[C[C[C[C[12Pstatusadd quote2.txt1.txt
+[C[C[5Pvi quote2.txt
+[C[C[3@touch[C[C[C[C[C[C[C[C[C[C[C
+[C[C[6Pgit branchcheckout feature-1
+[C[C[9Pvi quote1.txt
+[C[C[3Pgit branch
+[C[Cls[Ktouch quote1.txt
+[C[C[6Pgit branch
+[C[Cls[Krm quote1.txt
+[C[Cls[Kgit checkout bug-1
+[C[C[C[C[C[C[8Pbranch bug-1checkout bug-1
+[C[C[12Pvi quote1.txt
+[C[C[3@touch[C[C[C[C[C[C[C[C[C[C[C
+[C[Cls[Kgit branch checkout feature-1
+[C[C[C[C[C[Cpush -u https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a bug-1
+[C[C[C[C[C[Cbranch checkout feature-1[K
+[C[C[C[C[C[Cpush -u https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a bug-1[1P[1P[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+Everything up-to-date
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a bug-1[K[K[K[K[Kfeature-1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 346 bytes | 346.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for feature-1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests
+[28;96Hs/new?merge_request%5Bsource_branch%5D=feature-1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+   b7d2545..4d67382  feature-1 -> feature-1
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git lg
+[?2004l
+[6n[m[?25h* [34m[1m4d67382[m - [32m[1m(2 hours ago)[m [37mquotes [2m- Laura Wilson[33m[22m[1m (feature-1)[m
+[31m| [m* [34m[1me851bcc[m - [32m[1m(2 hours ago)[m [37mInitial Version [2m- Laura Wilson[33m[22m[1m (HEAD -> master)[m[K
+[31m|/[2C[?1h[m
+* [34m[1mb7d2545[m - [32m[1m(3 hours ago)[m [37mInital commit message [2m- Laura Wilson[33m[22m[1m (checkout, bug-1)[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ l[Kgit lg2
+[?2004l
+[6n[m[?25h* [34m[1m4d67382[m - [36m[1mSun, 30 Jun 2024 23:36:47 +0100[m [32m[1m(2 hours ago) [33m(feature-1)[m
+[31m|[37m[11Cquotes [2m- Laura Wilson[m[K
+[31m| [m* [34m[1me851bcc[m - [36m[1mSun, 30 Jun 2024 22:57:58 +0100[m [32m[1m(2 hours ago) [33m(HEAD -> master)[m[K
+[31m|/[37m[12CInitial Version [2m- Laura Wilson[m[K
+* [34m[1mb7d2545[m - [36m[1mSun, 30 Jun 2024 22:38:48 +0100[m [32m[1m(3 hours ago) [33m(checkout, bug-1)[m[K[?1h
+[37m[12CInital commit message [2m- Laura Wilson[m[K[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ branch [K[K[K[K[K[K[Kgi bra[K[K[K[Kt checkout master
+[?2004l
+[6n[m[?25hAlready on 'master'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ pu[K[Kgit pull https://gitlab.com/sex[Kc-sw-const-sum-s[K24-b/students/lgw0020/m1-assign-a
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+From https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git pull https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.gi
+[28;96Hit/
+From https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git pull https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-arhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[Cmhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[Cohttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cehttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[6n[m[?25hfatal: invalid refspec 'https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git  re[K[K[K[K m[Kremote -v
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch
+[?2004l
+[6n[m[?25h  bug-1
+  checkout
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ nra[K[K[Kbranch [K[K[K[K[K[K[Kgit checkout checkout
+[?2004l
+[6n[m[?25hSwitched to branch 'checkout'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout checkout
+[C[C[C[C[C[C[11Pbranch
+[?2004l
+[6n[m[?25h  bug-1
+* [32mcheckout[K[m
+  feature-1
+  master[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git chekcoo[K[K[K[Kckout master
+[?2004l
+[6n[m[?25hSwitched to branch 'master'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ gi[K[Kgit branch -d checkout
+[?2004l
+[6n[m[?25hDeleted branch checkout (was b7d2545).
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch -d checkout
+[C[C[C[C[C[C[3Pcheckout master
+[C[C[C[C[C[C[9Pbranch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+* [32mmaster[K[?1h[?1l>[m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch 1[KfirstB[K1
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branch 2[Ksed[Kcond3[K2
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git r[Kbranch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+  first1
+* [32mmaster[K[m
+  second2[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git checkout first1
+[?2004l
+[6n[m[?25hSwitched to branch 'first1'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ wo[K[Ktouch text.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch first.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git hcekc[K[K[K[K[Kcheckout second2
+[?2004l
+[6n[m[?25hSwitched to branch 'second2'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ touch second.txt
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ ls
+[?2004l
+ AssignmentA	   Hands-on.txt   m1-assign-a   movie.txt   'ssh key'	    text.txt
+ AssignmentA.txt   first.txt	  movie-1.txt   second.txt  'ssh key.pub'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add fr[Kist[K[Krst1
+[?2004l
+[6n[m[?25hfatal: pathspec 'first1' did not match any files
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ b[Kgit checkout master
+[?2004l
+[6n[m[?25hSwitched to branch 'master'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git ch[K[Kbranch
+[?2004l
+[6n[m[?25h  bug-1
+  feature-1
+  first1
+* [32mmaster[K[m
+  second2[?1h[?1l>
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git branchcheckout master
+[C[C[C[C[C[C[5Padd first1
+[?2004l
+[6n[m[?25hfatal: pathspec 'first1' did not match any files
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add second2
+[?2004l
+[6n[m[?25hfatal: pathspec 'second2' did not match any files
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add seond[K[K[K[K[Kfirst.txt
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git addtx[K[K txt[K[Kext.txt
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add sec[Kcond.txt
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit [K[K[K[K[K[K[Kstatus
+[?2004l
+[6n[m[?25hOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        [32mnew file:   first.txt[K[m
+        [32mnew file:   second.txt[K[m
+        [32mnew file:   text.txt[K[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git[K[K[Kgit commit m[K-m "Initial commit" [K
+[?2004l
+[6n[m[?25h[master 3ad5def] Initial commit
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 first.txt
+ create mode 100644 second.txt
+ create mode 100644 text.txt
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit commit -m "Initial commit"
+[C[C[C[C[C[Cstatus[Kadd second.txt[2Ptext.txtfirst.txt[2Psecond2[1Pfirst1
+[C[C[C[C[C[C[4Pbranchcheckout master
+[C[C[C[C[C[C[5Padd first1
+[C[Cls[Ktouch second.txt
+[C[Cgit checkout second2
+[C[C[5Ptouch first.txt[1Ptext.txt
+[C[Cgit checkout first1
+[C[C[C[C[C[C[9Pbranch second2[1Pfirst1[K -d checkout
+[C[C[C[C[C[C[3Pcheckout master
+[C[C[C[C[C[C[9Pbranchcheckout checkout
+[C[C[C[C[C[C[11Pbranchremote -v
+[C[C[C[C[C[Cpull remote https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[7Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[Ccheckout master[K
+[C[C[C[C[C[Cpull https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[Cremote https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[C[C[C[C[C[C[7Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+[C[C[C[C[C[Ccheckout master[K
+[C[C[C[C[C[Clg2[K[Kpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a feature-1[4Pbug-1
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-sum-24-b/students/lgw0020/m1-assign-a/-/tree/bug-1 bug-1[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pt-sum-24-b/students/lgw0020/m1-assign-a bug-1
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[K
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a bug-1[K[K[K[K[K-[Kfirst1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for first1, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests/new?merge_request%5Bso
+[28;119Hource_branch%5D=first1
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * [new branch]      first1 -> first1
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a first1[K[K[K[K[K[Ksexo[K[Kcond2
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for second2, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests/new?merge_request%5Bso
+[28;119Hource_branch%5D=second2
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+ * [new branch]      second2 -> second2
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ 
+[K
+$ vi seond[K[K[K[Kse[K[K[Ksexond[K[K[K[K[Ke[Kecond.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"second.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                                                                                  [3;1H~                                                                                                                                  [4;1H~                                                                                                                                  [5;1H~                                                                                                                                  [6;1H~                                                                                                                                  [7;1H~                                                                                                                                  [8;1H~                                                                                                                                  [9;1H~                                                                                                                                  [10;1H~                                                                                                                                  [11;1H~                                                                                                                                  [12;1H~                                                                                                                                  [13;1H~                                                                                                                                  [14;1H~                                                                                                                                  [15;1H~                                                                                                                                  [16;1H~                                                                                                                                  [17;1H~                                                                                                                                  [18;1H~                                                                                                                                  [19;1H~                                                                                                                                  [20;1H~                                                                                                                                  [21;1H~                                                                                                                                  [22;1H~                                                                                                                                  [23;1H~                                                                                                                                  [24;1H~                                                                                                                                  [25;1H~                                                                                                                                  [26;1H~                                                                                                                                  [27;1H~                                                                                                                                  [28;1H~                                                                                                                                  [m[29;114H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                                                                  [3;1H~                                                                                                                                  [4;1H~                                                                                                                                  [5;1H~                                                                                                                                  [6;1H~                                                                                                                                  [7;1H~                                                                                                                                  [8;1H~                                                                                                                                  [9;1H~                                                                                                                                  [10;1H~                                                                                                                                  [11;1H~                                                                                                                                  [12;1H~                                                                                                                                  [13;1H~                                                                                                                                  [14;1H~                                                                                                                                  [15;1H~                                                                                                                                  [16;1H~                                                                                                                                  [17;1H~                                                                                                                                  [18;1H~                                                                                                                                  [19;1H~                                                                                                                                  [20;1H~                                                                                                                                  [21;1H~                                                                                                                                  [22;1H~                                                                                                                                  [23;1H~                                                                                                                                  [24;1H~                                                                                                                                  [25;1H~                                                                                                                                  [26;1H~                                                                                                                                  [27;1H~                                                                                                                                  [28;1H~                                                                                                                                  [m[29;114H0,0-1[9CAll
+"second.txt" 0L, 0B[1;1H[?25h[?25l[29;104H"[1;1H[?25h[?25l[29;105Hi[1;1H[?25h[?25l[29;106H"[1;1H[?25h[?25l[29;107Hf[1;1H[?25h[?25l[29;108Hj[1;1H[29;104H     [1;1H[?25h[?25l[29;104Hf[1;1H[?25h[?25l[29;105Hj[1;1H[29;104H  [1;1H[?25h[?25l[29;104Hf[1;1H[?25h[?25l[29;105H^[[1;1H[29;105H  [1;1H[29;105H^[[1;1H[29;104H   [1;1H[?25h[?25l[29;104Hi[1;1H[29;104H [1;1H[29;1H[1m-- INSERT --[m[29;14H[K[29;114H0,1[11CAll[1;1H[?25h[?25li[29;114H1,2[1;2H[?25h[?25ln[29;116H3[1;3H[?25h[?25li[29;116H4[1;4H[?25h[?25lt[29;116H5[1;5H[?25h[?25la[29;116H6[1;6H[?25h[?25ll[29;116H7[1;7H[?25h[?25l[29;116H8[1;8H[?25h[?25lc[29;116H9[1;9H[?25h[?25lo[29;116H10[1;10H[?25h[?25lm[29;117H1[1;11H[?25h[?25lm[29;117H2[1;12H[?25h[?25li[29;117H3[1;13H[?25h[?25lt[29;117H4[1;14H[?25h[?25l[29;117H5[1;15H[?25h[?25lc[29;117H6[1;16H[?25h[?25lh[29;117H7[1;17H[?25h[?25la[29;117H8[1;18H[?25h[?25ln[29;117H9[1;19H[?25h[?25lg[29;116H20[1;20H[?25h[?25le[29;117H1[1;21H[?25h[?25li[29;117H2[1;22H[?25h[?25l[1;21H[K[29;117H1[1;21H[?25h[29;1H[K[1;20H[?25l[29;104H^[[1;20H[29;104H  [1;21H[29;114H1,20[10CAll[1;20H[?25h[?25l[29;104H:[1;20H[29;104H[K[29;1H:[?25hwq!
+[?25l[?2004l[>4;m"second.txt" 1L, 21B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi text.txt
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;29r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[29;1H"text.txt" 0L, 0B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[2;1H[1m[34m~                                                                                                                                  [3;1H~                                                                                                                                  [4;1H~                                                                                                                                  [5;1H~                                                                                                                                  [6;1H~                                                                                                                                  [7;1H~                                                                                                                                  [8;1H~                                                                                                                                  [9;1H~                                                                                                                                  [10;1H~                                                                                                                                  [11;1H~                                                                                                                                  [12;1H~                                                                                                                                  [13;1H~                                                                                                                                  [14;1H~                                                                                                                                  [15;1H~                                                                                                                                  [16;1H~                                                                                                                                  [17;1H~                                                                                                                                  [18;1H~                                                                                                                                  [19;1H~                                                                                                                                  [20;1H~                                                                                                                                  [21;1H~                                                                                                                                  [22;1H~                                                                                                                                  [23;1H~                                                                                                                                  [24;1H~                                                                                                                                  [25;1H~                                                                                                                                  [26;1H~                                                                                                                                  [27;1H~                                                                                                                                  [28;1H~                                                                                                                                  [m[29;114H0,0-1[9CAll[1;1H[?25h[?4m[?12$p[27m[23m[29m[m[H[2J[?25l[2;1H[1m[34m~                                                                                                                                  [3;1H~                                                                                                                                  [4;1H~                                                                                                                                  [5;1H~                                                                                                                                  [6;1H~                                                                                                                                  [7;1H~                                                                                                                                  [8;1H~                                                                                                                                  [9;1H~                                                                                                                                  [10;1H~                                                                                                                                  [11;1H~                                                                                                                                  [12;1H~                                                                                                                                  [13;1H~                                                                                                                                  [14;1H~                                                                                                                                  [15;1H~                                                                                                                                  [16;1H~                                                                                                                                  [17;1H~                                                                                                                                  [18;1H~                                                                                                                                  [19;1H~                                                                                                                                  [20;1H~                                                                                                                                  [21;1H~                                                                                                                                  [22;1H~                                                                                                                                  [23;1H~                                                                                                                                  [24;1H~                                                                                                                                  [25;1H~                                                                                                                                  [26;1H~                                                                                                                                  [27;1H~                                                                                                                                  [28;1H~                                                                                                                                  [m[29;114H0,0-1[9CAll
+"text.txt" 0L, 0B[1;1H[?25h[?25l[29;104Hi[1;1H[29;104H [1;1H[29;1H[1m-- INSERT --[m[29;13H[K[29;114H0,1[11CAll[1;1H[?25h[?25lT[29;114H1,2[1;2H[?25h[?25lh[29;116H3[1;3H[?25h[?25li[29;116H4[1;4H[?25h[?25ls[29;116H5[1;5H[?25h[?25l[29;116H6[1;6H[?25h[?25li[29;116H7[1;7H[?25h[?25ls[29;116H8[1;8H[?25h[?25l[29;116H9[1;9H[?25h[?25la[29;116H10[1;10H[?25h[?25l[29;117H1[1;11H[?25h[?25lc[29;117H2[1;12H[?25h[?25lh[29;117H3[1;13H[?25h[?25la[29;117H4[1;14H[?25h[?25ln[29;117H5[1;15H[?25h[?25lg[29;117H6[1;16H[?25h[?25le[29;117H7[1;17H[?25h[29;1H[K[1;16H[?25l[29;104H^[[1;16H[29;104H  [1;17H[29;114H1,16[10CAll[1;16H[?25h[?25l[29;104H:[1;16H[29;104H[K[29;1H:[?25hwq!
+[?25l[?2004l[>4;m"text.txt" 1L, 17B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ vi text.txt
+[C[C[C[C[Csecond.txt
+[C[C[C[C[C[2Ptext.txt
+[C[C[Kgi [Kt add sexond.[K[K[K[K[Kcdon.[K[K[K[Kond.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'second.txt', LF will be replaced by CRLF the next time Git touches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git add text.txt
+[?2004l
+[6n[m[?25hwarning: in the working copy of 'text.txt', LF will be replaced by CRLF the next time Git touches it
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git co[K[K[K status
+[?2004l
+[6n[m[?25hOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        [32mmodified:   second.txt[K[m
+        [32mmodified:   text.txt[K[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        [31mAssignmentA[K[m
+        [31mAssignmentA.txt[K[m
+        [31mHands-on.txt[K[m
+        [31mm1-assign-a/[K[m
+        [31mssh key[K[m
+        [31mssh key.pub[K[m
+
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "Another commit[K[K[K[K[K[K[K[K[K[K[K[K[K[KCommit change"
+[?2004l
+[6n[m[?25h[master 54460cd] Commit change
+ 2 files changed, 2 insertions(+)
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git commit -m "Commit change"
+[C[C[C[C[C[Cstatus[Kadd text.txtsecond.txt
+[C[C[7Pvi text.txt
+[C[C[C[C[Csecond.txt
+[C[Cgit push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a second2
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Everything up-to-date
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a second2[K[K[K[K[K[K[Kfirst1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Everything up-to-date
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a first1
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Everything up-to-date
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a first1second2
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Everything up-to-date
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ git push https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a second2[K[K[K[K[K[K[Kmaster
+[?2004l
+[6n[m[?25hwarning: redirecting to https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a.git/
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 607 bytes | 607.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: To create a merge request for master, visit:
+remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a/-/merge_requests/new?merge_request%5Bsource_branch%
+[28;131H%5D=master
+remote:[1C
+To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-a
+   e851bcc..54460cd  master -> master
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ exit
+[?2004l
+exit
+
+Script done on 2024-06-30 19:41:42-05:00 [COMMAND_EXIT_CODE="0"]
