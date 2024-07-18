@@ -1,48 +1,74 @@
 Script started on 2024-07-01 20:53:57-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="60" LINES="27"]
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
-$ [K$ cd m1-assignm[K-b[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch feature-add[K[K[K[K[K[K[K[K[K[K[K[K[Kh
-[?2004l[6n[6n[m[?25h  bug-1
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
+$ 
+[K
+$ cd m1-assignm[K-b[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch feature-add[K[K[K[K[K[K[K[K[K[K[K[K[Kh
+[?2004l
+[6n[6n[m[?25h  bug-1
   feature-1
   first1
 * [32mmaster[K[m
   second2[?1h[?1l>
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ git banch [K[K[K[K[Kranch frea[K[K[Keature-add
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ b[Kgit branch
-[?2004l[6n[m[?25h  bug-1
+[?2004l
+[6n[m[?25h  bug-1
   feature-1
   feature-add
   first1
 * [32mmaster[K[m
   second2[?1h[?1l>
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ che[K[K[Kgit checkout feature-add
-[?2004l[6n[m[?25hSwitched to branch 'feature-add'
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'feature-add'
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ branch[K[K[K[K[K[Kgit branch
-[?2004l[6n[m[?25h  bug-1
+[?2004l
+[6n[m[?25h  bug-1
   feature-1
 * [32mfeature-add[K[m
   first1
   master
   second2[?1h[?1l>
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ vi [K[K[Kcd m1-assign-b
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ ls
-[?2004lMavenBasic  README.md  pom.xml	src  target
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+MavenBasic  README.md  pom.xml	src  target
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ vi pom.xml
-[?2004l[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"pom.xml" [dos] 29L, 944B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[1;1H<?xml version="1.0" encoding="UTF-8"?>[2;1H[K[3;1H<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsii[4;1H="http://www.w3.org/2001/XMLSchema-instance"
+[?2004l
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;24r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[24;1H"pom.xml" [dos] 29L, 944B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]11;?[1;1H<?xml version="1.0" encoding="UTF-8"?>[2;1H[K[3;1H<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsii[4;1H="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 httpp[6;1H://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
@@ -74,11 +100,19 @@ $ vi pom.xml
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <exec.mainClass>edu.auburn.cpsc4970.m1.SimpleApp</exec.mm[21;1HainClass>
-  </properties>[24;43H1,1[11CTop"pom.xml" [dos] 29L, 944B[1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H:[1;1H[24;1H[K[24;1H:[?25hwq![?25l[?2004l[>4;m"pom.xml"<m.xml" [dos] 29L, 944B written[23;2t[23;1t
-[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+  </properties>[24;43H1,1[11CTop
+"pom.xml" [dos] 29L, 944B[1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H~@k[1;1H[24;33H   [1;1H[?25h[?25l[24;33H:[1;1H[24;1H[K[24;1H:[?25hwq!
+[?25l[?2004l[>4;m"pom.xml"
+<m.xml" [dos] 29L, 944B written
+[23;2t[23;1t
+
+[?1004l[?2004l[?1l>[?1049l[23;0;0t[?25h[>4;m[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn  pack[K[K[K[K[K[K package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >[22m
 [1m[23;60H>-------------------[22m[K
@@ -88,12 +122,14 @@ $ mvn  pack[K[K[K[K[K[K package
 [1m[23;60H--------------------[22m[K
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36ma[m
-[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\
 [23;60H\Laura\COMP5970\m1-assign-b\src\main\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massig[m
-[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date.
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResour[22m
@@ -115,7 +151,8 @@ $ mvn  pack[K[K[K[K[K[K package
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -----------------------------------------------------
 [23;60H---
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest
+[22m
 [[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Tim
 [23;60Hme elapsed: 0.034 s -- in edu.auburn.cpsc4970.m1.[1mSimpleAppTes[22m
 [1m[23;60Hst[22m[K
@@ -137,10 +174,13 @@ $ mvn  pack[K[K[K[K[K[K package
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:01:02-05:00[K
 [[34m[1mINFO[m] [1m-----------------------------------------------------[22m
 [1m[23;60H--------------------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn complite[K[K[K[Kile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >[22m
 [1m[23;60H>-------------------[22m[K
@@ -150,12 +190,14 @@ $ mvn complite[K[K[K[Kile
 [1m[23;60H--------------------[22m[K
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36ma[m
-[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\
 [23;60H\Laura\COMP5970\m1-assign-b\src\main\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massig[m
-[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m
 [1m[23;60He[22m.
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7]
@@ -219,10 +261,13 @@ $ mvn complite[K[K[K[Kile
 [23;60Hsolutions, please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/
 [23;60H/MAVEN/MojoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >[22m
 [1m[23;60H>-------------------[22m[K
@@ -232,12 +277,14 @@ $ mvn test
 [1m[23;60H--------------------[22m[K
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36ma[m
-[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hassign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\
 [23;60H\Laura\COMP5970\m1-assign-b\src\main\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massig[m
-[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K[m
+[36m[23;60Hgn1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m
 [1m[23;60He[22m.
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7]
@@ -301,10 +348,15 @@ $ mvn test
 [23;60Hsolutions, please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/
 [23;60H/MAVEN/MojoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn testcompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn testcompile
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m     [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -358,10 +410,15 @@ $ [K$ mvn testcompile
 [23;84Hhe following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExcepti
 [23;84Hion
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn test
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >------------[22m
 [1m[23;72H--------[22m[K
@@ -431,22 +488,31 @@ $ [K$ mvn test
 [23;72Hlease read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFa
 [23;72HailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn exec:java
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apach
 [23;72Hhe/maven/plugins/maven-metadata.xml
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codeh
 [23;72Hhaus/mojo/maven-metadata.xml
-Progress (2): 2.8/14 kB | 4.1/21 kBProgress (2): 14 kB | 19/21 kB     Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache
-[23;72He/maven/plugins/maven-metadata.xml [90m(14 kB at 19 kB/s)[K[m
-Progress (1): 21 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codeha
-[23;72Haus/mojo/maven-metadata.xml [90m(21 kB at 27 kB/s)[K[m
+Progress (2): 2.8/14 kB | 4.1/21 kB
+Progress (2): 14 kB | 19/21 kB     
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache
+[23;72He/maven/plugins/maven-metadata.xml [90m(14 kB at 19 kB/s)[K
+[m
+Progress (1): 21 kB
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codeha
+[23;72Haus/mojo/maven-metadata.xml [90m(21 kB at 27 kB/s)[K
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codeh
 [23;72Hhaus/mojo/exec-maven-plugin/maven-metadata.xml
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/codeha
-[23;72Haus/mojo/exec-maven-plugin/maven-metadata.xml [90m(896 B at 41 kB/s)[K[m
+[23;72Haus/mojo/exec-maven-plugin/maven-metadata.xml [90m(896 B at 41 kB/s)[K
+[m
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >------------[22m
 [1m[23;72H--------[22m[K
@@ -488,10 +554,15 @@ Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mor
 [23;72Hlease read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoEx
 [23;72HxecutionException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn clean
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -511,10 +582,13 @@ $ [K$ mvn clean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:20:11-05:00[K
 [[34m[1mINFO[m] [1m----------------------------------------------------------------------[22m
 [1m[23;77H---[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compl[Kile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -579,10 +653,13 @@ $ mvn compl[Kile
 [23;77H read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailure
 [23;77HeException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ vn test[K[K[K[K[K[K[Kmvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -647,10 +724,13 @@ $ vn test[K[K[K[K[K[K[Kmvn test
 [23;77H read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailure
 [23;77HeException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn exec:java
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -680,7 +760,8 @@ $ mvn exec:java
 [1m[23;77H---[22m[K
 [[31m[1mERROR[m] Failed to execute goal [32morg.codehaus.mojo:exec-maven-plugin:3.3.0:java[m
 [32m[23;77Ha[m [1m(default-cli)[22m on project [36massign1-1b[m: [31m[1mAn exception occurred while executing t[m
-[31m[1m[23;77Hthe Java class. edu.auburn.cpsc4970.m1.SimpleApp[m -> [1m[Help 1][31m[22m[K[m
+[31m[1m[23;77Hthe Java class. edu.auburn.cpsc4970.m1.SimpleApp[m -> [1m[Help 1][31m[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[22m s
 [23;77Hswitch.
@@ -690,10 +771,14 @@ $ mvn exec:java
 [23;77H read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoExecuti
 [23;77HionException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ mvn exec:java[C[C[C[C[C[C[5Ptestcompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ mvn exec:java
+[C[C[C[C[C[C[5Ptestcompile
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -758,10 +843,13 @@ $ mvn exec:java[C[C[C[C[C[C[5Ptestcompile
 [23;77H read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailure
 [23;77HeException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -781,10 +869,13 @@ $ mvn clean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:22:13-05:00[K
 [[34m[1mINFO[m] [1m----------------------------------------------------------------------[22m
 [1m[23;77H---[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compl[Kile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-----------------[22m
 [1m[23;77H---[22m[K
@@ -849,10 +940,15 @@ $ mvn compl[Kile
 [23;77H read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailure
 [23;77HeException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn compile[2Pleanompile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn compile[2Pleanompile[2Plean
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m[K
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -867,10 +963,13 @@ $ [K$ mvn compile[2Pleanompile[2Plean
 [[34m[1mINFO[m] Total time:  0.281 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:29:20-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m[K
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -909,7 +1008,8 @@ $ mvn cleanompile
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile [m[1m(d[22m
 [1m[23;95Hdefault-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[m[K
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1/Simpl[m
-[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K[m
+[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -919,10 +1019,13 @@ $ mvn cleanompile
 [[31m[1mERROR[m] For more information about the errors and possible solutions, please read the following
 [23;95Hg articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m[K
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -961,7 +1064,8 @@ $ mvn compile
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile [m[1m(d[22m
 [1m[23;95Hdefault-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[m[K
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1/Simpl[m
-[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K[m
+[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -971,10 +1075,13 @@ $ mvn compile
 [[31m[1mERROR[m] For more information about the errors and possible solutions, please read the following
 [23;95Hg articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m[K
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -989,10 +1096,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Total time:  0.298 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:29:47-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m[K
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1031,7 +1141,8 @@ $ mvn cleanompile
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile [m[1m(d[22m
 [1m[23;95Hdefault-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[m[K
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1/Simpl[m
-[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K[m
+[31m[1m[23;95HleApp.java:[13,16] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1041,10 +1152,15 @@ $ mvn cleanompile
 [[31m[1mERROR[m] For more information about the errors and possible solutions, please read the following
 [23;95Hg articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn clean
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-[22m
 [1m[23;61H-------------------[22m[K
@@ -1065,10 +1181,13 @@ $ [K$ mvn clean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:30:43-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------[22m
 [1m[23;61H-------------------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compli[K[Kile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-[22m
 [1m[23;61H-------------------[22m[K
@@ -1078,12 +1197,14 @@ $ mvn compli[K[Kile
 [1m[23;61H-------------------[22m[K
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mas[m
-[36m[23;61Hssign1-1b[m[1m ---[36m[22m[K[m
+[36m[23;61Hssign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\L
 [23;61HLaura\COMP5970\m1-assign-b\src\main\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign[m
-[36m[23;61Hn1-1b[m[1m ---[36m[22m[K[m
+[36m[23;61Hn1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.[24;1H
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] 
 [23;61H to target\classes
@@ -1125,10 +1246,12 @@ $ mvn compli[K[Kile
 [1m[23;61H-------------------[22m[K
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven[m
 [32m[23;61Hn-compiler-plugin:3.13.0:compile [m[1m(default-compile)[22m on project 
-[23;61H [36massign1-1b[m: [31m[1mCompilation failure[36m[22m[K[m
+[23;61H [36massign1-1b[m: [31m[1mCompilation failure[36m[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main[m
 [31m[1m[23;61Hn/java/edu/auburn/cpsc4970/m1/SimpleApp.java:[13,16] ';' expec[m
-[31m[1m[23;61Hcted[22m[K[m
+[31m[1m[23;61Hcted[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1141,10 +1264,13 @@ $ mvn compli[K[Kile
 [23;61Holutions, please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/M
 [23;61HMAVEN/MojoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-[22m
 [1m[23;61H-------------------[22m[K
@@ -1154,12 +1280,14 @@ $ mvn test
 [1m[23;61H-------------------[22m[K
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:resources [m[1m(default-resources)[22m @ [36mas[m
-[36m[23;61Hssign1-1b[m[1m ---[36m[22m[K[m
+[36m[23;61Hssign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\L
 [23;61HLaura\COMP5970\m1-assign-b\src\main\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:compile [m[1m(default-compile)[22m @ [36massign[m
-[36m[23;61Hn1-1b[m[1m ---[36m[22m[K[m
+[36m[23;61Hn1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.[24;1H
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] 
 [23;61H to target\classes
@@ -1201,10 +1329,12 @@ $ mvn test
 [1m[23;61H-------------------[22m[K
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven[m
 [32m[23;61Hn-compiler-plugin:3.13.0:compile [m[1m(default-compile)[22m on project 
-[23;61H [36massign1-1b[m: [31m[1mCompilation failure[36m[22m[K[m
+[23;61H [36massign1-1b[m: [31m[1mCompilation failure[36m[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main[m
 [31m[1m[23;61Hn/java/edu/auburn/cpsc4970/m1/SimpleApp.java:[13,16] ';' expec[m
-[31m[1m[23;61Hcted[22m[K[m
+[31m[1m[23;61Hcted[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1217,10 +1347,15 @@ $ mvn test
 [23;61Holutions, please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/M
 [23;61HMAVEN/MojoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ mvn testcompile[2Pleanompile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ mvn testcompile[2Pleanompile[2Plean
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1235,10 +1370,13 @@ $ [K$ mvn testcompile[2Pleanompile[2Plean
 [[34m[1mINFO[m] Total time:  0.299 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:33:36-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn clean[1Ptestcompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1275,9 +1413,11 @@ $ mvn clean[1Ptestcompile
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:33:41-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.1[m
-[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K[m
+[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cps[m
-[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[13,16] ';' expected[22m[K[m
+[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[13,16] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1289,10 +1429,13 @@ $ mvn clean[1Ptestcompile
 [23;81Hd the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExce
 [23;81Heption
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1307,10 +1450,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Total time:  0.314 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:34:12-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1347,9 +1493,11 @@ $ mvn cleanompile
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:34:17-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.1[m
-[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K[m
+[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cps[m
-[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[13,23] ';' expected[22m[K[m
+[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[13,23] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1361,10 +1509,13 @@ $ mvn cleanompile
 [23;81Hd the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExce
 [23;81Heption
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1379,10 +1530,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Total time:  0.305 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:46:02-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1419,9 +1573,11 @@ $ mvn cleanompile
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:46:07-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler-plugin:3.1[m
-[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K[m
+[32m[23;81H13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompilation failure[32m[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu/auburn/cps[m
-[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[18,23] ';' expected[22m[K[m
+[31m[1m[23;81Hsc4970/m1/SimpleApp.java:[18,23] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1433,10 +1589,13 @@ $ mvn cleanompile
 [23;81Hd the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExce
 [23;81Heption
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1451,10 +1610,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Total time:  0.267 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:50:06-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1517,10 +1679,13 @@ $ mvn cleanompile
 [23;81Hd the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExce
 [23;81Heption
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1535,10 +1700,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Total time:  0.285 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:50:44-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [24;1H
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >-------------------[22m  [24;1H
 [[34m[1mINFO[m] [1mBuilding pwb0016-1b 1.0-SNAPSHOT[22m[K
@@ -1601,10 +1769,17 @@ $ mvn cleanompile
 [23;81Hd the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExce
 [23;81Heption
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ [K$ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ 
+[K
+$ mvn compile[2Plean
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1624,10 +1799,13 @@ $ [K$ [K$ mvn compile[2Plean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:52:37-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1661,10 +1839,13 @@ $ mvn cleanompile
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:52:42-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Pleanompile[2Pleanompile[2Pleanompile[2Pleanompile[2Plean[K[K[K[K[Ktest
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1682,12 +1863,14 @@ $ mvn compile[2Pleanompile[2Pleanompile[2Pleano
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date.
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36mass[m
-[36m[30;70Hsign1-1b[m[1m ---[36m[22m[K[m
+[36m[30;70Hsign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP
 [30;70HP5970\m1-assign-b\src\test\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36massign1[m
-[36m[30;70H1-1b[m[1m ---[36m[22m[K[m
+[36m[30;70H1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target
 [30;70Ht\test-classes
@@ -1706,7 +1889,8 @@ $ mvn compile[2Pleanompile[2Pleanompile[2Pleano
 [[34m[1mINFO[m] -------------------------------------------------------        [31;1H
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------        [31;1H
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest
+[22m
 [[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed:
 [30;70H: 0.035 s -- in edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m[K
 [[34m[1mINFO[m] 
@@ -1723,10 +1907,13 @@ $ mvn compile[2Pleanompile[2Pleanompile[2Pleano
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:53:12-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn testcompile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1746,10 +1933,13 @@ $ mvn testcompile[2Plean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:57:08-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn clean[1Ptestcompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1797,9 +1987,11 @@ $ mvn clean[1Ptestcompile
 [1m[30;70H----------[22m[K
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler[m
 [32m[30;70Hr-plugin:3.13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompil[m
-[31m[1m[30;70Hlation failure[22m[K[m
+[31m[1m[30;70Hlation failure[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu[m
-[31m[1m[30;70Hu/auburn/cpsc4970/m1/SimpleApp.java:[21,35] ';' expected[22m[K[m
+[31m[1m[30;70Hu/auburn/cpsc4970/m1/SimpleApp.java:[21,35] ';' expected[22m[K
+[m
 [[31m[1mERROR[m][K
 [[31m[1mERROR[m] -> [1m[Help 1][22m[K
 [[31m[1mERROR[m][K
@@ -1811,10 +2003,13 @@ $ mvn clean[1Ptestcompile
 [30;70H please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/Mojo
 [30;70HoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1834,10 +2029,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:57:29-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1887,9 +2085,11 @@ $ mvn cleanompile
 [1m[30;70H----------[22m[K
 [[31m[1mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-compiler[m
 [32m[30;70Hr-plugin:3.13.0:compile [m[1m(default-compile)[22m on project [36massign1-1b[m: [31m[1mCompil[m
-[31m[1m[30;70Hlation failure[22m[K[m
+[31m[1m[30;70Hlation failure[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m/C:/cygwin64/home/Laura/COMP5970/m1-assign-b/src/main/java/edu[m
-[31m[1m[30;70Hu/auburn/cpsc4970/m1/SimpleApp.java:[19,29] cannot find symbol[22m[K[m
+[31m[1m[30;70Hu/auburn/cpsc4970/m1/SimpleApp.java:[19,29] cannot find symbol[22m[K
+[m
 [[31m[1mERROR[m] [31m[1m  symbol:   class Main[m[K
 [[31m[1mERROR[m] [31m[1m  location: class edu.auburn.cpsc4970.m1.SimpleApp[m[K
 [[31m[1mERROR[m][K
@@ -1903,10 +2103,13 @@ $ mvn cleanompile
 [30;70H please read the following articles:
 [[31m[1mERROR[m] [1m[Help 1][22m http://cwiki.apache.org/confluence/display/MAVEN/Mojo
 [30;70HoFailureException
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Plean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1926,10 +2129,13 @@ $ mvn compile[2Plean
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:57:57-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn cleanompile
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1963,10 +2169,13 @@ $ mvn cleanompile
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:58:02-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn compile[2Pleanompile[2Plean[K[K[K[K[Ktest
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -1984,12 +2193,14 @@ $ mvn compile[2Pleanompile[2Plean[K[K[K[K[Ktest
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date.
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.3.1:testResources [m[1m(default-testResources)[22m @ [36mass[m
-[36m[30;70Hsign1-1b[m[1m ---[36m[22m[K[m
+[36m[30;70Hsign1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP
 [30;70HP5970\m1-assign-b\src\test\resources
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mcompiler:3.13.0:testCompile [m[1m(default-testCompile)[22m @ [36massign1[m
-[36m[30;70H1-1b[m[1m ---[36m[22m[K[m
+[36m[30;70H1-1b[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Recompiling the module because of [1mchanged source code[22m.
 [[34m[1mINFO[m] Compiling 1 source file with javac [debug target 1.7] to target
 [30;70Ht\test-classes
@@ -2008,7 +2219,8 @@ $ mvn compile[2Pleanompile[2Plean[K[K[K[K[Ktest
 [[34m[1mINFO[m] -------------------------------------------------------        [31;1H
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------        [31;1H
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.m1.[1mSimpleAppTest
+[22m
 [[34m[1mINFO[m] [32m[1mTests run: 2[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed:
 [30;70H: 0.038 s -- in edu.auburn.cpsc4970.m1.[1mSimpleAppTest[22m[K
 [[34m[1mINFO[m] 
@@ -2025,10 +2237,13 @@ $ mvn compile[2Pleanompile[2Plean[K[K[K[K[Ktest
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:58:20-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ mvn [K:exec java[C[1Pjava[1Pjava[1Pjava[1Pjava[1Pjava[1Pjava[1Pjavanjava javaejavaxjavaejavacjava:java
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m-------------------< [36m[22medu.auburn.cpsc4970:assign1-1b[m[1m >----------[22m
 [1m[30;70H----------[22m[K
@@ -2049,88 +2264,182 @@ War Eagle!
 [[34m[1mINFO[m] Finished at: 2024-07-01T21:58:50-05:00[K
 [[34m[1mINFO[m] [1m---------------------------------------------------------------[22m
 [1m[30;70H----------[22m[K
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ [K$ [K$ [K$ git branch
-[?2004l[6n[m[?25h* [32mmain[?1h[?1l>[m
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ 
+[K
+$ 
+[K
+$ 
+[K
+$ git branch
+[?2004l
+[6n[m[?25h* [32mmain[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add[K[K[K[K[K[K[Kgit push [K[K[K[K[Kadd SimpleAs[Kpp.java[K[K[K[K[K[K[K[K[K[K[K[K[K[KSimpleApp.java
-[?2004l[6n[m[?25hfatal: pathspec 'SimpleApp.java' did not match any files
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25hfatal: pathspec 'SimpleApp.java' did not match any files
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ A[Kgit add SimpleApp.java[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcd m1-assign-b/src.a[Kmain[K[K[K[K[K/main/java/edu/auburn/cpsc4970/m1
-[?2004lbash: cd: m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1: No such file or directory
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+bash: cd: m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1: No such file or directory
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ cd m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
-[?2004lbash: cd: m1-assign-b/src: No such file or directory
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+bash: cd: m1-assign-b/src: No such file or directory
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ ls
-[?2004lMavenBasic  README.md  pom.xml	src  target
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ lscd m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[1P1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1P-assign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Passign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Pssign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[C[1Pign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Pign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Pgn-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Pn-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1P-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Pb/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1P/src/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C[1Psrc/main/java/edu/auburn/cpsc4970/m1[C[C[C[C[C
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+MavenBasic  README.md  pom.xml	src  target
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ lscd m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[1P1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1P-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Passign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Pssign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[C[1Pign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Pign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Pgn-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Pn-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1P-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Pb/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1P/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C[1Psrc/main/java/edu/auburn/cpsc4970/m1
+[C[C[C[C[C
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
 $ ls
-[?2004lSimpleApp.java
-[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
-$ lscd src/main/java/edu/auburn/cpsc4970/m1[C[Cls[Kcd m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[C[C[29Pgit add SimpleApp.java[C[C[C[C[C[C[12Pbranchadd SimpleApp.java
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+SimpleApp.java
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
+$ lscd src/main/java/edu/auburn/cpsc4970/m1
+[C[Cls[Kcd m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+[C[C[29Pgit add SimpleApp.java
+[C[C[C[C[C[C[12Pbranchadd SimpleApp.java
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
 $ git [K[K[K[Kcd m1-assign-b/target[K[K[K[K[K[Ksrc/test/java/edu/java/cpsc490[K70/m1
-[?2004lbash: cd: m1-assign-b/src/test/java/edu/java/cpsc4970/m1: No such file or directory
-[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+bash: cd: m1-assign-b/src/test/java/edu/java/cpsc4970/m1: No such file or directory
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
 $ ls
-[?2004lSimpleApp.java
-[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
-$ lscd m1-assign-b/src/test/java/edu/java/cpsc4970/m1[K$ cd m1-assign-b/src/test/java/edu/java/cpsc4970/m1
-[?2004lbash: cd: m1-assign-b/src/test/java/edu/java/cpsc4970/m1: No such file or directory
-[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+SimpleApp.java
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
+$ lscd m1-assign-b/src/test/java/edu/java/cpsc4970/m1
+[K
+$ cd m1-assign-b/src/test/java/edu/java/cpsc4970/m1
+[?2004l
+bash: cd: m1-assign-b/src/test/java/edu/java/cpsc4970/m1: No such file or directory
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970/m1[0m
+
 $ cd m1-assign-b/src/test/java/edu/java/cpsc4970/m1[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn/cpsc4970[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu/auburn
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu/auburn[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java/edu
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java/edu[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main/java
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main/java
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main/java[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main[0m
+
 $ ls
-[?2004ljava  main.iml
-[?2004h]0;~/COMP5970/m1-assign-b/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main[0m
+[?2004l
+java  main.iml
+[?2004h]0;~/COMP5970/m1-assign-b/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/main[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+
 $ cd[K[Kls
-[?2004lmain  test
-[?2004h]0;~/COMP5970/m1-assign-b/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+[?2004l
+main  test
+[?2004h]0;~/COMP5970/m1-assign-b/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+
 $ cd test/java/edu/m[Kauburn/s[Kcpsc490[K70/m1
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
 $ ls
-[?2004lSimpleAppTest.java
-[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
-$ lscd test/java/edu/auburn/cpsc4970/m1[C[Cls[K[Kgit add SimpleAppTest.java
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
-$ git add SimpleAppTest.java[C[C[Kgit co[K[K[K status
-[?2004l[6n[m[?25hOn branch main
+[?2004l
+SimpleAppTest.java
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
+$ lscd test/java/edu/auburn/cpsc4970/m1
+[C[Cls[K[Kgit add SimpleAppTest.java
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
+$ git add SimpleAppTest.java
+[C[C[Kgit co[K[K[K status
+[?2004l
+[6n[m[?25hOn branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
@@ -2147,67 +2456,125 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         [31m../../../../../../../MavenBasic[K[m
 
-[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
 $ git add
-[?2004l[6n[m[?25hNothing specified, nothing added.
+[?2004l
+[6n[m[?25hNothing specified, nothing added.
 [33mhint: Maybe you wanted to say 'git add .'?[m
 [33mhint: Disable this message with "git config advice.addEmptyPathspec false"[m
-[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
 $ git add pm.xml[K[K[K[K[K[Kpom/[K.xml
-[?2004l[6n[m[?25hfatal: pathspec 'pom.xml' did not match any files
-[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+[6n[m[?25hfatal: pathspec 'pom.xml' did not match any files
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
 $ cd m1-assign-b
-[?2004lbash: cd: m1-assign-b: No such file or directory
-[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+[?2004l
+bash: cd: m1-assign-b: No such file or directory
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970/m1[0m
+
 $ c .[K[Kd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn/cpsc4970[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu/auburn
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu/auburn[0m
+
 $  [Kcd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java/edu
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java/edu[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test/java
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test/java
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test/java[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src/test
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src/test
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src/test[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b/src[0m
+
 $  [Kcd ..
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ ls
-[?2004lMavenBasic  README.md  pom.xml	src  target
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+MavenBasic  README.md  pom.xml	src  target
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add pom.xml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add MavenBasics[K
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git commit -m "n[KInitial commit"
-[?2004l[6n[m[?25h[main 94b48bd] Initial commit
+[?2004l
+[6n[m[?25h[main 94b48bd] Initial commit
  4 files changed, 1378 insertions(+), 2 deletions(-)
  create mode 100644 MavenBasic
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ git push ^[[200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git~[C[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.gi[1Pt[A[C[C[C[C[C[C[C[C[C[C[C200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git [K[A[C[C[C[C[C[C[C[C[C[C[C[1P200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
-[K[A[C[C[C[C[C[C[C[C[C[C 200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
-[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd [K[K[K[K[Kbra[K[K[K branch
-[?2004l[6n[m[?25h* [32mmain[?1h[?1l>[m
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ git branchcommit -m "Initial commit"[C[C[C[C[C[Cbranch[K[C[C[Kgit git [K[K[K[K[Kpush [K[K[K[K[K push [7mhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[27m[C[C[C[C[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
-[?2004l[6n[m[?25hEnumerating objects: 33, done.
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ git push ^[[200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git~[C[K
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.gi[1Pt[A[C[C[C[C[C[C[C[C[C[C[C200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[1P200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C 200~https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kadd [K[K[K[K[Kbra[K[K[K branch
+[?2004l
+[6n[m[?25h* [32mmain[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ git branchcommit -m "Initial commit"
+[C[C[C[C[C[Cbranch[K
+[C[C[Kgit git [K[K[K[K[Kpush [K[K[K[K[K push [7mhttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[27m
+[C[C[C[C[C[C[C[C[C[C[Chttps://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[?2004l
+[6n[m[?25hEnumerating objects: 33, done.
 Counting objects: 100% (33/33), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (9/9), done.
@@ -2215,65 +2582,119 @@ Writing objects: 100% (19/19), 14.67 KiB | 2.45 MiB/s, done.
 Total 19 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
    38447de..94b48bd  main -> main
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git [K[K[K[Kgit branch
-[?2004l[6n[m[?25h* [32mmain[?1h[?1l>[m
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25h* [32mmain[?1h[?1l>[m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004l
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ git branch
-[?2004l[6n[m[?25h  bug-1
+[?2004l
+[6n[m[?25h  bug-1
   feature-1
 * [32mfeature-add[K[m
   first1
   master
   second2[?1h[?1l>
-[?2004h]0;~/COMP5970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+[?2004h]0;~/COMP5970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970[0m
+
 $ cd m1-assign-b 
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git branch feature[K[K[K[Kture-add1
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ branch [K[K[K[K[K[K[Kgit branch
-[?2004l[6n[m[?25h  feature-add1
+[?2004l
+[6n[m[?25h  feature-add1
 * [32mmain[K[?1h[?1l>[m
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add fe[Keature-add1
-[?2004l[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git r[Kcheckout feature-add1
-[?2004l[6n[m[?25hSwitched to branch 'feature-add1'
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ git checkout feature-add1[C[C[C[C[C[C[5Padd[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'feature-add1'
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ git checkout feature-add1
+[C[C[C[C[C[C[5Padd[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ touch tes[Kxt.txt
-[?2004l[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add t[Kte[K[Kfeature.[K-add1
-[?2004l[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25hfatal: pathspec 'feature-add1' did not match any files
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git add text.txt
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ git commit om[K[K-m "Initial commit"
-[?2004l[6n[m[?25h[feature-add1 e1043e3] Initial commit
+[?2004l
+[6n[m[?25h[feature-add1 e1043e3] Initial commit
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 text.txt
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
-$ git commit -m "Initial commit"[C[C[C[C[C[C[14Padd text.txtfeature-add1[C[C[6Ptouch text.txt[C[Cgit add feature-add1[C[C[C[C[C[C[5@checkout[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[5Padd[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[10Pbranch feature-add1[C[C[8Pcd m1-assign-b [C[C[5Pgit branch[C[C[5Pcd ..[C[Cgit branchpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git[C[C[C[C[C[Cbranch[Kpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
-[?2004l[6n[m[?25hEnumerating objects: 4, done.
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
+$ git commit -m "Initial commit"
+[C[C[C[C[C[C[14Padd text.txtfeature-add1
+[C[C[6Ptouch text.txt
+[C[Cgit add feature-add1
+[C[C[C[C[C[C[5@checkout[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[5Padd[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[10Pbranch feature-add1
+[C[C[8Pcd m1-assign-b 
+[C[C[5Pgit branch
+[C[C[5Pcd ..
+[C[Cgit branchpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[C[C[C[C[C[Cbranch[Kpush https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
+[?2004l
+[6n[m[?25hEnumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (2/2), done.
@@ -2286,9 +2707,12 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b/
 remote:[1C
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m1-assign-b.git
  * [new branch]      feature-add1 -> feature-add1
-[?2004h]0;~/COMP5970/m1-assign-b
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+[?2004h]0;~/COMP5970/m1-assign-b
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m1-assign-b[0m
+
 $ exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2024-07-01 22:16:59-05:00 [COMMAND_EXIT_CODE="0"]
