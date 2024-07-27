@@ -140,15 +140,11 @@ public class AWSUtils {
 13. For the test to run it needs to have AWS API Credentials to access the Secrets Manager.  For our cpsc4970-user you need to set the following environment variables below.  Remember these values only remain for your current terminal/console window.  You will need to reset them if you exit or run a new terminal/console.
 Linux/Mac
    ```commandline
-   $ export AWS_ACCESS_KEY_ID=AKIAR7BGN267NKVQO4UH
-   $ export AWS_SECRET_ACCESS_KEY=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
-   $ export AWS_DEFAULT_REGION=us-east-2
+   $ export AWS_ACCESS_KEY_ID
+   $ export AWS_SECRET_ACCESS_KEY
+   $ export AWS_DEFAULT_REGION
    ```
-Windows
-   ```commandline
-   C:\> SET  AWS_ACCESS_KEY_ID=AKIAR7BGN267NKVQO4UH
-   C:\> SET  AWS_SECRET_ACCESS_KEY=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
-   C:\> SET  AWS_DEFAULT_REGION=us-east-2
+
    ```
 
 14. Run mvn test and make sure the test passes. If successful, you should see the JSON return object logged to the console.
@@ -189,8 +185,7 @@ Windows
 
 16. In the DBUtils class replace the hardcode values below with these credential values.  Remember to call the setCredentials() method before the DriverManager.getConnection().  There are **4 places** this needs to be done
 
-```java
-            connection = DriverManager.getConnection("jdbc:postgresql://secretsdb.au-csse-cpsc4970.com:5432/user_db", "student_read", "S@mford91!");
+``
 ```
 
 17. Run mvn test to ensure your DBUtils tests pass with the credentials.
