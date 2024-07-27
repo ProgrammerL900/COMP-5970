@@ -1,19 +1,31 @@
 Script started on 2024-07-24 21:15:27-05:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="80" LINES="24"]
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git branch
-[?2004l[6n[6n[m[?25h[?1h[?1l>* [32mmain[m
-[K[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[6n[m[?25h[?1h[?1l>* [32mmain[m
+[K[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git branch feature-webapp
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git cehckou[K[K[K[K[K[Kheckout feature-webapp
-[?2004l[6n[m[?25hSwitched to branch 'feature-webapp'
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'feature-webapp'
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push --set-upstream origin feature-webapp
-[?2004l[6n[m[?25hEnumerating objects: 32, done.
+[?2004l
+[6n[m[?25hEnumerating objects: 32, done.
 Counting objects: 100% (32/32), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (21/21), done.
@@ -27,10 +39,13 @@ remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git    [24;77H[?25h
  * [new branch]      feature-webapp -> feature-webapp
 branch 'feature-webapp' set up to track 'origin/feature-webapp'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m [24;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -51,7 +66,8 @@ $ mvn package
 [23;80Htarget\classes
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.2.0:testResources [m[1m(default-testResources)[22m @ [36mwebapp5a-lgw0[m
-[36m[23;80H0020[m[1m ---[36m[22m[K[m
+[36m[23;80H0020[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[K
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.[K
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m5-as
@@ -68,35 +84,42 @@ $ mvn package
 [23;80H/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom      
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
 [23;80Hsurefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.pom [90m(7.0 k[m
-[90m[23;80HkB at 10 kB/s)[m
+[90m[23;80HkB at 10 kB/s)
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
 [23;80H/surefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
 [23;80Hsurefire/surefire-providers/2.22.2/surefire-providers-2.22.2.pom [90m(2.5 kB at 104 k[m
-[90m[23;80HkB/s)[m
+[90m[23;80HkB/s)
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platfor
 [23;80Hrm/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.pom [90m(2.2 kB at 89 k[m
-[90m[23;80HkB/s)[m
+[90m[23;80HkB/s)
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apiguardian/a
 [23;80Hapiguardian-api/1.0.0/apiguardian-api-1.0.0.pom
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apiguardian/ap
-[23;80Hpiguardian-api/1.0.0/apiguardian-api-1.0.0.pom [90m(1.2 kB at 36 kB/s)[K[m
+[23;80Hpiguardian-api/1.0.0/apiguardian-api-1.0.0.pom [90m(1.2 kB at 36 kB/s)[K
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platfor
 [23;80Hrm/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.pom [90m(2.4 kB at 114 kB/s[m
-[90m[23;80Hs)[m
+[90m[23;80Hs)
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platfor
 [23;80Hrm/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.pom [90m(2.0 kB at 84 kB/[m
-[90m[23;80H/s)[m
+[90m[23;80H/s)
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/opentest4j/op
 [23;80Hpentest4j/1.1.1/opentest4j-1.1.1.pom
 [24XDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/opentest4j/ope
-[23;80Hentest4j/1.1.1/opentest4j-1.1.1.pom [90m(1.7 kB at 60 kB/s)[K[m
+[23;80Hentest4j/1.1.1/opentest4j-1.1.1.pom [90m(1.7 kB at 60 kB/s)[K
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/
 [23;80H/surefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar      
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apiguardian/a
@@ -108,28 +131,40 @@ Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mor
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platfor
 [23;80Hrm/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apiguardian/ap
-[23;80Hpiguardian-api/1.0.0/apiguardian-api-1.0.0.jar [90m(2.2 kB at 80 kB/s)[K[m
+[23;80Hpiguardian-api/1.0.0/apiguardian-api-1.0.0.jar [90m(2.2 kB at 80 kB/s)[K
+[m
 [90mDownloading from [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/opentest4j/op
 [23;80Hpentest4j/1.1.1/opentest4j-1.1.1.jar
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/opentest4j/ope
-[23;80Hentest4j/1.1.1/opentest4j-1.1.1.jar [90m(7.1 kB at 324 kB/s)[K[m
-Progress (1): 1.4/135 kBProgress (3): 27/135 kB | 16/78 kB | 11/66 kB   Progress (4): 53/135 kB | 38/78 kB | 33/66 kB | 16/95 kBProgress (4): 81/135 kB | 62/78 kB | 66 kB | 66/95 kB   Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
+[23;80Hentest4j/1.1.1/opentest4j-1.1.1.jar [90m(7.1 kB at 324 kB/s)[K
+[m
+Progress (1): 1.4/135 kB
+Progress (3): 27/135 kB | 16/78 kB | 11/66 kB   
+Progress (4): 53/135 kB | 38/78 kB | 33/66 kB | 16/95 kB
+Progress (4): 81/135 kB | 62/78 kB | 66 kB | 66/95 kB   
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/apache/maven/s
 [23;80Hsurefire/surefire-junit-platform/2.22.2/surefire-junit-platform-2.22.2.jar [90m(66 kB[m
-[90m[23;80HB at 578 kB/s)[m
-Progress (3): 81/135 kB | 62/78 kB | 82/95 kBDownloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
+[90m[23;80HB at 578 kB/s)
+[m
+Progress (3): 81/135 kB | 62/78 kB | 82/95 kB
+Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar [90m(78 kB at 594 kB/[m
-[90m[23;80H/s)[m
+[90m[23;80H/s)
+[m
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-launcher/1.3.1/junit-platform-launcher-1.3.1.jar [90m(95 kB at 717 k[m
-[90m[23;80HkB/s)[m
+[90m[23;80HkB/s)
+[m
 Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[morg/junit/platform
 [23;80Hm/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar [90m(135 kB at 1.0 MB/s[m
-[90m[23;80Hs)[m
+[90m[23;80Hs)
+[m
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:17:15.872 [main] DEBUG org.springframework.test.context.BootstrapUtils - Inst
 [23;80Htantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.c
 [23;80Hcontext.cache.DefaultCacheAwareContextLoaderDelegate]
@@ -296,10 +331,15 @@ Downloaded [90mfrom [mcentral[90m: https://repo.maven.apache.org/maven2/[mor
 [[34m[1mINFO[m] Total time:  9.745 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:17:20-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m [24;1H
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [K$ mvn spring-boot:run
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ 
+[K
+$ mvn spring-boot:run
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -372,69 +412,121 @@ $ [K$ mvn spring-boot:run
 2024-07-24 21:19:29.754  INFO 26572 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        
 [23;99H : Completed initialization in 2 ms
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  47.667 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:19:52-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 cd[K[K
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ cd main[K[K[K[Ksrc/main
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+
 $ ls
-[?2004ljava  resources
-[?2004h]0;~/COMP5970/m5-assign-a/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+[?2004l
+java  resources
+[?2004h]0;~/COMP5970/m5-assign-a/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+
 $ cd resources
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ ls
-[?2004lapplication.properties	static
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+application.properties	static
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ mkdir templates
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ ls
-[?2004lapplication.properties	static	templates
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+application.properties	static	templates
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ cd templates
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ ls
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ touch index.html
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ ls
-[?2004lindex.html
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+index.html
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ ls[K[Kcd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ ls
-[?2004lM5.txt	README.md  ci_settings.xml  pom.xml  src  target
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+M5.txt	README.md  ci_settings.xml  pom.xml  src  target
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -443,16 +535,20 @@ $ mvn clean
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mwebapp5a-lgw0020[m[1m ---[22m[K
 [[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m5-assign-a\target
-[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  0.492 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:24:01-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -486,7 +582,8 @@ $ mvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:24:09.489 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwar
 [23;99HreContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextL
 [23;99HLoaderDelegate]
@@ -626,10 +723,21 @@ $ mvn package
 [[34m[1mINFO[m] Total time:  7.832 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:24:13-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ mvn package[2Pclean[C[Cls[Kcd ..[C[C[3Plstouch index.html[C[Cls[Kcd templates[C[Cls[Kmkdir templates[C[Cls[Kcd resources[C[Cls[Kcd src/main[C[Cmvn spring-boot:run[C[C[C[C[C[C[8Ppackagespring-boot:run
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ mvn package[2Pclean
+[C[Cls[Kcd ..
+[C[C[3Plstouch index.html
+[C[Cls[Kcd templates
+[C[Cls[Kmkdir templates
+[C[Cls[Kcd resources
+[C[Cls[Kcd src/main
+[C[Cmvn spring-boot:run
+[C[C[C[C[C[C[8Ppackagespring-boot:run
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -701,19 +809,26 @@ $ mvn package[2Pclean[C[Cls[Kcd ..[C[C[3Plstouch index.html
 2024-07-24 21:24:37.236  INFO 5832 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        :
 [23;99H: Completed initialization in 2 ms
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  27.540 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:24:58-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -722,16 +837,20 @@ $ mvn clean
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mwebapp5a-lgw0020[m[1m ---[22m[K
 [[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m5-assign-a\target
-[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  0.466 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:35:42-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mcn pack[K[K[K[K[K[K[K[Kmvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -765,7 +884,8 @@ $ mcn pack[K[K[K[K[K[K[K[Kmvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:35:54.696 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwar
 [23;99HreContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextL
 [23;99HLoaderDelegate]
@@ -905,10 +1025,13 @@ $ mcn pack[K[K[K[K[K[K[K[Kmvn package
 [[34m[1mINFO[m] Total time:  7.642 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:35:58-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package[2Pcleanspring-boot:run
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -1394,16 +1517,20 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving template [login
         at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
 
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  05:01 min[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:41:05-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -1412,19 +1539,26 @@ mvn clean
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mwebapp5a-lgw0020[m[1m ---[22m[K
 [[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m5-assign-a\target
-[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  0.502 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:41:12-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ 
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -1458,7 +1592,8 @@ $ mvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:41:22.892 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwar
 [23;99HreContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextL
 [23;99HLoaderDelegate]
@@ -1598,10 +1733,14 @@ $ mvn package
 [[34m[1mINFO[m] Total time:  7.841 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:41:27-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ mvn package[2Pcleanspring-boot:run[C[C[C[C[C[C[8Ppackagespring-boot:run
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ mvn package[2Pcleanspring-boot:run
+[C[C[C[C[C[C[8Ppackagespring-boot:run
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -1673,16 +1812,20 @@ $ mvn package[2Pcleanspring-boot:run[C[C[C[C[C[C[8Ppackage
 2024-07-24 21:41:41.878  INFO 5956 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        :
 [23;99H: Completed initialization in 1 ms
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  28.359 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:42:04-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 git status
-[?2004l[6n[m[?25hOn branch feature-webapp
+[?2004l
+[6n[m[?25hOn branch feature-webapp
 Your branch is up to date with 'origin/feature-webapp'.
 
 Changes to be committed:
@@ -1704,38 +1847,65 @@ Untracked files:
         [31mM5.txt[K[m
         [31msrc/main/resources/templates/index.html[K[m
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git[K[K[Kgit branch
-[?2004l[6n[m[?25h* [32mfeature-webapp[m
+[?2004l
+[6n[m[?25h* [32mfeature-webapp[m
   main[?1h[?1l>
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git add [K[K[Kdd pom.xml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ cd src/meani[K[K[K[Kain/resources/templates/index,[K.htmm[Kl
-[?2004lbash: cd: src/main/resources/templates/index.html: Not a directory
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+bash: cd: src/main/resources/templates/index.html: Not a directory
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ cd src/main/resources/templates/index.html[K[K[K[K[K[K[K[K[K[K[K[Ks
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ ls
-[?2004lerror.html  index.html	login.html
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+error.html  index.html	login.html
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ git add index.html
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ git add index.html[K[K[K[K[K[K[K[K[K[Klogin.html
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ git add login.html[C[1P.html[1P.html[1P.html[1P.html[1P.htmle.htmlr.htmlr.htmlo.htmlr.html
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ gti[K[Kit status
-[?2004l[6n[m[?25hOn branch feature-webapp
+[?2004l
+[6n[m[?25hOn branch feature-webapp
 Your branch is up to date with 'origin/feature-webapp'.
 
 Changes to be committed:
@@ -1755,34 +1925,58 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         [31m../../../../M5.txt[K[m
 
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources/templates
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources/templates[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/resources
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/resources[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+
 $ ls
-[?2004lmain  test
-[?2004h]0;~/COMP5970/m5-assign-a/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+[?2004l
+main  test
+[?2004h]0;~/COMP5970/m5-assign-a/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+
 $ cd main/java/edu/auburn/cpsc4970/webapp5a
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ lls
-[?2004lbash: lls: command not found
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004l
+bash: lls: command not found
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ ls
-[?2004lServletInitializer.java  SpringBootApplication.java  WebPageController.java
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004l
+ServletInitializer.java  SpringBootApplication.java  WebPageController.java
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ git status
-[?2004l[6n[m[?25hOn branch feature-webapp
+[?2004l
+[6n[m[?25hOn branch feature-webapp
 Your branch is up to date with 'origin/feature-webapp'.
 
 Changes to be committed:
@@ -1802,13 +1996,19 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         [31m../../../../../../../M5.txt[K[m
 
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ git add WebPageController.java
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ git status
-[?2004l[6n[m[?25hOn branch feature-webapp
+[?2004l
+[6n[m[?25hOn branch feature-webapp
 Your branch is up to date with 'origin/feature-webapp'.
 
 Changes to be committed:
@@ -1823,44 +2023,74 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
         [31m../../../../../../../M5.txt[K[m
 
-[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970/webapp5a[0m
+
 $ git commit[K[K[K[K[K[K[K[K[K[Kcd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn/cpsc4970[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu/auburn
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu/auburn[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java/edu
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java/edu[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main/java
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main/java
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main/java[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src/main
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src/main
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src/main[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a/src
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a/src
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a/src[0m
+
 $ cd ..
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ ls
-[?2004lM5.txt	README.md  ci_settings.xml  pom.xml  src  target
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+M5.txt	README.md  ci_settings.xml  pom.xml  src  target
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git commit -m "initial commit"
-[?2004l[6n[m[?25h[feature-webapp cadc79f] initial commit
+[?2004l
+[6n[m[?25h[feature-webapp cadc79f] initial commit
  5 files changed, 135 insertions(+), 2 deletions(-)
  create mode 100644 src/main/java/edu/auburn/cpsc4970/webapp5a/WebPageController.java
  create mode 100644 src/main/resources/templates/error.html
  create mode 100644 src/main/resources/templates/index.html
  create mode 100644 src/main/resources/templates/login.html
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push
-[?2004l[6n[m[?25hEnumerating objects: 26, done.
+[?2004l
+[6n[m[?25hEnumerating objects: 26, done.
 Counting objects: 100% (26/26), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (12/12), done.
@@ -1872,15 +2102,21 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git
    c927bd7..cadc79f  feature-webapp -> feature-webapp
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout main
-[?2004l[6n[m[?25hSwitched to branch 'main'
+[?2004l
+[6n[m[?25hSwitched to branch 'main'
 Your branch is up to date with 'origin/main'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git merge feature-webapp
-[?2004l[6n[m[?25hUpdating c927bd7..cadc79f
+[?2004l
+[6n[m[?25hUpdating c927bd7..cadc79f
 Fast-forward
  pom.xml                                            |  4 [32m+[31m-[m
  .../cpsc4970/webapp5a/WebPageController.java       | 26 [32m++++++[K[m
@@ -1892,32 +2128,53 @@ Fast-forward
  create mode 100644 src/main/resources/templates/error.html
  create mode 100644 src/main/resources/templates/index.html
  create mode 100644 src/main/resources/templates/login.html
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ gir [K[Kt branch
-[?2004l[6n[m[?25h  feature-webapp
+[?2004l
+[6n[m[?25h  feature-webapp
 * [32mmain[K[?1h[?1l>[m
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git branch pup[K[Kipeline-config
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout pipeline-config
-[?2004l[6n[m[?25hSwitched to branch 'pipeline-config'
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'pipeline-config'
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ ls
-[?2004lM5.txt	README.md  ci_settings.xml  pom.xml  src  target
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+M5.txt	README.md  ci_settings.xml  pom.xml  src  target
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ touch .gitlab-ci.yml
-[?2004l[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git staus[K[K[K[K[Kadd .gitlab-ci.yml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git commit -m "initial commit"[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K push --set-upstream origin pipeline-config
-[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+[?2004l
+[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: 
 remote: To create a merge request for pipeline-config, visit:
 remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/-/merge_requests/ne
@@ -1926,20 +2183,29 @@ remote:[1C
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git
  * [new branch]      pipeline-config -> pipeline-config
 branch 'pipeline-config' set up to track 'origin/pipeline-config'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push
-[?2004l[6n[m[?25hEverything up-to-date
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hEverything up-to-date
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git commit -m "int[Kitial commit"
-[?2004l[6n[m[?25h[pipeline-config 4cd72bb] initial commit
+[?2004l
+[6n[m[?25h[pipeline-config 4cd72bb] initial commit
  1 file changed, 23 insertions(+)
  create mode 100644 .gitlab-ci.yml
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push
-[?2004l[6n[m[?25hEnumerating objects: 4, done.
+[?2004l
+[6n[m[?25hEnumerating objects: 4, done.
 Counting objects: 100% (4/4), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (3/3), done.
@@ -1952,28 +2218,40 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git
    cadc79f..4cd72bb  pipeline-config -> pipeline-config
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $  [Kgit branch main
-[?2004l[6n[m[?25hfatal: a branch named 'main' already exists
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hfatal: a branch named 'main' already exists
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git b[Kmerge [K[K[K[K[K[K[K[K[K[Kgit checkout main
-[?2004l[6n[m[?25hSwitched to branch 'main'
+[?2004l
+[6n[m[?25hSwitched to branch 'main'
 Your branch is ahead of 'origin/main' by 1 commit.
   (use "git push" to publish your local commits)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git merge pipeline-config
-[?2004l[6n[m[?25hUpdating cadc79f..4cd72bb
+[?2004l
+[6n[m[?25hUpdating cadc79f..4cd72bb
 Fast-forward
  .gitlab-ci.yml | 23 [32m+++++++++++++++++++++++[m
  1 file changed, 23 insertions(+)
  create mode 100644 .gitlab-ci.yml
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mcn [K[K[Kvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -1982,16 +2260,20 @@ $ mcn [K[K[Kvn clean
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mwebapp5a-lgw0020[m[1m ---[22m[K
 [[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m5-assign-a\target
-[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
 [[34m[1mINFO[m] Total time:  0.506 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:49:46-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2025,7 +2307,8 @@ $ mvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:49:55.952 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwar
 [23;99HreContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextL
 [23;99HLoaderDelegate]
@@ -2165,10 +2448,23 @@ $ mvn package
 [[34m[1mINFO[m] Total time:  8.642 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:50:00-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [K$ [K$ [K$ [K$ [K$ mvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ 
+[K
+$ 
+[K
+$ 
+[K
+$ 
+[K
+$ 
+[K
+$ mvn test
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m[K
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2198,7 +2494,8 @@ $ [K$ [K$ [K$ [K$ [K$ mvn test
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 21:50:44.462 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springf
 [43;145Hframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
 21:50:44.470 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springfr
@@ -2284,7 +2581,8 @@ $ [K$ [K$ [K$ [K$ [K$ mvn test
 2024-07-24 21:50:46.294  INFO 8948 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
 2024-07-24 21:50:46.583  INFO 8948 --- [           main] e.a.c.w.Webapp5aPwbApplicationTests      : Started Webapp5aPwbApplicationTests in 1.754 
 [43;145H seconds (JVM running for 2.647)
-[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.612 s - in edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] [32m[1mTests run: 1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.612 s - in edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] Results:[K
 [[34m[1mINFO[m][K
@@ -2296,23 +2594,41 @@ $ [K$ [K$ [K$ [K$ [K$ mvn test
 [[34m[1mINFO[m] Total time:  5.657 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T21:50:47-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m[K
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [K$ [K$ [K$ git branch
-[?2004l[6n[m[?25h  feature-webapp
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ 
+[K
+$ 
+[K
+$ 
+[K
+$ git branch
+[?2004l
+[6n[m[?25h  feature-webapp
 * [32mmain[K[m
   pipeline-config[?1h[?1l>
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git branch awa[Ks-ebs-config
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout aws-ebs-config
-[?2004l[6n[m[?25hSwitched to branch 'aws-ebs-config'
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'aws-ebs-config'
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push --up[K[Kset-upstream origin 
-[?2004l[6n[m[?25hfatal: The current branch aws-ebs-config has no upstream branch.
+[?2004l
+[6n[m[?25hfatal: The current branch aws-ebs-config has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream origin aws-ebs-config
@@ -2320,10 +2636,13 @@ To push the current branch and set the remote as upstream, use
 To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push --set-upstream origin aws-ebs-config
-[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+[?2004l
+[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: 
 remote: To create a merge request for aws-ebs-config, visit:
 remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/-
@@ -2332,10 +2651,13 @@ remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git     [19;77H[?25h
  * [new branch]      aws-ebs-config -> aws-ebs-config
 branch 'aws-ebs-config' set up to track 'origin/aws-ebs-config'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git status
-[?2004l[6n[m[?25hOn branch aws-ebs-config
+[?2004l
+[6n[m[?25hOn branch aws-ebs-config
 Your branch is up to date with 'origin/aws-ebs-config'.
 
 Changes not staged for commit:
@@ -2348,18 +2670,27 @@ Untracked files:
         [31mM5.txt[K[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git add .gitlab-ci.yml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git commit -m "int[Ktial commit"
-[?2004l[6n[m[?25h[aws-ebs-config 4c57468] intial commit
+[?2004l
+[6n[m[?25h[aws-ebs-config 4c57468] intial commit
  1 file changed, 24 insertions(+), 1 deletion(-)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push
-[?2004l[6n[m[?25hEnumerating objects: 5, done.
+[?2004l
+[6n[m[?25hEnumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (3/3), done.
@@ -2372,23 +2703,32 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git
    4cd72bb..4c57468  aws-ebs-config -> aws-ebs-config
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout main
-[?2004l[6n[m[?25hSwitched to branch 'main'
+[?2004l
+[6n[m[?25hSwitched to branch 'main'
 Your branch is ahead of 'origin/main' by 2 commits.
   (use "git push" to publish your local commits)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git merge e[Kaws-ebs-config
-[?2004l[6n[m[?25hUpdating 4cd72bb..4c57468
+[?2004l
+[6n[m[?25hUpdating 4cd72bb..4c57468
 Fast-forward
  .gitlab-ci.yml | 25 [32m++++++++++++++++++++++++[31m-[m
  1 file changed, 24 insertions(+), 1 deletion(-)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn clean
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m  [19;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2397,16 +2737,20 @@ $ mvn clean
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mclean:3.2.0:clean [m[1m(default-clean)[22m @ [36mwebapp5a-lgw0020[m[1m ---[22m[K
 [[34m[1mINFO[m] Deleting C:\cygwin64\home\Laura\COMP5970\m5-assign-a\target
-[[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
 [[34m[1mINFO[m] Total time:  0.494 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T22:01:53-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m  [19;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2427,7 +2771,8 @@ $ mvn package
 [18;81Harget\classes
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.2.0:testResources [m[1m(default-testResources)[22m @ [36mwebapp5a-lgw00[m
-[36m[18;81H020[m[1m ---[36m[22m[K[m
+[36m[18;81H020[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[K
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.[K
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m5-ass
@@ -2444,7 +2789,8 @@ $ mvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 22:02:02.813 [main] DEBUG org.springframework.test.context.BootstrapUtils - Insta
 [18;81Hantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.con
 [18;81Hntext.cache.DefaultCacheAwareContextLoaderDelegate]
@@ -2608,10 +2954,13 @@ $ mvn package
 [[34m[1mINFO[m] Total time:  7.639 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T22:02:07-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ mvn test
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m  [19;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2630,7 +2979,8 @@ $ mvn test
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.2.0:testResources [m[1m(default-testResources)[22m @ [36mwebapp5a-lgw00[m
-[36m[18;81H020[m[1m ---[36m[22m[K[m
+[36m[18;81H020[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[K
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.[K
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m5-ass
@@ -2645,7 +2995,8 @@ $ mvn test
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 22:02:14.699 [main] DEBUG org.springframework.test.context.BootstrapUtils - Insta
 [18;81Hantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.con
 [18;81Hntext.cache.DefaultCacheAwareContextLoaderDelegate]
@@ -2798,10 +3149,49 @@ $ mvn test
 [[34m[1mINFO[m] Total time:  5.240 s[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T22:02:17-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ mvn testpackage[2Pclean[C[Cgit merge aws-ebs-config[C[C[C[C[C[C[7Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "intial commit"[C[C[C[C[C[C[7Padd .gitlab-ci.yml[C[C[C[C[C[C[12Pstatusadd .gitlab-ci.yml[C[C[C[C[C[Ccommit -m "intial commit"[C[C[C[C[C[C[7Padd .gitlab-ci.yml[C[C[C[C[C[C[12Pstatuspush --set-upstream origin aws-ebs-config[K[C[C[C[C[C[C[4Pcheckout aws-ebs-config[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[C[C[2Pmvn testpackage[2Pclean[C[Cgit merge pipeline-config[C[C[C[C[C[C[8Pcheckout main[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[7Ppushcommit -m "initial commit"[C[C[C[C[C[Cpush[K --set-upstream origin pipeline-config[C[C[C[C[C[C[24Padd .gitlab-ci.yml[C[C[2Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kgit checkout pipeline-config[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kmerge feature-webapp[C[C[C[C[C[C[7Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "initial commit"[C[Cls[Kcd ..[C[Cgit statusadd WebPageController.java[C[C[C[C[C[Cstatus[K[C[Cls[Klscd main/java/edu/auburn/cpsc4970/webapp5a[C[Cls[Kcd ..[C[Cgit statusadd error.htmllogin.htmlindex.html[C[Cls[Kcd src/main/resources/templates/index.html[C[C[27Pgit add pom.xml[C[C[C[C[C[C[5Pbranchadd pom.xml[C[C[C[C[C[C[5Pbranchstatus[C[Cmvn spring-boot:run[C[C[C[C[C[C[8Ppackagespring-boot:run
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ mvn testpackage[2Pclean
+[C[Cgit merge aws-ebs-config
+[C[C[C[C[C[C[7Pcheckout main
+[C[C[C[C[C[Cpush[Kcommit -m "intial commit"
+[C[C[C[C[C[C[7Padd .gitlab-ci.yml
+[C[C[C[C[C[C[12Pstatusadd .gitlab-ci.yml
+[C[C[C[C[C[Ccommit -m "intial commit"
+[C[C[C[C[C[C[7Padd .gitlab-ci.yml
+[C[C[C[C[C[C[12Pstatuspush --set-upstream origin aws-ebs-config[K
+[C[C[C[C[C[C[4Pcheckout aws-ebs-config
+[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[K
+[C[C[2Pmvn testpackage[2Pclean
+[C[Cgit merge pipeline-config
+[C[C[C[C[C[C[8Pcheckout main
+[C[C[C[C[C[C[2Pbranch[C[C[C[C[C
+[C[C[C[C[C[C[7Ppushcommit -m "initial commit"
+[C[C[C[C[C[Cpush[K --set-upstream origin pipeline-config
+[C[C[C[C[C[C[24Padd .gitlab-ci.yml
+[C[C[2Ptouch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[Cls[Kgit checkout pipeline-config
+[C[C[C[C[C[C[2Pbranch[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[Kmerge feature-webapp
+[C[C[C[C[C[C[7Pcheckout main
+[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
+[C[Cls[Kcd ..
+[C[Cgit statusadd WebPageController.java
+[C[C[C[C[C[Cstatus[K
+[C[Cls[Klscd main/java/edu/auburn/cpsc4970/webapp5a
+[C[Cls[Kcd ..
+[C[Cgit statusadd error.htmllogin.htmlindex.html
+[C[Cls[Kcd src/main/resources/templates/index.html
+[C[C[27Pgit add pom.xml
+[C[C[C[C[C[C[5Pbranchadd pom.xml
+[C[C[C[C[C[C[5Pbranchstatus
+[C[Cmvn spring-boot:run
+[C[C[C[C[C[C[8Ppackagespring-boot:run
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m  [19;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2823,7 +3213,8 @@ $ mvn testpackage[2Pclean[C[Cgit merge aws-ebs-config[C[C[C[
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.2.0:testResources [m[1m(default-testResources)[22m @ [36mwebapp5a-lgw00[m
-[36m[18;81H020[m[1m ---[36m[22m[K[m
+[36m[18;81H020[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[K
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.[K
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m5-ass
@@ -2880,16 +3271,20 @@ $ mvn testpackage[2Pclean[C[Cgit merge aws-ebs-config[C[C[C[
 2024-07-24 22:03:54.300  INFO 24556 --- [nio-8080-exec-1] o.s.web.servlet.Dispatc
 [18;81HcherServlet        : Completed initialization in 0 ms
 
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ [[34m[1mINFO[m] [1m------------------------------------------------------------------------
+[22m
 [[34m[1mINFO[m] [32m[1mBUILD SUCCESS[m[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
 [[34m[1mINFO[m] Total time:  04:22 min[K
 [[34m[1mINFO[m] Finished at: 2024-07-24T22:07:11-05:00[K
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------[22m  [19;1H
 mvn package
-[?2004l[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
+[?2004l
+[6n[m[?25h[[34m[1mINFO[m] Scanning for projects...
 [[34m[1mINFO[m] 
 [[34m[1mINFO[m] [1m----------------< [36m[22medu.auburn.comp4970:webapp5a-lgw0020[m[1m >----------------[22m  [19;1H
 [[34m[1mINFO[m] [1mBuilding webapp5a-lgw0020 0.0.1-SNAPSHOT[22m[K
@@ -2908,7 +3303,8 @@ mvn package
 [[34m[1mINFO[m] Nothing to compile - all classes are up to date
 [[34m[1mINFO[m][K
 [[34m[1mINFO[m] [1m--- [32m[22mresources:3.2.0:testResources [m[1m(default-testResources)[22m @ [36mwebapp5a-lgw00[m
-[36m[18;81H020[m[1m ---[36m[22m[K[m
+[36m[18;81H020[m[1m ---[36m[22m[K
+[m
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered resources.[K
 [[34m[1mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.[K
 [[34m[1mINFO[m] skip non existing resourceDirectory C:\cygwin64\home\Laura\COMP5970\m5-ass
@@ -2923,7 +3319,8 @@ mvn package
 [[34m[1mINFO[m] -------------------------------------------------------[K
 [[34m[1mINFO[m]  T E S T S[K
 [[34m[1mINFO[m] -------------------------------------------------------[K
-[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests[22m
+[[34m[1mINFO[m] Running edu.auburn.cpsc4970.webapp5a.[1mWebapp5aPwbApplicationTests
+[22m
 22:16:54.022 [main] DEBUG org.springframework.test.context.BootstrapUtils - Insta
 [18;81Hantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.con
 [18;81Hntext.cache.DefaultCacheAwareContextLoaderDelegate]
@@ -3111,17 +3508,26 @@ mvn package
 [[34m[1mINFO[m] Total time:  6.821 s
 [[34m[1mINFO[m] Finished at: 2024-07-24T22:16:58-05:00
 [[34m[1mINFO[m] [1m------------------------------------------------------------------------
-[22m[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[22m[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git branch pipeline-dash
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout pipeline-dash
-[?2004l[6n[m[?25hSwitched to branch 'pipeline-dash'
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25hSwitched to branch 'pipeline-dash'
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push --set-upstram[K[Keam origin pipeline-dash
-[?2004l[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+[?2004l
+[6n[m[?25hTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 remote: 
 remote: To create a merge request for pipeline-dash, visit:
 remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/-
@@ -3130,10 +3536,13 @@ remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git     [28;77H[?25h
  * [new branch]      pipeline-dash -> pipeline-dash
 branch 'pipeline-dash' set up to track 'origin/pipeline-dash'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git status
-[?2004l[6n[m[?25hOn branch pipeline-dash
+[?2004l
+[6n[m[?25hOn branch pipeline-dash
 Your branch is up to date with 'origin/pipeline-dash'.
 
 Changes not staged for commit:
@@ -3146,18 +3555,27 @@ Untracked files:
         [31mM5.txt[K[m
 
 no changes added to commit (use "git add" and/or "git commit -a")
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git add .gitlabci[K[K-ci.yml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git commit - "i[K[K[Km '[K"initial commit"
-[?2004l[6n[m[?25h[pipeline-dash 9cb1a9e] initial commit
+[?2004l
+[6n[m[?25h[pipeline-dash 9cb1a9e] initial commit
  1 file changed, 12 insertions(+)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git push
-[?2004l[6n[m[?25hEnumerating objects: 5, done.
+[?2004l
+[6n[m[?25hEnumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (3/3), done.
@@ -3170,37 +3588,79 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git     [28;77H[?25h
    4c57468..9cb1a9e  pipeline-dash -> pipeline-dash
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout main
-[?2004l[6n[m[?25hSwitched to branch 'main'
+[?2004l
+[6n[m[?25hSwitched to branch 'main'
 Your branch is ahead of 'origin/main' by 3 commits.
   (use "git push" to publish your local commits)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git merge pipeline-dash
-[?2004l[6n[m[?25hUpdating 4c57468..9cb1a9e
+[?2004l
+[6n[m[?25hUpdating 4c57468..9cb1a9e
 Fast-forward
  .gitlab-ci.yml | 12 [32m++++++++++++[m
  1 file changed, 12 insertions(+)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git merge pipeline-dash[C[1P pipeline-dash[C[C[C[C[C[C[C[C[C[C[1P pipeline-dash[C[C[C[C[C[C[C[C[C[1P pipeline-dash[C[C[C[C[C[C[C[C[1P pipeline-dash[C[C[C[C[C[C[C[1P pipeline-dash[C[C[C[C[C[Cc pipeline-dash[C[C[C[C[C[C[Ch pipeline-dash[C[C[C[C[C[C[C[Ce pipeline-dash[C[C[C[C[C[C[C[C[Cc pipeline-dash[C[C[C[C[C[C[C[C[C[Ck pipeline-dash[C[C[C[C[C[C[C[C[C[C[Co pipeline-dash[C[C[C[C[C[C[C[C[C[C[C[Cu pipeline-dasht pipeline-dash
-[?2004l[6n[m[?25hM[7C.gitlab-ci.yml
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git merge pipeline-dash[C[1P pipeline-dash
+[C[C[C[C[C[C[C[C[C[C[1P pipeline-dash
+[C[C[C[C[C[C[C[C[C[1P pipeline-dash
+[C[C[C[C[C[C[C[C[1P pipeline-dash
+[C[C[C[C[C[C[C[1P pipeline-dash
+[C[C[C[C[C[Cc pipeline-dash
+[C[C[C[C[C[C[Ch pipeline-dash
+[C[C[C[C[C[C[C[Ce pipeline-dash
+[C[C[C[C[C[C[C[C[Cc pipeline-dash
+[C[C[C[C[C[C[C[C[C[Ck pipeline-dash
+[C[C[C[C[C[C[C[C[C[C[Co pipeline-dash
+[C[C[C[C[C[C[C[C[C[C[C[Cu pipeline-dasht pipeline-dash
+[?2004l
+[6n[m[?25hM[7C.gitlab-ci.yml
 Switched to branch 'pipeline-dash'
 Your branch is up to date with 'origin/pipeline-dash'.
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git checkout pipeline-dash[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "initial commit"[C[C[C[C[C[C[8Padd .gitlab-ci.yml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git add .gitlab-ci.yml[C[C[C[C[C[Ccheckout pipeline-dash[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcheckout main[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
-[?2004l[6n[m[?25h[pipeline-dash 3c66398] initial commit
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git checkout pipeline-dash
+[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[6Pcheckout main
+[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
+[C[C[C[C[C[C[8Padd .gitlab-ci.yml
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git add .gitlab-ci.yml
+[C[C[C[C[C[Ccheckout pipeline-dash
+[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[6Pcheckout main
+[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
+[?2004l
+[6n[m[?25h[pipeline-dash 3c66398] initial commit
  1 file changed, 1 insertion(+), 1 deletion(-)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git commit -m "initial commit"[C[C[C[C[C[C[8Padd .gitlab-ci.yml[C[C[C[C[C[Ccheckout pipeline-dash[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6Pcheckout main[C[C[C[C[C[Cpush[K
-[?2004l[6n[m[?25hEnumerating objects: 5, done.
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git commit -m "initial commit"
+[C[C[C[C[C[C[8Padd .gitlab-ci.yml
+[C[C[C[C[C[Ccheckout pipeline-dash
+[C[C[C[C[C[C[3Pmerge[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[6Pcheckout main
+[C[C[C[C[C[Cpush[K
+[?2004l
+[6n[m[?25hEnumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (3/3), done.
@@ -3213,18 +3673,31 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git     [28;77H[?25h
    9cb1a9e..3c66398  pipeline-dash -> pipeline-dash
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git pushcommit -m "initial commit"[C[C[C[C[C[C[8Padd .gitlab-ci.yml
-[?2004l[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git add .gitlab-ci.yml[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
-[?2004l[6n[m[?25h[pipeline-dash 6b3ed53] initial commit
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git pushcommit -m "initial commit"
+[C[C[C[C[C[C[8Padd .gitlab-ci.yml
+[?2004l
+[6n[m[?25h[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git add .gitlab-ci.yml
+[C[C[C[C[C[Cpush[Kcommit -m "initial commit"
+[?2004l
+[6n[m[?25h[pipeline-dash 6b3ed53] initial commit
  1 file changed, 3 insertions(+), 3 deletions(-)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
-$ git commit -m "initial commit"[C[C[C[C[C[C[8Padd .gitlab-ci.yml[C[C[C[C[C[Cpush[K
-[?2004l[6n[m[?25hEnumerating objects: 5, done.
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
+$ git commit -m "initial commit"
+[C[C[C[C[C[C[8Padd .gitlab-ci.yml
+[C[C[C[C[C[Cpush[K
+[?2004l
+[6n[m[?25hEnumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Delta compression using up to 12 threads
 Compressing objects: 100% (3/3), done.
@@ -3237,22 +3710,31 @@ remote:   https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a/
 remote:[1C[?25l
 To https://gitlab.com/sec-sw-const-sum-24-b/students/lgw0020/m5-assign-a.git     [28;77H[?25h
    3c66398..6b3ed53  pipeline-dash -> pipeline-dash
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git checkout main
-[?2004l[6n[m[?25hSwitched to branch 'main'
+[?2004l
+[6n[m[?25hSwitched to branch 'main'
 Your branch is ahead of 'origin/main' by 4 commits.
   (use "git push" to publish your local commits)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ git merge pipeline-dash
-[?2004l[6n[m[?25hUpdating 9cb1a9e..6b3ed53
+[?2004l
+[6n[m[?25hUpdating 9cb1a9e..6b3ed53
 Fast-forward
  .gitlab-ci.yml | 8 [32m++++[31m----[m
  1 file changed, 4 insertions(+), 4 deletions(-)
-[?2004h]0;~/COMP5970/m5-assign-a
-[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+[?2004h]0;~/COMP5970/m5-assign-a
+
+[32mLaura@DESKTOP-OJAS8R7 [33m~/COMP5970/m5-assign-a[0m
+
 $ exit
-[?2004lexit
+[?2004l
+exit
 
 Script done on 2024-07-24 22:35:22-05:00 [COMMAND_EXIT_CODE="0"]
