@@ -19,9 +19,7 @@ Grading will be based on commit history, pipeline execution, and dependency repo
 
 3. Login in AWS with URL below and with specified username/password.  The user only has permissions to create and modify secrets in AWS Secrets Manager.
     ```text
-   https://135372068798.signin.aws.amazon.com/console
-   Login User: cpsc4970user
-   Password: S@mford91
+
     ```
 
 4. Navigate to the Secrets Manager Tool either by selecting it in the services menu on the top left or using the search field at the top of the page.
@@ -32,9 +30,7 @@ Grading will be based on commit history, pipeline execution, and dependency repo
    
     Add 3 rows of key=value pairs:
    
-    postgres-user=student_read
-    postgres-password=S@mford91!
-    postgres-jdbc-url=jdbc:postgresql://secretsdb.au-csse-cpsc4970.com:5432/user_db
+
     ```
 
 6. Select "Next" and give the Secret a name.  Replacing **XXX** with your AU email initials.
